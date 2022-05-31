@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T03:23:00.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="8sntUguVpmBofA5zrkdQ" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-31T03:24:12.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36" etag="RWznBq3068NDGg3dSuUs" version="18.1.3" type="github">
   <diagram id="O_94U2MsEAjoT2S5WazU" name="第 1 页">
     <mxGraphModel dx="740" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#114B5F" math="0" shadow="0">
       <root>
@@ -20,10 +20,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aN_ytMQ1FQN1Dvkgb8nq-5" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(106, 153, 85); font-size: 12px;&quot;&gt;施法者数据检测&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+        <mxCell id="aN_ytMQ1FQN1Dvkgb8nq-5" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;font color=&quot;#6a9955&quot;&gt;caster is alive&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
           <mxGeometry x="314" y="240" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="aN_ytMQ1FQN1Dvkgb8nq-6" value="Plug in lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+        <mxCell id="aN_ytMQ1FQN1Dvkgb8nq-6" value="return" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="464" y="260" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aN_ytMQ1FQN1Dvkgb8nq-7" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="aN_ytMQ1FQN1Dvkgb8nq-9" target="aN_ytMQ1FQN1Dvkgb8nq-10">
