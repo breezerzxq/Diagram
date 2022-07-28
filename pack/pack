@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T07:41:31.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="SNr44WT-9QbHFT07Isch" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T07:46:09.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="t6rqTrhmE1y9lA7WSEPw" version="19.0.1" type="github">
   <diagram id="MYmj2mN-uCPg7FqEfh36" name="generate_default_res_json">
-    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,8 +28,14 @@
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-11" value="统计exml中的image资源被exml引用的次数。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="305" width="130" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="jTDsGB7R6CfVVrDG7tF6-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-13" target="jTDsGB7R6CfVVrDG7tF6-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-13" value="搜集eui_skins下的exml引用的资源到login_group" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="400" width="263" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jTDsGB7R6CfVVrDG7tF6-16" value="搜集common_group" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="361.5" y="490" width="118.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
