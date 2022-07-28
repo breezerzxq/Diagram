@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T07:47:51.482Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-FrIYghYYRw6F6nmgMyh" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T07:49:50.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="QGyE84Dbdt8EPDA8yMhq" version="19.0.1" type="github">
   <diagram id="MYmj2mN-uCPg7FqEfh36" name="generate_default_res_json">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-11" value="统计exml中的image资源被exml引用的次数&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;ReferenceCount&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="305" width="160" height="55" as="geometry" />
+          <mxGeometry x="570" y="302.5" width="160" height="55" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-13" target="jTDsGB7R6CfVVrDG7tF6-16">
           <mxGeometry relative="1" as="geometry" />
@@ -43,8 +43,8 @@
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-16" value="搜集common_group" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="355.25" y="470" width="118.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jTDsGB7R6CfVVrDG7tF6-18" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="553" y="455" width="120" height="60" as="geometry" />
+        <mxCell id="jTDsGB7R6CfVVrDG7tF6-18" value="根据设置的阈值(资源引用次数)，资源引用次数满足该阈值，则可放到common_goup" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="455" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
