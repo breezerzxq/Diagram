@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T07:39:40.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="HOQOpBjT78h2WoNMwIrm" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T07:40:42.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="3MZDfmP_ni8wC3q7-7H3" version="19.0.1" type="github">
   <diagram id="MYmj2mN-uCPg7FqEfh36" name="generate_default_res_json">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,11 +17,25 @@
             <mxPoint x="600" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="jTDsGB7R6CfVVrDG7tF6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="418.3333333333335" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-5" value="遍历eui下的所有exml文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="297" y="320" width="242" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-11" value="统计exml中的image资源被exml引用的次数。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="305" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jTDsGB7R6CfVVrDG7tF6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-13" target="jTDsGB7R6CfVVrDG7tF6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jTDsGB7R6CfVVrDG7tF6-13" value="遍历eui_skins下所有exml文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="400" width="182" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jTDsGB7R6CfVVrDG7tF6-14" value="统计exml中的image资源被exml引用的次数。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="385" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
