@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T07:19:09.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YH3SnIHK4pek18IAkY7V" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T07:19:31.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OOvbn_u_BY8Bg_oq9UBa" version="19.0.1" type="github">
   <diagram id="MYmj2mN-uCPg7FqEfh36" name="generate_default_res_json">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-1" value="搜集明文指定的exml引用的资源到login_group" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="290" y="220" width="256" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
