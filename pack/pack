@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T08:53:17.298Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ZrQfab_fyDnCq_zWP8zv" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T08:53:33.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ZusYvKF8IkZZ0OAg3zJH" version="20.2.2" type="github">
   <diagram id="MYmj2mN-uCPg7FqEfh36" name="generate_default_res_json">
     <mxGraphModel dx="1518" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-25" value="1.确定groups数据" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="126.75" y="10" width="138" height="30" as="geometry" />
+          <mxGeometry x="120" y="10" width="138" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-33" target="jTDsGB7R6CfVVrDG7tF6-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -64,7 +64,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-33" value="2.确定resouces数据" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="290" width="150" height="30" as="geometry" />
+          <mxGeometry x="114" y="272.5" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-35" target="jTDsGB7R6CfVVrDG7tF6-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -118,7 +118,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-77" value="3.开始构建xxx.res.json" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="111.5" y="525" width="165" height="30" as="geometry" />
+          <mxGeometry x="106.5" y="520" width="165" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-80" target="jTDsGB7R6CfVVrDG7tF6-84" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -169,6 +169,9 @@
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-105" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;save_json(&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;default.res.json&quot;&lt;/span&gt;,&amp;nbsp;result)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;save_json(&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;game.res.json&quot;&lt;/span&gt;,&amp;nbsp;game_result)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;save_json(&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;login.res.json&quot;&lt;/span&gt;,&amp;nbsp;launch_result)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="481" y="740" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A7i0vOWIQYpwelCc9PT--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-77" target="jTDsGB7R6CfVVrDG7tF6-77">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
