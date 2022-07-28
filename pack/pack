@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T07:50:46.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="0YtnNOn4e6b24bMJDtDl" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T07:52:54.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="LpGy0pH4fYgfQGZ_En-J" version="19.0.1" type="github">
   <diagram id="MYmj2mN-uCPg7FqEfh36" name="generate_default_res_json">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,45 +6,57 @@
         <mxCell id="1" parent="0" />
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="418" y="320" as="targetPoint" />
+            <mxPoint x="455" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-1" value="搜集明文指定的exml引用的资源到login_group" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="220" width="256" height="30" as="geometry" />
+          <mxGeometry x="327" y="210" width="256" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="600" y="330" as="targetPoint" />
+            <mxPoint x="637" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="418.3333333333335" y="400" as="targetPoint" />
+            <mxPoint x="455.3333333333335" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-5" value="遍历eui下的所有exml文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="297" y="320" width="242" height="20" as="geometry" />
+          <mxGeometry x="334" y="310" width="242" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-11" target="jTDsGB7R6CfVVrDG7tF6-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-11" value="统计exml中的image资源被exml引用的次数&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;ReferenceCount&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="302.5" width="160" height="55" as="geometry" />
+          <mxGeometry x="637" y="292.5" width="160" height="55" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-13" target="jTDsGB7R6CfVVrDG7tF6-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-13" value="搜集eui_skins下的exml引用的资源到login_group" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="283" y="400" width="263" height="20" as="geometry" />
+          <mxGeometry x="320" y="390" width="263" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-16" target="jTDsGB7R6CfVVrDG7tF6-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-16" value="搜集common_group" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="355.25" y="470" width="118.5" height="30" as="geometry" />
+          <mxGeometry x="392.25" y="460" width="118.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-18" value="根据设置的阈值：COMMON_COUNT(资源引用次数)，资源引用次数满足该阈值，则可放到common_goup" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="457.5" width="180" height="55" as="geometry" />
+          <mxGeometry x="627" y="447.5" width="180" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="jTDsGB7R6CfVVrDG7tF6-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-21" target="jTDsGB7R6CfVVrDG7tF6-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jTDsGB7R6CfVVrDG7tF6-21" value="run" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jTDsGB7R6CfVVrDG7tF6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-25" target="jTDsGB7R6CfVVrDG7tF6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jTDsGB7R6CfVVrDG7tF6-25" value="1.确定groups数据" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="262" y="135" width="138" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
