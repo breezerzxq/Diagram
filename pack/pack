@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T08:33:04.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="DXuIi5ZooCxiZKp8Iu_2" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T08:33:44.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="mH3SH4JvbM3zBzs6WNpp" version="19.0.1" type="github">
   <diagram id="MYmj2mN-uCPg7FqEfh36" name="generate_default_res_json">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,7 +72,7 @@
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="621" y="40" width="29" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="jTDsGB7R6CfVVrDG7tF6-43" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;login_group&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;common_group&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="jTDsGB7R6CfVVrDG7tF6-43" value="&lt;div style=&quot;text-align: left;&quot;&gt;存储到变量&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: center;&quot;&gt;ResGroup&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;中&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="140" width="90" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-45" target="jTDsGB7R6CfVVrDG7tF6-47">
