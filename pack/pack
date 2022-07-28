@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T08:00:21.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="oVF_dVOnGLjTGEORurQR" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T08:03:58.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="weDJipMU16mqGNuPadtG" version="19.0.1" type="github">
   <diagram id="MYmj2mN-uCPg7FqEfh36" name="generate_default_res_json">
     <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,45 +8,45 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-1" value="搜集明文指定的exml引用的资源到login_group" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="347" y="50" width="143" height="50" as="geometry" />
+          <mxGeometry x="278" y="40" width="143" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="657" y="160" as="targetPoint" />
+            <mxPoint x="588" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-5" target="jTDsGB7R6CfVVrDG7tF6-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-5" value="遍历eui下的所有exml文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="345.5" y="130" width="146" height="20" as="geometry" />
+          <mxGeometry x="276.5" y="120" width="146" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-11" target="jTDsGB7R6CfVVrDG7tF6-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-11" value="统计exml中的image资源被exml引用的次数&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;ReferenceCount&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="112.5" width="160" height="55" as="geometry" />
+          <mxGeometry x="451" y="102.5" width="160" height="55" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-13" target="jTDsGB7R6CfVVrDG7tF6-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-13" value="搜集eui_skins下的exml引用的资源到login_group" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="348.5" y="170" width="140" height="40" as="geometry" />
+          <mxGeometry x="279.5" y="160" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-16" target="jTDsGB7R6CfVVrDG7tF6-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-16" value="搜集common_group" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="359.25" y="240" width="118.5" height="30" as="geometry" />
+          <mxGeometry x="290.25" y="230" width="118.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-18" value="根据设置的阈值：COMMON_COUNT(资源引用次数)，资源引用次数满足该阈值，则可放到common_goup" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="227.5" width="180" height="55" as="geometry" />
+          <mxGeometry x="441" y="217.5" width="180" height="55" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-21" target="jTDsGB7R6CfVVrDG7tF6-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-21" value="run" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="110" width="110" height="20" as="geometry" />
+          <mxGeometry y="100" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-25" target="jTDsGB7R6CfVVrDG7tF6-1">
           <mxGeometry relative="1" as="geometry" />
@@ -55,13 +55,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-25" value="1.确定groups数据" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="159" y="105" width="138" height="30" as="geometry" />
+          <mxGeometry x="90" y="95" width="138" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-33" value="2.确定groups数据" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="159" y="360" width="138" height="30" as="geometry" />
+          <mxGeometry x="90" y="350" width="138" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jTDsGB7R6CfVVrDG7tF6-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-35" target="jTDsGB7R6CfVVrDG7tF6-41">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=0;align=left;" vertex="1" parent="1">
-          <mxGeometry x="700" y="50" width="40" height="240" as="geometry" />
+          <mxGeometry x="631" y="40" width="40" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="jTDsGB7R6CfVVrDG7tF6-41" value="login_group&lt;br&gt;common_group" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="710" y="105.5" width="109" height="109" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
