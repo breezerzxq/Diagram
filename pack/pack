@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T08:59:35.398Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="hIeple_0kFMkCPf6U9V1" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-29T02:44:47.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="3Xu6LZvlSmvvpqbvnYUU" version="20.2.2" type="github" pages="2">
   <diagram id="MYmj2mN-uCPg7FqEfh36" name="generate_default_res_json">
-    <mxGraphModel dx="1442" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-5" target="jTDsGB7R6CfVVrDG7tF6-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A7i0vOWIQYpwelCc9PT--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-5" target="jTDsGB7R6CfVVrDG7tF6-11">
+        <mxCell id="A7i0vOWIQYpwelCc9PT--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-5" target="jTDsGB7R6CfVVrDG7tF6-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-5" value="遍历eui下的所有exml文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -25,7 +25,7 @@
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-11" value="统计exml中的image资源被exml引用的次数到变量&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;ReferenceCount&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="441" y="89" width="160" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="A7i0vOWIQYpwelCc9PT--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-13" target="jTDsGB7R6CfVVrDG7tF6-16">
+        <mxCell id="A7i0vOWIQYpwelCc9PT--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-13" target="jTDsGB7R6CfVVrDG7tF6-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-13" value="搜集eui_skins下的exml引用的资源到login_group" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -68,7 +68,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="609" y="40" width="29" height="202" as="geometry" />
+          <mxGeometry x="611" y="40" width="38" height="202" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-43" target="jTDsGB7R6CfVVrDG7tF6-98" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -130,7 +130,7 @@
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-84" target="jTDsGB7R6CfVVrDG7tF6-86" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="A7i0vOWIQYpwelCc9PT--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-84" target="jTDsGB7R6CfVVrDG7tF6-101">
+        <mxCell id="A7i0vOWIQYpwelCc9PT--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-84" target="jTDsGB7R6CfVVrDG7tF6-101" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-84" value="添加resources数据" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
@@ -168,7 +168,7 @@
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-105" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;save_json(&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;default.res.json&quot;&lt;/span&gt;,&amp;nbsp;result)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;save_json(&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;game.res.json&quot;&lt;/span&gt;,&amp;nbsp;game_result)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;save_json(&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;login.res.json&quot;&lt;/span&gt;,&amp;nbsp;launch_result)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="448" y="702" width="330" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="A7i0vOWIQYpwelCc9PT--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-77" target="jTDsGB7R6CfVVrDG7tF6-77">
+        <mxCell id="A7i0vOWIQYpwelCc9PT--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-77" target="jTDsGB7R6CfVVrDG7tF6-77" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
