@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T02:44:47.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="3Xu6LZvlSmvvpqbvnYUU" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-29T03:39:49.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OTJ8ZfNCcuIUHQkDs8OO" version="20.2.2" type="github" pages="2">
   <diagram id="MYmj2mN-uCPg7FqEfh36" name="generate_default_res_json">
-    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="896" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-1" value="搜集自定义的exml引用的资源到login_group" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="278" y="50" width="126" height="44" as="geometry" />
+          <mxGeometry x="217" y="51" width="126" height="44" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-5" target="jTDsGB7R6CfVVrDG7tF6-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -17,34 +17,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-5" value="遍历eui下的所有exml文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="268.75" y="113" width="144.5" height="16" as="geometry" />
+          <mxGeometry x="207.75" y="114" width="144.5" height="16" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-11" target="jTDsGB7R6CfVVrDG7tF6-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-11" value="统计exml中的image资源被exml引用的次数到变量&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;ReferenceCount&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="441" y="89" width="160" height="55" as="geometry" />
+          <mxGeometry x="380" y="90" width="160" height="55" as="geometry" />
         </mxCell>
         <mxCell id="A7i0vOWIQYpwelCc9PT--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-13" target="jTDsGB7R6CfVVrDG7tF6-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-13" value="搜集eui_skins下的exml引用的资源到login_group" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="271" y="149" width="140" height="34" as="geometry" />
+          <mxGeometry x="210" y="150" width="140" height="34" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-16" target="jTDsGB7R6CfVVrDG7tF6-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-16" value="搜集common_group" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="281.75" y="200" width="118.5" height="30" as="geometry" />
+          <mxGeometry x="220.75" y="201" width="118.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-18" value="根据设置的阈值：COMMON_COUNT(资源引用次数)，资源引用次数满足该阈值，则可放到common_goup" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="431" y="187.5" width="180" height="55" as="geometry" />
+          <mxGeometry x="370" y="188.5" width="180" height="55" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-21" target="jTDsGB7R6CfVVrDG7tF6-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-21" value="run" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="67" y="15.5" width="52" height="19" as="geometry" />
+          <mxGeometry x="13" y="16.5" width="52" height="19" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-25" target="jTDsGB7R6CfVVrDG7tF6-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -53,7 +53,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-25" value="1.确定groups数据" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="147" y="10" width="138" height="30" as="geometry" />
+          <mxGeometry x="30" y="84" width="138" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-33" target="jTDsGB7R6CfVVrDG7tF6-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -62,31 +62,36 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-33" value="2.确定resouces数据" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="141" y="272.5" width="150" height="30" as="geometry" />
+          <mxGeometry x="24" y="236" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-35" target="jTDsGB7R6CfVVrDG7tF6-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=0;align=left;" parent="1" vertex="1">
-          <mxGeometry x="611" y="40" width="38" height="202" as="geometry" />
+          <mxGeometry x="550" y="41" width="38" height="202" as="geometry" />
         </mxCell>
-        <mxCell id="jTDsGB7R6CfVVrDG7tF6-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-43" target="jTDsGB7R6CfVVrDG7tF6-98" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="eGLJJXPKfsDYgvIjyTCN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.002;entryY=0.678;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-43" target="jTDsGB7R6CfVVrDG7tF6-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="605" y="168" />
+              <mxPoint x="605" y="584" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-43" value="&lt;div style=&quot;text-align: left;&quot;&gt;存储到变量&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: center;&quot;&gt;ResGroup&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;中&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
-          <mxGeometry x="681" y="129" width="100" height="50" as="geometry" />
+          <mxGeometry x="640" y="23" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-45" target="jTDsGB7R6CfVVrDG7tF6-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-45" value="搜集自定义的资源到变量&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;result[&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(206, 145, 120);&quot;&gt;&quot;resources&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;中&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="264" y="327" width="164" height="40" as="geometry" />
+          <mxGeometry x="147" y="279" width="164" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-47" target="jTDsGB7R6CfVVrDG7tF6-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-47" value="搜集assets/eui下的资源，添加到变量&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;result[&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(206, 145, 120);&quot;&gt;&quot;resources&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;中&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="252.75" y="395" width="186.5" height="42.5" as="geometry" />
+          <mxGeometry x="135.75" y="360.25" width="186.5" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-49" target="jTDsGB7R6CfVVrDG7tF6-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -97,26 +102,29 @@
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-49" target="jTDsGB7R6CfVVrDG7tF6-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="eGLJJXPKfsDYgvIjyTCN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-49" target="jTDsGB7R6CfVVrDG7tF6-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-49" value="区别资源类型，存储的信息结构不一样" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="814" y="382" width="120" height="60" as="geometry" />
+          <mxGeometry x="418" y="400" width="125" height="51" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-60" value="单纯png || jpg文件：&lt;font face=&quot;Consolas, Courier New, monospace&quot; color=&quot;#d4d4d4&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(30, 30, 30);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;name&quot;&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;img_roleLight_01101_png&quot;&lt;/span&gt;,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;type&quot;&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;image&quot;&lt;/span&gt;,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;url&quot;&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;assets/eui/vxfolder/role/img_roleLight_01101.png&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;},&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="972" y="227.5" width="540" height="120" as="geometry" />
+          <mxGeometry x="655" y="107" width="471" height="120" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-63" value="sheet文件(不是mc)&lt;br&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;name&quot;&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;Ani_Risingstar_Normal1_json&quot;&lt;/span&gt;,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;subkeys&quot;&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;vx_img_light12_png,vx_role_brustlight004_png&quot;&lt;/span&gt;,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;type&quot;&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;sheet&quot;&lt;/span&gt;,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;url&quot;&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;assets/eui/sheetUI/Ani_Risingstar_Normal1.json&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;},&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="969" y="476" width="538" height="123" as="geometry" />
+          <mxGeometry x="627.5" y="439" width="538" height="123" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-65" value="不是sheet的json文件：&lt;br&gt;&lt;span style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;name&quot;&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;vx_particle_radiation001_json&quot;&lt;/span&gt;,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;type&quot;&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;json&quot;&lt;/span&gt;,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;url&quot;&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;assets/eui/vxfolder/particale/vx_particle_radiation001.json&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;},&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="967" y="357" width="545" height="110" as="geometry" />
+          <mxGeometry x="624" y="252" width="545" height="110" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-69" value=".fnt文件(位图字体)&lt;br&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;name&quot;&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;AddPower_fnt&quot;&lt;/span&gt;,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;type&quot;&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;font&quot;&lt;/span&gt;,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;url&quot;&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;assets/eui/font/AddPower.fnt&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;},&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="972" y="608" width="430" height="105" as="geometry" />
+          <mxGeometry x="735" y="571" width="430" height="105" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-77" target="jTDsGB7R6CfVVrDG7tF6-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-77" value="3.开始构建xxx.res.json" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="133.5" y="519" width="165" height="30" as="geometry" />
+          <mxGeometry x="16.5" y="468" width="165" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-80" target="jTDsGB7R6CfVVrDG7tF6-84" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -125,7 +133,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-80" value="添加groups数据" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="299.5" y="560" width="100" height="40" as="geometry" />
+          <mxGeometry x="120.75" y="548" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-84" target="jTDsGB7R6CfVVrDG7tF6-86" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -134,39 +142,41 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-84" value="添加resources数据" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="293.5" y="630" width="115.25" height="30" as="geometry" />
+          <mxGeometry x="85.00000000000001" y="635" width="115.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-86" target="jTDsGB7R6CfVVrDG7tF6-105" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-86" value="保存文件：default.res.json、game.res.json、login.res.json" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="291" y="702" width="120" height="60" as="geometry" />
+          <mxGeometry x="110.75" y="724" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-95" target="jTDsGB7R6CfVVrDG7tF6-96" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-95" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;" parent="1" vertex="1">
-          <mxGeometry x="441" y="330" width="20" height="105" as="geometry" />
+          <mxGeometry x="343" y="279" width="20" height="121" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-96" target="jTDsGB7R6CfVVrDG7tF6-101" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="790" y="388" />
-              <mxPoint x="790" y="710" />
+              <mxPoint x="549" y="389" />
+              <mxPoint x="705" y="389" />
+              <mxPoint x="705" y="711" />
+              <mxPoint x="511" y="711" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-96" value="&lt;div style=&quot;text-align: left;&quot;&gt;存储到变量&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;result[&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(206, 145, 120);&quot;&gt;&quot;resources&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;中&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
-          <mxGeometry x="501" y="360" width="169.5" height="45" as="geometry" />
+          <mxGeometry x="406" y="317" width="169.5" height="45" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-98" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 搜集匹配的内容添加到变量launch&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: center;&quot;&gt;_result[&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: center; color: rgb(206, 145, 120);&quot;&gt;&quot;groups&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: center;&quot;&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;搜集匹配的内容添加到变量&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;game_result[&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(206, 145, 120);&quot;&gt;&quot;groups&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. 均添加到变量&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: center;&quot;&gt;result[&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: center; color: rgb(206, 145, 120);&quot;&gt;&quot;groups&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: center;&quot;&gt;]&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="438.75" y="495" width="340" height="90" as="geometry" />
+          <mxGeometry x="245" y="523" width="340" height="90" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-101" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 搜集匹配的内容添加到变量login&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: center;&quot;&gt;_result[&lt;/span&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: center; color: rgb(206, 145, 120);&quot;&gt;&quot;resources&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: center;&quot;&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;搜集匹配的内容添加到变量&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;game_result[&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(206, 145, 120);&quot;&gt;&quot;resources&quot;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;]&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="448" y="615" width="370" height="60" as="geometry" />
+          <mxGeometry x="245" y="620" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-105" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;save_json(&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;default.res.json&quot;&lt;/span&gt;,&amp;nbsp;result)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;save_json(&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;game.res.json&quot;&lt;/span&gt;,&amp;nbsp;game_result)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;save_json(&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;login.res.json&quot;&lt;/span&gt;,&amp;nbsp;launch_result)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="448" y="702" width="330" height="60" as="geometry" />
+          <mxGeometry x="280" y="724" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A7i0vOWIQYpwelCc9PT--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-77" target="jTDsGB7R6CfVVrDG7tF6-77" edge="1">
           <mxGeometry relative="1" as="geometry" />
