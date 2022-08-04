@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T03:41:09.610Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-fBiuM7AlBUh9Pl-1HZ3" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-04T02:41:21.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="FBvkIB05lypBhbhy7hWl" version="20.2.2" type="github" pages="2">
   <diagram id="MYmj2mN-uCPg7FqEfh36" name="generate_default_res_json">
-    <mxGraphModel dx="1466" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,7 +70,7 @@
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=0;align=left;" parent="1" vertex="1">
           <mxGeometry x="550" y="41" width="38" height="202" as="geometry" />
         </mxCell>
-        <mxCell id="eGLJJXPKfsDYgvIjyTCN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.002;entryY=0.678;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-43" target="jTDsGB7R6CfVVrDG7tF6-98">
+        <mxCell id="eGLJJXPKfsDYgvIjyTCN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.002;entryY=0.678;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-43" target="jTDsGB7R6CfVVrDG7tF6-98" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="605" y="168" />
@@ -102,7 +102,7 @@
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-49" target="jTDsGB7R6CfVVrDG7tF6-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eGLJJXPKfsDYgvIjyTCN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jTDsGB7R6CfVVrDG7tF6-49" target="jTDsGB7R6CfVVrDG7tF6-63">
+        <mxCell id="eGLJJXPKfsDYgvIjyTCN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jTDsGB7R6CfVVrDG7tF6-49" target="jTDsGB7R6CfVVrDG7tF6-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jTDsGB7R6CfVVrDG7tF6-49" value="区别资源类型，存储的信息结构不一样" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -184,8 +184,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="mYUXJ2XcdZF5LvCStNI-" name="第 2 页">
-    <mxGraphModel dx="1442" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+  <diagram id="mYUXJ2XcdZF5LvCStNI-" name="publish-no-terser">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
