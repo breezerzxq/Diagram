@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T03:53:04.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="I9HNJN5_vi-d2Ob37Z2f" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-26T03:54:05.989Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="0Y2VjuVrIJX2vqPw-vub" version="20.2.4" type="github" pages="2">
   <diagram id="O_94U2MsEAjoT2S5WazU" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#114B5F" math="0" shadow="0">
       <root>
@@ -111,8 +111,8 @@
             <mxPoint x="320.0044827586207" y="446.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zUi2IvCLrrFMPapMxvD_-21" value="left arrow" style="triangle;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="289.97" y="476" width="59.97" height="70" as="geometry" />
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-21" value="left arrow" style="triangle;whiteSpace=wrap;html=1;rotation=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="494" width="59.97" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-24">
           <mxGeometry relative="1" as="geometry">
@@ -173,6 +173,12 @@
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-53" value="播放头驱动所有的IFightPlayNode&lt;br&gt;前进" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="797.5" y="366.25" width="165" height="61.25" as="geometry" />
+        </mxCell>
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-58" value="left arrow" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.extract_or_measurement;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="240" y="650" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-59" value="space" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.extract_or_measurement;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="442.47" y="650" width="95" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
