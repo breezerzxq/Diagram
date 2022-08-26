@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T06:17:48.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HYK_Zsza9XpAp6_MS0Xv" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-26T06:19:16.385Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="CjW6N_2sMKT3Upjb7MRb" version="20.2.4" type="github" pages="2">
   <diagram id="O_94U2MsEAjoT2S5WazU" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#114B5F" math="0" shadow="0">
       <root>
@@ -174,15 +174,6 @@
             <mxPoint x="390" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zUi2IvCLrrFMPapMxvD_-78" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="260" as="sourcePoint" />
-            <mxPoint x="390" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zUi2IvCLrrFMPapMxvD_-84" value="播放头" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="420" y="240" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-90" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="zUi2IvCLrrFMPapMxvD_-92">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="150" as="sourcePoint" />
@@ -207,6 +198,20 @@
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-97" value="no" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="zUi2IvCLrrFMPapMxvD_-96">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-98" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="481" y="250" as="sourcePoint" />
+            <mxPoint x="390" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="481.24" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-99" value="播放头" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="zUi2IvCLrrFMPapMxvD_-98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5" y="-10" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
