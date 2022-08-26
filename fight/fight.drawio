@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T06:12:18.530Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vEPzF8swo2fFSuxZ5oN3" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-26T06:15:52.548Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="hfPwdSyX-uX8kNDBaQkN" version="20.2.4" type="github" pages="2">
   <diagram id="O_94U2MsEAjoT2S5WazU" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#114B5F" math="0" shadow="0">
       <root>
@@ -71,8 +71,8 @@
         <mxCell id="zUi2IvCLrrFMPapMxvD_-7" value="keyboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="349.97" y="604" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="zUi2IvCLrrFMPapMxvD_-18" value="暂停和继续" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="179.99999999999997" y="220" width="120.04" height="23.5" as="geometry" />
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-18" value="是否暂停" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="268.09" y="140" width="120.04" height="23.5" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-24">
           <mxGeometry relative="1" as="geometry">
@@ -142,9 +142,6 @@
         <mxCell id="zUi2IvCLrrFMPapMxvD_-58" value="left arrow" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.extract_or_measurement;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="327.45" y="460" width="125.03" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="zUi2IvCLrrFMPapMxvD_-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-59" target="zUi2IvCLrrFMPapMxvD_-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-59" value="space" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.extract_or_measurement;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="183.13000000000002" y="460" width="113.77" height="40" as="geometry" />
         </mxCell>
@@ -154,26 +151,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-65" value="timeTick" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="288.11" y="20" width="80" height="20" as="geometry" />
+          <mxGeometry x="288.11" y="10" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="zUi2IvCLrrFMPapMxvD_-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-67" target="zUi2IvCLrrFMPapMxvD_-74">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="328.11" y="130" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-67" target="zUi2IvCLrrFMPapMxvD_-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-67" target="zUi2IvCLrrFMPapMxvD_-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-67" value="deltaTime *= timeScale" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="248.11" y="80" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="zUi2IvCLrrFMPapMxvD_-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-74">
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="330" as="targetPoint" />
+            <mxPoint x="328" y="210" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="328" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-74" value="根据deltaTime确定播放头向前移动的步数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="209.66000000000003" y="130" width="236.89" height="40" as="geometry" />
+          <mxGeometry x="452.48" y="70" width="236.89" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-77" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=13.269916765755053;endSize=5.931034482758621;width=2.7586206896551726;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -189,6 +188,21 @@
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-84" value="播放头" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="420" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-90" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="zUi2IvCLrrFMPapMxvD_-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="150" as="sourcePoint" />
+            <mxPoint x="450" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-91" value="yes" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="zUi2IvCLrrFMPapMxvD_-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-92" value="return" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="452.48" y="140" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
