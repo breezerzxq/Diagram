@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T03:54:19.946Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="MZ6YLyvp0-w1cMVXwMBY" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-26T03:54:33.048Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="sBhDvJ80gUXBActdfQ4F" version="20.2.4" type="github" pages="2">
   <diagram id="O_94U2MsEAjoT2S5WazU" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#114B5F" math="0" shadow="0">
       <root>
@@ -84,7 +84,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-18" value="暂停和继续播放头" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="429.97" y="449" width="120" height="15" as="geometry" />
+          <mxGeometry x="429.97" y="426.5" width="120" height="15" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-24">
           <mxGeometry relative="1" as="geometry">
@@ -92,7 +92,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-24" value="播放头前进一帧" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="289.9744827586207" y="419.0000000000001" width="60" height="30" as="geometry" />
+          <mxGeometry x="260" y="419" width="89.97" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-25" value="IFightPlayNode" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="820" y="460" width="120" height="86" as="geometry" />
