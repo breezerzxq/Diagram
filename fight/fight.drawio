@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T07:00:11.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3lXFYS4Dvq-GzqQT8FLD" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-26T07:01:15.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vTpKntsY-ip2ADutPvEG" version="20.2.4" type="github" pages="2">
   <diagram id="O_94U2MsEAjoT2S5WazU" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#114B5F" math="0" shadow="0">
       <root>
@@ -53,13 +53,13 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zUi2IvCLrrFMPapMxvD_-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-1" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#e3c800;strokeColor=#B09500;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="297.5" y="310" as="sourcePoint" />
             <mxPoint x="1010" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zUi2IvCLrrFMPapMxvD_-2" value="战斗视频播放器" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="zUi2IvCLrrFMPapMxvD_-1">
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-2" value="战斗视频播放器" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#FFFF33;" connectable="0" vertex="1" parent="zUi2IvCLrrFMPapMxvD_-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-7" target="zUi2IvCLrrFMPapMxvD_-59">
@@ -164,7 +164,7 @@
         <mxCell id="zUi2IvCLrrFMPapMxvD_-67" value="deltaTime *= timeScale" style="html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
           <mxGeometry x="248.11" y="90" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="zUi2IvCLrrFMPapMxvD_-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-74" target="zUi2IvCLrrFMPapMxvD_-103">
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#C73500;fillColor=#fa6800;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-74" target="zUi2IvCLrrFMPapMxvD_-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-74" value="根据deltaTime确定播放头向前移动的步数" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
@@ -275,8 +275,10 @@
         <mxCell id="zUi2IvCLrrFMPapMxvD_-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-26" target="zUi2IvCLrrFMPapMxvD_-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zUi2IvCLrrFMPapMxvD_-130" value="播放头" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="1">
-          <mxGeometry x="429.9671383925586" y="290.0036465494129" as="geometry" />
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-130" value="播放头" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#FFFF33;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="429.9671383925586" y="290.0036465494129" as="geometry">
+            <mxPoint x="-1" y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-132" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -285,7 +287,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zUi2IvCLrrFMPapMxvD_-133" value="战斗专线tick" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="zUi2IvCLrrFMPapMxvD_-132">
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-133" value="战斗专线tick" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#FFFF33;" connectable="0" vertex="1" parent="zUi2IvCLrrFMPapMxvD_-132">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="20" y="-10" as="offset" />
           </mxGeometry>
