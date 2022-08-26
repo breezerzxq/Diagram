@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T03:47:35.114Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="bqb3vknE6-Xd5UQW_wXN" version="20.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-26T03:48:28.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="-LI-6nunD9SbJCX1Hdoo" version="20.2.4" type="github" pages="2">
   <diagram id="O_94U2MsEAjoT2S5WazU" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#114B5F" math="0" shadow="0">
       <root>
@@ -77,39 +77,39 @@
         <mxCell id="zUi2IvCLrrFMPapMxvD_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-7" target="zUi2IvCLrrFMPapMxvD_-21">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="260" y="480" />
-              <mxPoint x="160" y="480" />
-              <mxPoint x="160" y="444" />
+              <mxPoint x="369.97" y="516" />
+              <mxPoint x="269.97" y="516" />
+              <mxPoint x="269.97" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-7" value="keyboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="490" width="80" height="20" as="geometry" />
+          <mxGeometry x="349.97" y="526" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-13" target="zUi2IvCLrrFMPapMxvD_-18">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390" y="390.0000000000001" as="targetPoint" />
+            <mxPoint x="499.97" y="426.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-13" value="space" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="430" width="50" height="30" as="geometry" />
+          <mxGeometry x="409.97" y="466" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-18" value="暂停和继续播放头" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="330" y="398.75" width="120" height="15" as="geometry" />
+          <mxGeometry x="439.97" y="434.75" width="120" height="15" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-21" target="zUi2IvCLrrFMPapMxvD_-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210.0344827586207" y="410.0000000000001" as="targetPoint" />
+            <mxPoint x="320.0044827586207" y="446.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-21" value="left arrow" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="427.5" width="60" height="32.5" as="geometry" />
+          <mxGeometry x="289.97" y="463.5" width="60" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-24" value="播放头前进一帧" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180.0044827586207" y="383.0000000000001" width="60" height="30" as="geometry" />
+          <mxGeometry x="289.9744827586207" y="419.0000000000001" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-25" value="IFightPlayNode" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="820" y="440" width="120" height="86" as="geometry" />
+          <mxGeometry x="820" y="460" width="120" height="86" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-26" value="+ tryNext" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zUi2IvCLrrFMPapMxvD_-25">
           <mxGeometry y="26" width="120" height="26" as="geometry" />
@@ -122,36 +122,40 @@
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-25" target="zUi2IvCLrrFMPapMxvD_-35">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="930" y="567" as="targetPoint" />
+            <mxPoint x="930" y="647" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-35" value="spine" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="790" y="567" width="90" height="34" as="geometry" />
+          <mxGeometry x="782.5" y="590" width="90" height="34" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-37" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="zUi2IvCLrrFMPapMxvD_-35">
           <mxGeometry y="26" width="90" height="8" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.535;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-25" target="zUi2IvCLrrFMPapMxvD_-45">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="920" y="527" as="sourcePoint" />
-            <mxPoint x="1060" y="527" as="targetPoint" />
+            <mxPoint x="920" y="607" as="sourcePoint" />
+            <mxPoint x="1060" y="607" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-45" value="movieClip" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="890" y="567" width="80" height="34" as="geometry" />
+          <mxGeometry x="882.5" y="590" width="80" height="34" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-47" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="zUi2IvCLrrFMPapMxvD_-45">
           <mxGeometry y="26" width="80" height="8" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="zUi2IvCLrrFMPapMxvD_-53">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="260" as="sourcePoint" />
+            <mxPoint x="390" y="310" as="sourcePoint" />
             <mxPoint x="880" y="360" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="450" y="240" />
+              <mxPoint x="390" y="260" />
+              <mxPoint x="390" y="240" />
               <mxPoint x="880" y="240" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zUi2IvCLrrFMPapMxvD_-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zUi2IvCLrrFMPapMxvD_-53" target="zUi2IvCLrrFMPapMxvD_-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zUi2IvCLrrFMPapMxvD_-53" value="播放头驱动所有的IFightPlayNode&lt;br&gt;前进" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="797.5" y="366.25" width="165" height="61.25" as="geometry" />
