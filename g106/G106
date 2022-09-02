@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T03:42:11.899Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="te1-_n00qJuxQc7jDEiD" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T03:43:18.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="rlneIdwU4zaCTF20dxHK" version="20.2.7" type="github">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
-    <mxGraphModel dx="711" dy="470" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="412" dy="272" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,8 +12,7 @@
             <Array as="points">
               <mxPoint x="300" y="216" />
               <mxPoint x="297" y="216" />
-              <mxPoint x="297" y="607" />
-              <mxPoint x="369" y="607" />
+              <mxPoint x="297" y="622" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -25,12 +24,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OKGoJ62SwKj1fIA_3qM2-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;" edge="1" parent="1" source="OKGoJ62SwKj1fIA_3qM2-1" target="OKGoJ62SwKj1fIA_3qM2-24">
+        <mxCell id="OKGoJ62SwKj1fIA_3qM2-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OKGoJ62SwKj1fIA_3qM2-1" target="OKGoJ62SwKj1fIA_3qM2-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="299" y="217" />
+              <mxPoint x="300" y="217" />
               <mxPoint x="298" y="217" />
-              <mxPoint x="298" y="687" />
+              <mxPoint x="298" y="701" />
+              <mxPoint x="391" y="701" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -50,7 +50,7 @@
           <mxGeometry y="86" width="349" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-9" value="FacebookSDK" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="369" y="511" width="160" height="60" as="geometry">
+          <mxGeometry x="391" y="502" width="160" height="60" as="geometry">
             <mxRectangle x="690" y="296" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -81,7 +81,7 @@
           <mxGeometry y="34" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-19" value="UniformSDK" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="369" y="586" width="160" height="60" as="geometry" />
+          <mxGeometry x="391" y="592" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-21" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="OKGoJ62SwKj1fIA_3qM2-19">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
@@ -98,7 +98,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-24" value="WxUtils" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="369" y="665" width="160" height="60" as="geometry" />
+          <mxGeometry x="391" y="672" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-26" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="OKGoJ62SwKj1fIA_3qM2-24">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
