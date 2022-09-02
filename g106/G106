@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T09:52:44.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_TXIAUNYj-Ni3Wi393QT" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T09:53:21.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="tR6i5uunw7kxigToHluV" version="20.2.7" type="github">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="711" dy="398" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -271,8 +271,7 @@
             <mxPoint x="1120" y="142" as="targetPoint" />
             <Array as="points">
               <mxPoint x="884" y="253" />
-              <mxPoint x="990" y="253" />
-              <mxPoint x="990" y="304" />
+              <mxPoint x="1028" y="253" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -290,7 +289,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-166" value="appAd.showAd()" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=5;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="990" y="310" width="113" height="39" as="geometry" />
+          <mxGeometry x="1041" y="233" width="113" height="39" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-179" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-178" parent="1">
           <mxGeometry relative="1" as="geometry">
