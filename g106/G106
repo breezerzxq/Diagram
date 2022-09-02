@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T08:55:21.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="SvcT-5_uFfGJ4uOZHshD" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T08:56:38.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="2-4p4Dtuwv19G3FPwSLz" version="20.2.7" type="github">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1237" dy="692" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -233,8 +233,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OKGoJ62SwKj1fIA_3qM2-113" value="wx.createRewardedVideoAd" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=5;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="860" y="626" width="203" height="86" as="geometry" />
+        <mxCell id="OKGoJ62SwKj1fIA_3qM2-113" value="wx.是否有创建video接口" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=5;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="860" y="626" width="185" height="57" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-114" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-113" parent="1" target="OKGoJ62SwKj1fIA_3qM2-118">
           <mxGeometry x="-1" relative="1" as="geometry">
@@ -250,10 +250,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-118" value="success()" style="html=1;fontSize=5;" vertex="1" parent="1">
-          <mxGeometry x="1153" y="653" width="79" height="32" as="geometry" />
+          <mxGeometry x="1095" y="638.5" width="79" height="32" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-120" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;是否vip&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=5;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="868" y="516" width="80" height="40" as="geometry" />
+          <mxGeometry x="912.5" y="516" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-121" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#BD7000;rounded=0;fontSize=5;fillColor=#f0a30a;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-120" parent="1" target="OKGoJ62SwKj1fIA_3qM2-123">
           <mxGeometry x="-1" relative="1" as="geometry">
@@ -267,6 +267,14 @@
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-123" value="success()" style="html=1;fontSize=5;" vertex="1" parent="1">
           <mxGeometry x="1056" y="520" width="79" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="OKGoJ62SwKj1fIA_3qM2-124" value="创建video" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;fontSize=5;" vertex="1" parent="1">
+          <mxGeometry x="903" y="813" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OKGoJ62SwKj1fIA_3qM2-125" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-124" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="977" y="920" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
