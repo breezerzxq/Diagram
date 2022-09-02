@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T09:08:45.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="GOt_iQIFlTuo17wqUj7z" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T09:09:32.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ym-1yQoo2XVhNNatlD3k" version="20.2.7" type="github">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="862" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -271,21 +271,20 @@
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-124" value="创建video实例：videoAd" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;fontSize=5;" vertex="1" parent="1">
           <mxGeometry x="892.5" y="750" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OKGoJ62SwKj1fIA_3qM2-125" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-124" parent="1" target="OKGoJ62SwKj1fIA_3qM2-126">
+        <mxCell id="OKGoJ62SwKj1fIA_3qM2-125" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;exitX=1.01;exitY=0.655;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-124" parent="1" target="OKGoJ62SwKj1fIA_3qM2-126">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="977" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1025" y="776" />
+              <mxPoint x="1025" y="841" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-126" value="videoAd.load()" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;fontSize=5;" vertex="1" parent="1">
-          <mxGeometry x="964" y="892" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="OKGoJ62SwKj1fIA_3qM2-127" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-126" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1024" y="973" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="1061" y="823" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-128" value="video.show()" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;fontSize=5;" vertex="1" parent="1">
-          <mxGeometry x="1135" y="892" width="120" height="40" as="geometry" />
+          <mxGeometry x="1217.5" y="823" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-132" value="注册videoAd.onClose回调" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;fontSize=5;" vertex="1" parent="1">
           <mxGeometry x="1066" y="750" width="120" height="40" as="geometry" />
