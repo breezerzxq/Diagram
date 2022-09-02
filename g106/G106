@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T09:06:48.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="zkteu6JG1lcyDx070Q70" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T09:06:52.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="rpfROaILygtU5LQJgFkd" version="20.2.7" type="github">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="499" dy="279" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -291,7 +291,7 @@
           <mxGeometry x="1135" y="892" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-132" value="创建video实例：videoAd" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;fontSize=5;" vertex="1" parent="1">
-          <mxGeometry x="817" y="892" width="120" height="40" as="geometry" />
+          <mxGeometry x="839" y="892" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-151" value=".then" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OKGoJ62SwKj1fIA_3qM2-126" target="OKGoJ62SwKj1fIA_3qM2-128">
           <mxGeometry width="80" relative="1" as="geometry">
