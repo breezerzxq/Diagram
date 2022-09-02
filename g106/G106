@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T09:24:46.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="f-u-MIFzbDSdPlYtPuhP" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T09:25:37.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ZPEJ5MgYlnhlGuXBWYDy" version="20.2.7" type="github">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="862" dy="482" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="875" y="7" width="505" height="396" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-164" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=5;fillColor=#02052A;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="OKGoJ62SwKj1fIA_3qM2-163">
-          <mxGeometry x="-5" y="7" width="505" height="396" as="geometry" />
+          <mxGeometry width="505" height="396" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-165" value="App广告" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;" vertex="1" parent="OKGoJ62SwKj1fIA_3qM2-163">
           <mxGeometry x="427" y="13" width="63" height="26" as="geometry" />
@@ -67,12 +67,12 @@
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-166" value="appAd.showAd()" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=5;fontColor=#ffffff;" vertex="1" parent="OKGoJ62SwKj1fIA_3qM2-163">
           <mxGeometry x="115" y="286" width="113" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="OKGoJ62SwKj1fIA_3qM2-167" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-166" parent="OKGoJ62SwKj1fIA_3qM2-163">
+        <mxCell id="OKGoJ62SwKj1fIA_3qM2-167" value="success fun" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-166" parent="OKGoJ62SwKj1fIA_3qM2-163">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="328" y="306" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OKGoJ62SwKj1fIA_3qM2-168" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-166" parent="OKGoJ62SwKj1fIA_3qM2-163">
+        <mxCell id="OKGoJ62SwKj1fIA_3qM2-168" value="fail fun" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-166" parent="OKGoJ62SwKj1fIA_3qM2-163">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="188" y="386" as="targetPoint" />
           </mxGeometry>
