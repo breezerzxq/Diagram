@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T09:13:52.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="5hIYLtFgud6W4XxkyuGY" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T09:15:14.235Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="QBgy58zafCIoABQbIzpc" version="20.2.7" type="github">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1053" dy="590" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -161,7 +161,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-50" value="AppAD" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="1153" y="19" width="249" height="112" as="geometry" />
+          <mxGeometry x="1095.5" y="23" width="249" height="112" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-51" value="+ set/get: isReady" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="OKGoJ62SwKj1fIA_3qM2-50">
           <mxGeometry y="26" width="249" height="26" as="geometry" />
@@ -221,7 +221,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-86" value="appAD.isReady" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=5;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="836" y="298" width="134" height="51" as="geometry" />
+          <mxGeometry x="827" y="117" width="115" height="43" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-87" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-86" parent="1" target="OKGoJ62SwKj1fIA_3qM2-84">
           <mxGeometry x="-1" relative="1" as="geometry">
@@ -232,14 +232,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OKGoJ62SwKj1fIA_3qM2-88" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;entryX=0.001;entryY=0.374;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-86" parent="1" target="OKGoJ62SwKj1fIA_3qM2-53">
-          <mxGeometry x="-1" relative="1" as="geometry">
+        <mxCell id="OKGoJ62SwKj1fIA_3qM2-88" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;entryX=0.001;entryY=0.374;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-86" parent="1" target="OKGoJ62SwKj1fIA_3qM2-53">
+          <mxGeometry x="-0.9134" y="-7" relative="1" as="geometry">
             <mxPoint x="986" y="309" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="903" y="378" />
-              <mxPoint x="1004" y="378" />
-              <mxPoint x="1004" y="115" />
+              <mxPoint x="942" y="119" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-113" value="wx.是否有创建video接口" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=5;fontColor=#ffffff;" vertex="1" parent="1">
