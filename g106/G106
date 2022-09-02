@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T09:18:32.411Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="7i0xuP7yZwnmdLF7qdRz" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T09:20:41.753Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="clKGaXdTUMuSbRDGctNA" version="20.2.7" type="github">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1497" dy="838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,6 +42,26 @@
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="OKGoJ62SwKj1fIA_3qM2-163" source="OKGoJ62SwKj1fIA_3qM2-50" target="OKGoJ62SwKj1fIA_3qM2-54">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OKGoJ62SwKj1fIA_3qM2-86" value="appAD.isReady" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=5;fontColor=#ffffff;" vertex="1" parent="OKGoJ62SwKj1fIA_3qM2-163">
+          <mxGeometry x="-37" y="239" width="91" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="OKGoJ62SwKj1fIA_3qM2-87" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-86" parent="OKGoJ62SwKj1fIA_3qM2-163" target="OKGoJ62SwKj1fIA_3qM2-84">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="245" y="135" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="9" y="85" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OKGoJ62SwKj1fIA_3qM2-88" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-86" parent="OKGoJ62SwKj1fIA_3qM2-163" target="OKGoJ62SwKj1fIA_3qM2-53">
+          <mxGeometry x="-0.9134" y="-7" relative="1" as="geometry">
+            <mxPoint x="111" y="302" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="67" y="112" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=5;" edge="1" parent="1" source="OKGoJ62SwKj1fIA_3qM2-1" target="OKGoJ62SwKj1fIA_3qM2-14">
           <mxGeometry relative="1" as="geometry" />
@@ -221,26 +241,6 @@
               <mxPoint x="106" y="114" />
               <mxPoint x="106" y="114" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OKGoJ62SwKj1fIA_3qM2-86" value="appAD.isReady" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=5;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="827" y="117" width="115" height="43" as="geometry" />
-        </mxCell>
-        <mxCell id="OKGoJ62SwKj1fIA_3qM2-87" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-86" parent="1" target="OKGoJ62SwKj1fIA_3qM2-84">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="1120" y="142" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="884" y="92" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OKGoJ62SwKj1fIA_3qM2-88" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="OKGoJ62SwKj1fIA_3qM2-86" parent="1" target="OKGoJ62SwKj1fIA_3qM2-53">
-          <mxGeometry x="-0.9134" y="-7" relative="1" as="geometry">
-            <mxPoint x="986" y="309" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="942" y="119" />
-            </Array>
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-113" value="wx.是否有创建video接口" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=5;fontColor=#ffffff;" vertex="1" parent="1">
