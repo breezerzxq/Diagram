@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T09:16:17.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Ui7cXh3XA1GH2YCjoune" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T09:17:31.344Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Z6gn-GBl2TQQQRI4AV5Q" version="20.2.7" type="github">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1053" dy="590" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-163" value="" style="group" vertex="1" connectable="0" parent="OKGoJ62SwKj1fIA_3qM2-162">
           <mxGeometry x="17" y="-501" width="505" height="396" as="geometry" />
         </mxCell>
-        <mxCell id="OKGoJ62SwKj1fIA_3qM2-164" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=5;fillColor=#02052A;" vertex="1" parent="OKGoJ62SwKj1fIA_3qM2-163">
+        <mxCell id="OKGoJ62SwKj1fIA_3qM2-164" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=5;fillColor=#02052A;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="OKGoJ62SwKj1fIA_3qM2-163">
           <mxGeometry x="-5" y="7" width="505" height="396" as="geometry" />
         </mxCell>
         <mxCell id="OKGoJ62SwKj1fIA_3qM2-165" value="App广告" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;" vertex="1" parent="OKGoJ62SwKj1fIA_3qM2-163">
