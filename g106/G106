@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T02:29:37.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="woN1iYcznp9b96HH3jtM" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T02:29:56.344Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="XuN6jtV1tF-kX0LxsBkV" version="20.2.8" type="github" pages="2">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -396,8 +396,8 @@
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-35" value="访问远程手机本地目录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="391" y="176.5" width="78" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="dPQH_TNCv7DmlfxwkjNi-36" value="默认为：game/" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="379" y="295" width="94" height="22" as="geometry" />
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-36" value="默认为：/bin/game" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="295" width="114" height="23" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
