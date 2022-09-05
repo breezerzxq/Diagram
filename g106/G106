@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T06:40:05.665Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="vSbEdPao7JpzmhZ5Bqvn" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T06:41:31.271Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="t7GdlomTYRXDTOTHjuGd" version="20.2.8" type="github" pages="2">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -554,7 +554,7 @@
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-122" value="&lt;h1&gt;ResLoader&lt;/h1&gt;&lt;p&gt;资源更新，加载，清理&lt;/p&gt;&lt;p&gt;1. LoginScene：触发资源的预加载，资源的更新。即正式进入游戏的前期准备。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-811" y="11" width="442" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="dPQH_TNCv7DmlfxwkjNi-123" value="&lt;h1&gt;ResUpdater&lt;/h1&gt;&lt;p&gt;资源加载，更新。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-123" value="&lt;h1&gt;ResUpdater&lt;/h1&gt;&lt;p&gt;资源更新。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1631" y="11" width="281" height="126" as="geometry" />
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.137;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dPQH_TNCv7DmlfxwkjNi-124" target="dPQH_TNCv7DmlfxwkjNi-128">
@@ -585,7 +585,7 @@
           <mxGeometry y="164" width="194" height="57" as="geometry" />
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-128" value="WXResUpdater" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="-1332" y="359.83" width="160" height="138" as="geometry" />
+          <mxGeometry x="-1362" y="359.83" width="160" height="138" as="geometry" />
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-129" value="+ field: type" style="text;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;" vertex="1" parent="dPQH_TNCv7DmlfxwkjNi-128">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -601,6 +601,15 @@
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-191" value="update()" style="text;strokeColor=#006EAF;fillColor=#1ba1e2;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#ffffff;" vertex="1" parent="dPQH_TNCv7DmlfxwkjNi-128">
           <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dPQH_TNCv7DmlfxwkjNi-128" source="dPQH_TNCv7DmlfxwkjNi-191" target="dPQH_TNCv7DmlfxwkjNi-190">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-29.40000000000009" y="96.5700000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-32" y="125" />
+              <mxPoint x="-32" y="99" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-133" value="微信小游戏更新" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="dPQH_TNCv7DmlfxwkjNi-128">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -746,11 +755,11 @@
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-187" value="return" style="html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-644" y="594.75" width="61" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="dPQH_TNCv7DmlfxwkjNi-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="dPQH_TNCv7DmlfxwkjNi-137" target="dPQH_TNCv7DmlfxwkjNi-131">
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="dPQH_TNCv7DmlfxwkjNi-137" target="dPQH_TNCv7DmlfxwkjNi-131">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-956" y="241" />
-              <mxPoint x="-956" y="447" />
+              <mxPoint x="-956" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
