@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T06:42:37.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="OYe7sgbdNSys4GfOzgTT" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T06:49:21.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="7vph8QEPrrRdasi07abK" version="20.2.8" type="github" pages="2">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -341,7 +341,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b4iuPlltqY7mRmMJCuUl" name="res">
-    <mxGraphModel dx="2845" dy="1806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3639" dy="2230" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -479,7 +479,7 @@
           <mxGeometry x="1284" y="710" width="275" height="55" as="geometry" />
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-98" value="设置CDN地址作为资源基础地址" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#ffffff;collapsible=0;rounded=1;arcSize=30;strokeColor=#2D7600;fillColor=#60a917;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="17" y="737" width="303" height="140" as="geometry" />
+          <mxGeometry x="17" y="649.73" width="303" height="140" as="geometry" />
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-99" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;public&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;static&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;setCDNUrl&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;url&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;string&lt;/span&gt;):{&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(197, 134, 192);&quot;&gt;if&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;(&lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;url&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;!=&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;null&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;&amp;amp;&amp;amp;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;url&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;!=&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;){&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Laya&lt;/span&gt;.&lt;span style=&quot;color: #4ec9b0;&quot;&gt;URL&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;basePath&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;url&lt;/span&gt;;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#ffffff;" vertex="1" parent="dPQH_TNCv7DmlfxwkjNi-98">
           <mxGeometry y="30" width="303" height="111" as="geometry" />
@@ -777,19 +777,59 @@
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-200" value="&lt;h1&gt;LoginScene&lt;/h1&gt;&lt;div&gt;登录场景&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;用于加载预加载进入游戏前的预加载等显示。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-797" y="-1140" width="442" height="93" as="geometry" />
         </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="dPQH_TNCv7DmlfxwkjNi-203" target="dPQH_TNCv7DmlfxwkjNi-216">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-203" value="更新图片和音效" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="-1198" y="512.28" width="160" height="60" as="geometry" />
+          <mxGeometry x="-1154" y="549.75" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="dPQH_TNCv7DmlfxwkjNi-203" source="dPQH_TNCv7DmlfxwkjNi-204" target="dPQH_TNCv7DmlfxwkjNi-203">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-204" value="doUpdateImageAndSound()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;fontSize=11;" vertex="1" parent="dPQH_TNCv7DmlfxwkjNi-203">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dPQH_TNCv7DmlfxwkjNi-205" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=11;" edge="1" source="dPQH_TNCv7DmlfxwkjNi-203" parent="1">
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="dPQH_TNCv7DmlfxwkjNi-212" target="dPQH_TNCv7DmlfxwkjNi-203">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1118" y="637" as="targetPoint" />
+            <mxPoint x="-1073.8" y="575.5999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dPQH_TNCv7DmlfxwkjNi-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="dPQH_TNCv7DmlfxwkjNi-191" target="dPQH_TNCv7DmlfxwkjNi-203">
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-212" value="确定要更新下载的资源列表：&lt;br&gt;1. imageAndSoundList&lt;br&gt;2. otherFileList" style="html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1162" y="459.83" width="176" height="51.17" as="geometry" />
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="1" source="dPQH_TNCv7DmlfxwkjNi-191" target="dPQH_TNCv7DmlfxwkjNi-212">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-216" value="是否有imageAndSoundList" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=11;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-1114" y="649.73" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-217" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=11;" edge="1" source="dPQH_TNCv7DmlfxwkjNi-216" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-934" y="669.73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-218" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="dPQH_TNCv7DmlfxwkjNi-216" parent="1" target="dPQH_TNCv7DmlfxwkjNi-221">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-1074" y="749.73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-221" value="图片和音效加载完" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-1162" y="765" width="176" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="dPQH_TNCv7DmlfxwkjNi-221" source="dPQH_TNCv7DmlfxwkjNi-223" target="dPQH_TNCv7DmlfxwkjNi-221">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-223" value="loadImageAndSoundComplete" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;fontSize=11;" vertex="1" parent="dPQH_TNCv7DmlfxwkjNi-221">
+          <mxGeometry y="30" width="176" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-226" value="下载资源" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#ffffff;collapsible=0;rounded=1;arcSize=30;strokeColor=#2D7600;fillColor=#60a917;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="22" y="883" width="431" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-227" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;public&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;static&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;downloadFiles&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;url&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;any&lt;/span&gt;,&amp;nbsp;&lt;br&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;&amp;nbsp; &amp;nbsp; completeCallback&lt;/span&gt;?:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Laya&lt;/span&gt;.&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Handler&lt;/span&gt;,&amp;nbsp;&lt;br&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;&amp;nbsp; &amp;nbsp; progressCallback&lt;/span&gt;?:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Laya&lt;/span&gt;.&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Handler&lt;br&gt;&lt;/span&gt;)&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;GameMain&lt;/span&gt;.&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;sdk_platform&lt;/span&gt;.&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;downloadFiles&lt;/span&gt;(&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;url&lt;/span&gt;,&amp;nbsp;&lt;br&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; completeCallback&lt;/span&gt;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; progressCallback&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;null&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;1&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;true&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;DOWN_LOAD&quot;&lt;/span&gt;);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#ffffff;" vertex="1" parent="dPQH_TNCv7DmlfxwkjNi-226">
+          <mxGeometry y="30" width="431" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-228" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;public&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;static&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;getResDir&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;(&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&amp;nbsp; &amp;nbsp;path&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;any&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;, &lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&amp;nbsp; &amp;nbsp;type&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;RES&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;=&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;RES&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;.&lt;/font&gt;&lt;span style=&quot;color: rgb(79, 193, 255);&quot;&gt;GAME&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;,&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&amp;nbsp; &amp;nbsp;checkLan&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;=&lt;/font&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;false&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#ffffff;" vertex="1" parent="dPQH_TNCv7DmlfxwkjNi-226">
+          <mxGeometry y="189" width="431" height="-5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
