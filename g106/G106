@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T06:15:57.812Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="NG78_xlAm7QwEXGWWPM3" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T06:17:14.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="KwEIjC5KsTQdFVW1fwzG" version="20.2.8" type="github" pages="2">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -643,7 +643,7 @@
             <mxPoint x="-429" y="409" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dPQH_TNCv7DmlfxwkjNi-158" value="&lt;span style=&quot;background-color: initial;&quot;&gt;1. 加载进度长时间没有变化&lt;br&gt;2. etc.&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=default;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-158" value="&lt;span style=&quot;background-color: initial;&quot;&gt;1. 加载进度长时间没有变化&lt;br&gt;2. etc.&lt;br&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="-308" y="319" width="160" height="29.5" as="geometry" />
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dPQH_TNCv7DmlfxwkjNi-153" target="dPQH_TNCv7DmlfxwkjNi-158">
@@ -718,6 +718,14 @@
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-182" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 1.06; font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(86, 156, 214); font-size: 11px;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: rgb(220, 220, 170); font-size: 11px;&quot;&gt;event&lt;/span&gt;(&lt;span style=&quot;color: rgb(78, 201, 176); font-size: 11px;&quot;&gt;ResLoader&lt;/span&gt;.&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;EVENT_PRELOAD_FINISH&lt;/span&gt;,&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;isSuccess&lt;/span&gt;);&lt;/div&gt;" style="html=1;fontSize=11;align=left;" vertex="1" parent="1">
           <mxGeometry x="-362" y="270" width="354" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="dPQH_TNCv7DmlfxwkjNi-173">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-364.92307692307713" y="673.3846153846154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-186" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;1.&lt;/font&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;this&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;.&lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;lastProgressTime&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;=&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;Laya&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;.&lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;timer&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;.&lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;currTimer&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;2.&lt;/font&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;this&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;.&lt;/font&gt;&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;event&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;(&lt;/font&gt;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;ResLoader&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;.&lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;EVENT_PRELOAD_PROGRESS&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;,&lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;value&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;);&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-433" y="678" width="416" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
