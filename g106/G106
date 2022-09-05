@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T02:51:34.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="I_H0mIHiLv-Ed78Edfpx" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T02:56:02.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GvS26E7-eSQrO8u1bp2z" version="20.2.8" type="github" pages="2">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -415,12 +415,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-91" value="laya内对上层的url地址转换" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#ffffff;collapsible=0;rounded=1;arcSize=30;strokeColor=#2D7600;fillColor=#60a917;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="32" y="773" width="160" height="60" as="geometry" />
+          <mxGeometry x="674.02" y="734" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dPQH_TNCv7DmlfxwkjNi-92" value="Subtitle" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#ffffff;" vertex="1" parent="dPQH_TNCv7DmlfxwkjNi-91">
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-92" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;URL&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;formatURL&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#ffffff;" vertex="1" parent="dPQH_TNCv7DmlfxwkjNi-91">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dPQH_TNCv7DmlfxwkjNi-93" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#2D7600;rounded=0;fillColor=#60a917;" edge="1" source="dPQH_TNCv7DmlfxwkjNi-91" parent="1">
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-93" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#2D7600;rounded=0;fillColor=#60a917;entryX=0.465;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="dPQH_TNCv7DmlfxwkjNi-91" parent="1" target="dPQH_TNCv7DmlfxwkjNi-97">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="112" y="893" as="targetPoint" />
           </mxGeometry>
@@ -445,9 +445,6 @@
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-58" value="path = ani/chess/ani_chessbox.ani" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="446.18624161073825" y="497.83064516129036" width="182.90436241610735" height="31.83483870967742" as="geometry" />
-        </mxCell>
-        <mxCell id="dPQH_TNCv7DmlfxwkjNi-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dPQH_TNCv7DmlfxwkjNi-62" target="dPQH_TNCv7DmlfxwkjNi-91">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-62" value="return&amp;nbsp; baseDir + path" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="685.9979865771811" y="494.4777677419355" width="136.0520134228188" height="38.55" as="geometry" />
@@ -475,6 +472,15 @@
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dPQH_TNCv7DmlfxwkjNi-77" target="dPQH_TNCv7DmlfxwkjNi-78">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-96" value="game/ani/chess/ani_chessbox.ani" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dPQH_TNCv7DmlfxwkjNi-62" target="dPQH_TNCv7DmlfxwkjNi-91">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="466" y="703" as="sourcePoint" />
+            <mxPoint x="358" y="703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-97" value="&lt;span style=&quot;color: rgb(200, 0, 0); font-family: consolas, &amp;quot;lucida console&amp;quot;, &amp;quot;courier new&amp;quot;, monospace; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&#39;D:/G106/develop/client/trunk/h5client/bin/game/ani/chess/ani_chessbox.ani&#39;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="516" y="834" width="513" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
