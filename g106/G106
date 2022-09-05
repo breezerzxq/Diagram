@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T07:13:44.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="fEgaLnJoppHSIDkB-qRx" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T07:14:59.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="cG9wsdZryVWzPnkOrSxZ" version="20.2.8" type="github" pages="2">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1489" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -551,7 +551,7 @@
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-121" value="&lt;h1&gt;Laya&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="830.5" y="10" width="192" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="dPQH_TNCv7DmlfxwkjNi-122" value="&lt;h1&gt;ResLoader&lt;/h1&gt;&lt;p&gt;资源更新，加载，清理&lt;/p&gt;&lt;p&gt;1. LoginScene：触发资源的预加载，资源的更新。即正式进入游戏的前期准备。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-122" value="&lt;h1&gt;ResLoader&lt;/h1&gt;&lt;p&gt;资源加载。&lt;/p&gt;&lt;p&gt;1. LoginScene：触发资源的预加载，资源的更新。即正式进入游戏的前期准备。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-811" y="11" width="442" height="93" as="geometry" />
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-123" value="&lt;h1&gt;ResUpdater&lt;/h1&gt;&lt;p&gt;资源更新。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
