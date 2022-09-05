@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T03:15:33.435Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="C7O5ZEtblCUu6XqaTHv6" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T03:17:17.040Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hhJEd_3LqMT_WiU_UG4b" version="20.2.8" type="github" pages="2">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -493,8 +493,16 @@
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-102" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;Laya&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;init()&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#ffffff;" vertex="1" parent="dPQH_TNCv7DmlfxwkjNi-101">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dPQH_TNCv7DmlfxwkjNi-104" target="dPQH_TNCv7DmlfxwkjNi-117">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1319" y="419" />
+              <mxPoint x="893" y="419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-103" value="初始url路径" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#ffffff;collapsible=0;rounded=1;arcSize=30;strokeColor=#2D7600;fillColor=#60a917;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="1065" y="136" width="634" height="199" as="geometry" />
+          <mxGeometry x="1002" y="147" width="634" height="199" as="geometry" />
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-104" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;Laya&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;_getUrlPath&lt;/span&gt;=&lt;span style=&quot;color: #569cd6;&quot;&gt;function&lt;/span&gt;(){&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;var&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;location&lt;/span&gt;=&lt;span style=&quot;color: #9cdcfe;&quot;&gt;Browser&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;window&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;location&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;var&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;pathName&lt;/span&gt;=&lt;span style=&quot;color: #9cdcfe;&quot;&gt;location&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;pathname&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;pathName&lt;/span&gt;=&lt;span style=&quot;color: #9cdcfe;&quot;&gt;pathName&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;charAt&lt;/span&gt;(&lt;span style=&quot;color: #b5cea8;&quot;&gt;2&lt;/span&gt;)==&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;:&#39;&lt;/span&gt;&amp;nbsp;?&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;pathName&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;substring&lt;/span&gt;(&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;):&lt;span style=&quot;color: #9cdcfe;&quot;&gt;pathName&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;URL&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;rootPath&lt;/span&gt;=&lt;span style=&quot;color: #4fc1ff;&quot;&gt;URL&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;basePath&lt;/span&gt;=&lt;span style=&quot;color: #4fc1ff;&quot;&gt;URL&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;getPath&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;location&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;protocol&lt;/span&gt;==&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;file:&quot;&lt;/span&gt;&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;?&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;pathName&lt;/span&gt;&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; :&lt;span style=&quot;color: #9cdcfe;&quot;&gt;location&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;protocol&lt;/span&gt;+&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;//&quot;&lt;/span&gt;+&lt;span style=&quot;color: #9cdcfe;&quot;&gt;location&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;host&lt;/span&gt;+&lt;span style=&quot;color: #9cdcfe;&quot;&gt;location&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;pathname&lt;/span&gt;);&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#ffffff;" vertex="1" parent="dPQH_TNCv7DmlfxwkjNi-103">
           <mxGeometry y="30" width="634" height="169" as="geometry" />
@@ -528,6 +536,17 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1124" y="887" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-117" value="设置URL.basePath" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="833" y="715.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-118" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="dPQH_TNCv7DmlfxwkjNi-117" parent="1" target="dPQH_TNCv7DmlfxwkjNi-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="899" y="786" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dPQH_TNCv7DmlfxwkjNi-99" target="dPQH_TNCv7DmlfxwkjNi-117">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
