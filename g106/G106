@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T06:50:16.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="KpMnamybO5L9BDyMxF9P" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T06:50:20.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="v12zg5xE_4eVQbyRTrap" version="20.2.8" type="github" pages="2">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1489" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -832,7 +832,7 @@
           <mxGeometry y="189" width="431" height="-5" as="geometry" />
         </mxCell>
         <mxCell id="_wpebjiV-Tn-ZvOvj4Dy-2" value="GameMain.sdk_platform is BseSDK" style="html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="520" y="967.5" width="110" height="50" as="geometry" />
+          <mxGeometry x="520" y="967.5" width="238" height="48.5" as="geometry" />
         </mxCell>
         <mxCell id="_wpebjiV-Tn-ZvOvj4Dy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="dPQH_TNCv7DmlfxwkjNi-227" target="_wpebjiV-Tn-ZvOvj4Dy-2">
           <mxGeometry relative="1" as="geometry" />
