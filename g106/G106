@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T12:30:26.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="UIFWXMdwVjDycRuHD4wC" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-05T12:30:39.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hedbAYr1A8KChVUOjW_D" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1621" dy="923" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -341,7 +341,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b4iuPlltqY7mRmMJCuUl" name="res">
-    <mxGraphModel dx="5432" dy="3184" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5190" dy="3184" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1147,10 +1147,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="X8KwvWmzSyFo5SLnwgPl" name="app_webview">
-    <mxGraphModel dx="1945" dy="1108" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1945" dy="2762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qYnwDlOlKA4lgDjDkgPF-1" value="&lt;h1&gt;LoginScene&lt;/h1&gt;&lt;div&gt;登录场景&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;用于加载预加载进入游戏前的预加载等显示。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="23" y="-1620" width="442" height="93" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
