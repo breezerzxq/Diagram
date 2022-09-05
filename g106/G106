@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T02:57:48.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ES90IDhBSKX0u0AWO8nr" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T03:02:44.008Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="p88PosNv0y0OkItP7nyG" version="20.2.8" type="github" pages="2">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -341,7 +341,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b4iuPlltqY7mRmMJCuUl" name="res">
-    <mxGraphModel dx="2012" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -415,14 +415,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-91" value="laya内对上层的url地址转换" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#ffffff;collapsible=0;rounded=1;arcSize=30;strokeColor=#2D7600;fillColor=#60a917;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="29" y="714" width="160" height="60" as="geometry" />
+          <mxGeometry x="674" y="842" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-92" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;URL&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;formatURL&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#ffffff;" vertex="1" parent="dPQH_TNCv7DmlfxwkjNi-91">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-93" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#2D7600;rounded=0;fillColor=#60a917;entryX=0.465;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="dPQH_TNCv7DmlfxwkjNi-91" parent="1" target="dPQH_TNCv7DmlfxwkjNi-97">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="119" y="893" as="targetPoint" />
+            <mxPoint x="764" y="1021" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-18" value="获取资源地址的统一接口" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#ffffff;collapsible=0;rounded=1;arcSize=30;strokeColor=#2D7600;fillColor=#60a917;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
@@ -479,12 +479,20 @@
             <mxPoint x="365" y="703" as="targetPoint" />
             <Array as="points">
               <mxPoint x="755" y="660" />
-              <mxPoint x="109" y="658" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-97" value="&lt;span style=&quot;color: rgb(200, 0, 0); font-family: consolas, &amp;quot;lucida console&amp;quot;, &amp;quot;courier new&amp;quot;, monospace; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&#39;D:/G106/develop/client/trunk/h5client/&lt;br&gt;bin/game/ani/chess/ani_chessbox.ani&#39;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-19" y="799" width="275" height="41" as="geometry" />
+          <mxGeometry x="626" y="927" width="275" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-98" value="设置CDN地址作为资源基础地址" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#ffffff;collapsible=0;rounded=1;arcSize=30;strokeColor=#2D7600;fillColor=#60a917;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="17" y="737" width="303" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-99" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;public&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;static&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;setCDNUrl&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;url&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;string&lt;/span&gt;):{&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(197, 134, 192);&quot;&gt;if&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;(&lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;url&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;!=&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;null&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;&amp;amp;&amp;amp;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;url&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;!=&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;){&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Laya&lt;/span&gt;.&lt;span style=&quot;color: #4ec9b0;&quot;&gt;URL&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;basePath&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;url&lt;/span&gt;;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#ffffff;" vertex="1" parent="dPQH_TNCv7DmlfxwkjNi-98">
+          <mxGeometry y="30" width="303" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="dPQH_TNCv7DmlfxwkjNi-100" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;public&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;static&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;getResDir&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;(&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&amp;nbsp; &amp;nbsp;path&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;any&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;, &lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&amp;nbsp; &amp;nbsp;type&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;RES&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;=&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;RES&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;.&lt;/font&gt;&lt;span style=&quot;color: rgb(79, 193, 255);&quot;&gt;GAME&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;,&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&amp;nbsp; &amp;nbsp;checkLan&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;=&lt;/font&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;false&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#ffffff;" vertex="1" parent="dPQH_TNCv7DmlfxwkjNi-98">
+          <mxGeometry y="141" width="303" height="-1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
