@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T06:54:35.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nVzZll74Rt8h50spD-Xx" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T06:54:59.550Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="FawuFRPclPvzeU6fjVYL" version="20.2.8" type="github" pages="2">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1489" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -814,7 +814,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-221" value="图片和音效加载完" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="-1216" y="765" width="176" height="61" as="geometry" />
+          <mxGeometry x="-1216" y="800" width="176" height="61" as="geometry" />
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontSize=11;" edge="1" parent="dPQH_TNCv7DmlfxwkjNi-221" source="dPQH_TNCv7DmlfxwkjNi-223" target="dPQH_TNCv7DmlfxwkjNi-221">
           <mxGeometry relative="1" as="geometry" />
@@ -855,6 +855,9 @@
         </mxCell>
         <mxCell id="yVb9U4pEDqmsX0qUAnOG-1" value="请求download" style="html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-1021" y="656.6" width="94" height="26.27" as="geometry" />
+        </mxCell>
+        <mxCell id="yVb9U4pEDqmsX0qUAnOG-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="yVb9U4pEDqmsX0qUAnOG-3" target="dPQH_TNCv7DmlfxwkjNi-221">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yVb9U4pEDqmsX0qUAnOG-3" value="loadProgress" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="-1075" y="729.5" width="89" height="26" as="geometry" />
