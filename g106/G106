@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T06:49:21.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="7vph8QEPrrRdasi07abK" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-05T06:50:16.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="KpMnamybO5L9BDyMxF9P" version="20.2.8" type="github" pages="2">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
-    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1489" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -341,7 +341,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b4iuPlltqY7mRmMJCuUl" name="res">
-    <mxGraphModel dx="3639" dy="2230" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3308" dy="2053" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -830,6 +830,12 @@
         </mxCell>
         <mxCell id="dPQH_TNCv7DmlfxwkjNi-228" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;public&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;static&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;getResDir&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;(&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&amp;nbsp; &amp;nbsp;path&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;any&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;, &lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&amp;nbsp; &amp;nbsp;type&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;RES&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;&amp;nbsp;=&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;RES&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;.&lt;/font&gt;&lt;span style=&quot;color: rgb(79, 193, 255);&quot;&gt;GAME&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;,&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&amp;nbsp; &amp;nbsp;checkLan&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;=&lt;/font&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;false&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#d4d4d4&quot;&gt;)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#ffffff;" vertex="1" parent="dPQH_TNCv7DmlfxwkjNi-226">
           <mxGeometry y="189" width="431" height="-5" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpebjiV-Tn-ZvOvj4Dy-2" value="GameMain.sdk_platform is BseSDK" style="html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="520" y="967.5" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_wpebjiV-Tn-ZvOvj4Dy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="dPQH_TNCv7DmlfxwkjNi-227" target="_wpebjiV-Tn-ZvOvj4Dy-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
