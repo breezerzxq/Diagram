@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T02:15:31.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="LPx2EM76ZEHtii_i5Zsa" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-06T02:15:56.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="BeXebVtUMrxrXfCe4noE" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="2062" dy="1074" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1160,7 +1160,7 @@
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-2" value="«interface»&lt;br&gt;&lt;b&gt;ExternalInterface&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="139" y="-1493" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GmWoKz2gtO8iNpmAdu1u-3" value="h5与app_native交互接口" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="GmWoKz2gtO8iNpmAdu1u-2">
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-3" value="h5与app交互接口" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="GmWoKz2gtO8iNpmAdu1u-2">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="247" y="-1556" as="sourcePoint" />
             <mxPoint x="327" y="-1556" as="targetPoint" />
