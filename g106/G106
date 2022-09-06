@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T02:14:53.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="g6RXoqOQ1eHDmghYfaRo" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-06T02:15:31.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="LPx2EM76ZEHtii_i5Zsa" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="2062" dy="1074" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1206,6 +1206,12 @@
         </mxCell>
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-18" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;ExternalInterface&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;WebExternalInterface&lt;/span&gt;;&lt;/div&gt;" style="html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="331" y="-1189.5" width="279" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-19" value="为web环境" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;" edge="1" parent="1" target="GmWoKz2gtO8iNpmAdu1u-18">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="541" y="-1249" as="sourcePoint" />
+            <mxPoint x="551" y="-1252" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
