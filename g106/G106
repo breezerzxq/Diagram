@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T01:59:55.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="IqGY8iVm4dcO7DlOGE5O" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-06T02:02:08.044Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3K-ZvwfRFhjFUzgJYoJ4" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="2062" dy="1074" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1147,12 +1147,21 @@
     </mxGraphModel>
   </diagram>
   <diagram id="X8KwvWmzSyFo5SLnwgPl" name="app_webview">
-    <mxGraphModel dx="2062" dy="2728" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1561" dy="2549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qYnwDlOlKA4lgDjDkgPF-1" value="&lt;h1&gt;原生与H5联动&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="23" y="-1620" width="442" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-2" value="«interface»&lt;br&gt;&lt;b&gt;ExternalInterface&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-1525" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-3" value="h5与app_native交互接口" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="GmWoKz2gtO8iNpmAdu1u-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="247" y="-1556" as="sourcePoint" />
+            <mxPoint x="327" y="-1556" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
