@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T08:21:20.611Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GH-ooZaiXr-zgaOzT-0S" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-06T08:27:12.143Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="XEyTTBnNvt-30lZuI3-Y" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1327" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1488,7 +1488,7 @@
           <mxGeometry x="1213" y="-1553" width="240.65" height="32" as="geometry" />
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-7" value="LoginScene" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1766" y="-1416" width="220" height="86" as="geometry" />
+          <mxGeometry x="1917" y="-1399" width="220" height="86" as="geometry" />
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-8" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" vertex="1" parent="lhaf7kCjLSP3qDU8V0a_-7">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
@@ -1498,6 +1498,29 @@
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-10" value="+ updateLoadingBar(progress:number)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" vertex="1" parent="lhaf7kCjLSP3qDU8V0a_-7">
           <mxGeometry y="60" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-11" value="真实加载进度" style="html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1278" y="-1279" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="lhaf7kCjLSP3qDU8V0a_-12" target="lhaf7kCjLSP3qDU8V0a_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-12" value="虚拟加载进度" style="html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1278.32" y="-1464" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-13" value="100ms loop" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="-1479" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-15" value="每次虚拟进度值+=0.01" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;fontSize=12;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1532" y="-1472" width="243" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-16" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;virtualLoadingProgress()&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;fontSize=12;" vertex="1" parent="lhaf7kCjLSP3qDU8V0a_-15">
+          <mxGeometry y="30" width="243" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-17" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="lhaf7kCjLSP3qDU8V0a_-15" parent="1" target="lhaf7kCjLSP3qDU8V0a_-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1653" y="-1348" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
