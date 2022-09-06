@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T02:24:46.461Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="yZI2I1j399qiIjB_BKgi" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-06T02:34:46.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="iW4qMk9Zx3d-hCB0h1gv" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="2062" dy="1074" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1147,7 +1147,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="X8KwvWmzSyFo5SLnwgPl" name="app_webview">
-    <mxGraphModel dx="1148" dy="2289" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1449" dy="2456" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1162,6 +1162,14 @@
             <Array as="points">
               <mxPoint x="194" y="-1389" />
               <mxPoint x="692" y="-1389" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="GmWoKz2gtO8iNpmAdu1u-2" target="GmWoKz2gtO8iNpmAdu1u-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="493" y="-1468" />
+              <mxPoint x="493" y="-1596" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1196,13 +1204,7 @@
           <mxGeometry y="112" width="374" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-11" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; font-size: 11px;&quot;&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(197, 134, 192); font-size: 11px;&quot;&gt;export&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(86, 156, 214); font-size: 11px;&quot;&gt;let&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;ExternalInterface&lt;/span&gt;:&amp;nbsp;{&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(106, 153, 85); font-size: 11px;&quot;&gt;/**&lt;/span&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;调用&amp;nbsp;functionName，并将value传入到native中&lt;/span&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;*/&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(220, 220, 170); font-size: 11px;&quot;&gt;call&lt;/span&gt;(&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;functionName&lt;/span&gt;:&lt;span style=&quot;color: rgb(78, 201, 176); font-size: 11px;&quot;&gt;string&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;value&lt;/span&gt;:&lt;span style=&quot;color: rgb(78, 201, 176); font-size: 11px;&quot;&gt;string&lt;/span&gt;):&lt;span style=&quot;color: rgb(78, 201, 176); font-size: 11px;&quot;&gt;void&lt;/span&gt;;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(106, 153, 85); font-size: 11px;&quot;&gt;/**&lt;/span&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;监听&amp;nbsp;functionName&amp;nbsp;回调，需要在native中有调用&amp;nbsp;functionName&amp;nbsp;这个字段，而不是&amp;nbsp;此类的call。&lt;/span&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;*/&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(220, 220, 170); font-size: 11px;&quot;&gt;addCallback&lt;/span&gt;(&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;functionName&lt;/span&gt;:&lt;span style=&quot;color: rgb(78, 201, 176); font-size: 11px;&quot;&gt;string&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: rgb(220, 220, 170); font-size: 11px;&quot;&gt;listener&lt;/span&gt;:(&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;value&lt;/span&gt;:&lt;span style=&quot;color: rgb(78, 201, 176); font-size: 11px;&quot;&gt;string&lt;/span&gt;)&lt;span style=&quot;color: rgb(86, 156, 214); font-size: 11px;&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(78, 201, 176); font-size: 11px;&quot;&gt;void&lt;/span&gt;):&lt;span style=&quot;color: rgb(78, 201, 176); font-size: 11px;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(106, 153, 85); font-size: 11px;&quot;&gt;/**&lt;/span&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;调用&amp;nbsp;functionName，&amp;nbsp;并将value传入到native中，返回string参数&lt;/span&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;*/&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(220, 220, 170); font-size: 11px;&quot;&gt;callbackString&lt;/span&gt;(&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;functionName&lt;/span&gt;:&lt;span style=&quot;color: rgb(78, 201, 176); font-size: 11px;&quot;&gt;string&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;value&lt;/span&gt;:&lt;span style=&quot;color: rgb(78, 201, 176); font-size: 11px;&quot;&gt;string&lt;/span&gt;):&lt;span style=&quot;color: rgb(78, 201, 176); font-size: 11px;&quot;&gt;string&lt;/span&gt;;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;};&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(78, 201, 176); font-size: 11px;&quot;&gt;laya&lt;/span&gt;[&lt;span style=&quot;color: rgb(206, 145, 120); font-size: 11px;&quot;&gt;&quot;ExternalInterface&quot;&lt;/span&gt;]&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 11px;&quot;&gt;ExternalInterface&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="524" y="-1645" width="608" height="197" as="geometry" />
-        </mxCell>
-        <mxCell id="GmWoKz2gtO8iNpmAdu1u-13" value="创建一个默认全局实例ExternalInterface" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GmWoKz2gtO8iNpmAdu1u-2" target="GmWoKz2gtO8iNpmAdu1u-11">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="266" y="-1470" as="sourcePoint" />
-            <mxPoint x="346" y="-1470" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="1475" y="-1636" width="608" height="197" as="geometry" />
         </mxCell>
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-14" value="是否为layanative" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=11;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="154" y="-1157" width="80" height="40" as="geometry" />
@@ -1210,6 +1212,15 @@
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-15" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=11;" edge="1" source="GmWoKz2gtO8iNpmAdu1u-14" parent="1" target="GmWoKz2gtO8iNpmAdu1u-18">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="317" y="-1137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="GmWoKz2gtO8iNpmAdu1u-18" target="GmWoKz2gtO8iNpmAdu1u-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="406" y="-1079" />
+              <mxPoint x="1232" y="-1079" />
+              <mxPoint x="1232" y="-1463" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-18" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;ExternalInterface&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;WebExternalInterface&lt;/span&gt;;&lt;/div&gt;" style="html=1;fontSize=11;" vertex="1" parent="1">
@@ -1256,6 +1267,15 @@
             <mxPoint x="828" y="-1135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="GmWoKz2gtO8iNpmAdu1u-33" target="GmWoKz2gtO8iNpmAdu1u-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="948" y="-1099" />
+              <mxPoint x="1215" y="-1099" />
+              <mxPoint x="1215" y="-1463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-33" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;ExternalInterface&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;WebViewExternalInterface&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="801" y="-1147.5" width="295" height="25" as="geometry" />
         </mxCell>
@@ -1263,6 +1283,26 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="981" y="-1181" as="sourcePoint" />
             <mxPoint x="904.017" y="-1149.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-41" value="更新全局ExternalInterface实例" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1244" y="-1483" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;" edge="1" source="GmWoKz2gtO8iNpmAdu1u-41" parent="1" target="GmWoKz2gtO8iNpmAdu1u-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1522" y="-1266" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1420" y="-1463" />
+              <mxPoint x="1420" y="-1537" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-44" value="创建全局默认实例ExternalInterface" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1247" y="-1616" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-45" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;" edge="1" source="GmWoKz2gtO8iNpmAdu1u-44" parent="1" target="GmWoKz2gtO8iNpmAdu1u-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1249" y="-1514" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
