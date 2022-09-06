@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T09:00:57.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="TNhMuiaLaXNa1t4ZRrbM" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-06T09:01:54.071Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="olDGdc_Bmwgxi-Nnw2sN" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1327" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1690,6 +1690,9 @@
             <mxPoint x="151" y="-1086" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="lhaf7kCjLSP3qDU8V0a_-82" target="lhaf7kCjLSP3qDU8V0a_-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-82" value="LoginSceneMediator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;html=1;" vertex="1" parent="1">
           <mxGeometry x="215" y="-1426" width="183" height="86" as="geometry" />
         </mxCell>
@@ -1733,10 +1736,23 @@
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="lhaf7kCjLSP3qDU8V0a_-89" target="lhaf7kCjLSP3qDU8V0a_-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lhaf7kCjLSP3qDU8V0a_-97" value="LOAD_UI_LAYOUT" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lhaf7kCjLSP3qDU8V0a_-85">
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-97" value="LOAD_GAME_CONF" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lhaf7kCjLSP3qDU8V0a_-85">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="577" y="-1418" as="sourcePoint" />
             <mxPoint x="412.60400000000004" y="-1351.0220000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-98" value="完成" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="-1310" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-99" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;" edge="1" source="lhaf7kCjLSP3qDU8V0a_-98" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="436" y="-1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-100" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;" edge="1" source="lhaf7kCjLSP3qDU8V0a_-98" parent="1" target="lhaf7kCjLSP3qDU8V0a_-88">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="613" y="-1257" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
