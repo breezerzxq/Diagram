@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T08:58:10.254Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="jLoLu0ucuhMgxXwHzI7A" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-06T08:58:37.829Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="j30h-nJ2RriruhkQZz1c" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1327" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1665,7 +1665,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-70" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #6a9955;&quot;&gt;//进度条任务&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;private&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;static&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;LOADING_BAR_TASK&lt;/span&gt;&amp;nbsp;=&amp;nbsp;{&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;LOAD_GAME_CONF&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;:&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;LOAD_GAME_CONF&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;LOAD_GAME_DATA&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;:&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;LOAD_GAME_DATA&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;LOAD_UI_LAYOUT&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;:&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;LOAD_UI_LAYOUT&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;LOAD_GAME_RES&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;:&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;LOAD_GAME_RES&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;/div&gt;&lt;/div&gt;" style="html=1;fontSize=12;align=left;" vertex="1" parent="1">
-          <mxGeometry x="26" y="-1621" width="324" height="144" as="geometry" />
+          <mxGeometry x="20" y="-1641" width="324" height="144" as="geometry" />
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-72" value="更新LOAD_GAME_RES进度" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;fontSize=12;html=1;" vertex="1" parent="1">
           <mxGeometry x="893" y="-1033" width="401" height="101" as="geometry" />
@@ -1691,7 +1691,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-82" value="LoginSceneMediator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;html=1;" vertex="1" parent="1">
-          <mxGeometry x="215" y="-1396" width="183" height="86" as="geometry" />
+          <mxGeometry x="79" y="-1477" width="183" height="86" as="geometry" />
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-83" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" vertex="1" parent="lhaf7kCjLSP3qDU8V0a_-82">
           <mxGeometry y="26" width="183" height="26" as="geometry" />
@@ -1707,8 +1707,8 @@
             <Array as="points">
               <mxPoint x="802" y="-411" />
               <mxPoint x="802" y="-764" />
-              <mxPoint x="39" y="-764" />
-              <mxPoint x="39" y="-1321" />
+              <mxPoint x="27" y="-764" />
+              <mxPoint x="27" y="-1404" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1729,6 +1729,9 @@
             <mxPoint x="115" y="-1271" as="sourcePoint" />
             <mxPoint x="310" y="-1203" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="lhaf7kCjLSP3qDU8V0a_-89" target="lhaf7kCjLSP3qDU8V0a_-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
