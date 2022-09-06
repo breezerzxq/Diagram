@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T02:20:56.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="U9hEO9jGgU_aUNDkAq2y" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-06T02:23:22.137Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="JfhYs6Xo6vC8WYGE6-jq" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="2062" dy="1074" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1227,6 +1227,9 @@
             <mxPoint x="393.72400000000016" y="-1194.7939999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="GmWoKz2gtO8iNpmAdu1u-23" target="GmWoKz2gtO8iNpmAdu1u-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-23" value="WebViewExernalInterface" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="612" y="-1355" width="160" height="86" as="geometry" />
         </mxCell>
@@ -1243,6 +1246,23 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="968" y="-1389" as="sourcePoint" />
             <mxPoint x="763.7240000000002" y="-1374.7939999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-29" value="是否为egretwebview" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="648" y="-1195" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-30" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;" edge="1" source="GmWoKz2gtO8iNpmAdu1u-29" parent="1" target="GmWoKz2gtO8iNpmAdu1u-33">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="828" y="-1175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-33" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;ExternalInterface&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;WebViewExternalInterface&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="801" y="-1187.5" width="295" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-34" value="修改全局ExternalInterface为webview环境接口" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=0.423;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="981" y="-1221" as="sourcePoint" />
+            <mxPoint x="904.017" y="-1189.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
