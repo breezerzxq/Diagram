@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T02:18:18.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="LF0hNtl7WjHc6fz1o5X1" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-06T02:20:56.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="U9hEO9jGgU_aUNDkAq2y" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="2062" dy="1074" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1157,6 +1157,14 @@
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GmWoKz2gtO8iNpmAdu1u-2" target="GmWoKz2gtO8iNpmAdu1u-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="GmWoKz2gtO8iNpmAdu1u-2" target="GmWoKz2gtO8iNpmAdu1u-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="194" y="-1418" />
+              <mxPoint x="692" y="-1418" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-2" value="«interface»&lt;br&gt;&lt;b&gt;ExternalInterface&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="139" y="-1493" width="110" height="50" as="geometry" />
         </mxCell>
@@ -1209,7 +1217,7 @@
         </mxCell>
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-19" value="为web环境，三个函数不做任何处理" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=0.526;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="GmWoKz2gtO8iNpmAdu1u-4">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="401" y="-1413" as="sourcePoint" />
+            <mxPoint x="408" y="-1399" as="sourcePoint" />
             <mxPoint x="551" y="-1252" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -1219,7 +1227,7 @@
             <mxPoint x="393.72400000000016" y="-1194.7939999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GmWoKz2gtO8iNpmAdu1u-23" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-23" value="WebViewExernalInterface" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="612" y="-1355" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-24" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="GmWoKz2gtO8iNpmAdu1u-23">
@@ -1230,6 +1238,12 @@
         </mxCell>
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-26" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="GmWoKz2gtO8iNpmAdu1u-23">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-28" value="通过webview实现与native交互" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="GmWoKz2gtO8iNpmAdu1u-23">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="968" y="-1389" as="sourcePoint" />
+            <mxPoint x="763.7240000000002" y="-1374.7939999999999" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
