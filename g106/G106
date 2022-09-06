@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T08:38:35.921Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3po500DPxgwtTq_Qr4PC" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-06T08:39:57.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="NQ8EJkns2sr7aj41uJYq" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1327" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1572,7 +1572,7 @@
           <mxGeometry x="2015" y="-1279" width="96" height="17" as="geometry" />
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-43" value="进度条走完" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;fontSize=12;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1414" y="-1064" width="160" height="60" as="geometry" />
+          <mxGeometry x="1410" y="-1101" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-44" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;loadingBarFinish()&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;fontSize=12;" vertex="1" parent="lhaf7kCjLSP3qDU8V0a_-43">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
@@ -1580,9 +1580,20 @@
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-46" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;loadingBarFinish()&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;fontSize=12;" vertex="1" parent="lhaf7kCjLSP3qDU8V0a_-43">
           <mxGeometry y="60" width="160" as="geometry" />
         </mxCell>
-        <mxCell id="lhaf7kCjLSP3qDU8V0a_-45" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;" edge="1" source="lhaf7kCjLSP3qDU8V0a_-43" parent="1">
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-45" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="lhaf7kCjLSP3qDU8V0a_-43" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1494" y="-944" as="targetPoint" />
+            <mxPoint x="1490" y="-979" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-50" value="检查是否可以进入游戏" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;fontSize=12;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1418" y="-963" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-51" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;checkEnterGame&lt;/span&gt;()&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;fontSize=12;" vertex="1" parent="lhaf7kCjLSP3qDU8V0a_-50">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-52" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;" edge="1" source="lhaf7kCjLSP3qDU8V0a_-50" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1498" y="-843" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
