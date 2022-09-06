@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T03:43:20.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="A3pyzCOgZNC9AD3HxwYX" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-06T03:45:23.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="FMcQrmpZPk-PiNjByb2M" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="2062" dy="1074" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1151,8 +1151,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qYnwDlOlKA4lgDjDkgPF-1" value="&lt;h1&gt;原生与H5联动&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="12" y="-1640" width="254" height="66" as="geometry" />
+        <mxCell id="qYnwDlOlKA4lgDjDkgPF-1" value="&lt;h1&gt;WebExternalInterface&lt;/h1&gt;&lt;div&gt;&lt;h1&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;H5中实现不同环境下与app联动的接口&lt;/font&gt;&lt;/h1&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="12" y="-1640" width="278" height="84" as="geometry" />
         </mxCell>
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GmWoKz2gtO8iNpmAdu1u-2" target="GmWoKz2gtO8iNpmAdu1u-4">
           <mxGeometry relative="1" as="geometry" />
