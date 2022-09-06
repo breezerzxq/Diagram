@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T03:42:22.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Bj4a6AmP3Uru_62VVTVd" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-06T03:43:06.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="1wdU_VqHQ7_PI8BYNUy1" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="2062" dy="1074" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1300,7 +1300,7 @@
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-44" value="创建默认接口ExternalInterface实例" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="1330" y="-1488" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GmWoKz2gtO8iNpmAdu1u-56" value="&lt;h1&gt;startapp.ts&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-56" value="&lt;h1&gt;startapp.ts&lt;/h1&gt;&lt;div&gt;h5与app桥梁&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="12" y="-2460" width="254" height="66" as="geometry" />
         </mxCell>
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="1" source="GmWoKz2gtO8iNpmAdu1u-57" target="GmWoKz2gtO8iNpmAdu1u-80">
