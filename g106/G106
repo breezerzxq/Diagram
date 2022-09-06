@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T09:02:25.398Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qjasvhQxLjAJNdzOXSNP" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-06T09:02:54.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="43BTbhpwuX2xYdbi9gyc" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1327" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1426,7 +1426,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_WzW7Grswx1-kAvKtUQg" name="login">
-    <mxGraphModel dx="1474" dy="2501" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2413" dy="3039" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1769,6 +1769,11 @@
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-104" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#2D7600;rounded=0;fontSize=12;fillColor=#60a917;" edge="1" source="lhaf7kCjLSP3qDU8V0a_-102" parent="1" target="lhaf7kCjLSP3qDU8V0a_-59">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="526" y="-1023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="lhaf7kCjLSP3qDU8V0a_-85" target="lhaf7kCjLSP3qDU8V0a_-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1027" y="-1249" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
