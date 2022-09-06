@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T03:23:15.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nJM_anMOfKr5fGro_86p" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-06T03:32:14.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GMrgAjqhWTeOn_x63H-e" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="2062" dy="1074" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1346,6 +1346,9 @@
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="GmWoKz2gtO8iNpmAdu1u-70" target="GmWoKz2gtO8iNpmAdu1u-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="GmWoKz2gtO8iNpmAdu1u-70" target="GmWoKz2gtO8iNpmAdu1u-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GmWoKz2gtO8iNpmAdu1u-70" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(220, 220, 170); font-size: 11px;&quot;&gt;addJavascriptInterface&lt;/span&gt;(&lt;span style=&quot;color: rgb(197, 134, 192); font-size: 11px;&quot;&gt;new&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(220, 220, 170); font-size: 11px;&quot;&gt;JsObject&lt;/span&gt;(),&amp;nbsp;&lt;span style=&quot;color: rgb(206, 145, 120); font-size: 11px;&quot;&gt;&quot;ExternalInterface&quot;&lt;/span&gt;);&lt;/div&gt;" style="html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="1203" y="-2287" width="397" height="23" as="geometry" />
         </mxCell>
@@ -1369,6 +1372,9 @@
             <mxPoint x="1510" y="-2324" as="sourcePoint" />
             <mxPoint x="1917" y="-2304" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GmWoKz2gtO8iNpmAdu1u-80" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color: rgb(169, 183, 198);&quot;&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;private class &lt;/span&gt;JsObject {&lt;br&gt;    &lt;span style=&quot;color:#bbb529;&quot;&gt;@JavascriptInterface&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#bbb529;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;public void &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;call&lt;/span&gt;(String s&lt;span style=&quot;color:#cc7832;&quot;&gt;, &lt;/span&gt;String s1)&lt;br&gt;    {&lt;br&gt;        &lt;/span&gt;// ...&lt;span style=&quot;color: rgb(169, 183, 198);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(169, 183, 198);&quot;&gt;    }&lt;br&gt;    &lt;span style=&quot;color:#bbb529;&quot;&gt;@JavascriptInterface&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#bbb529;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;public &lt;/span&gt;String &lt;span style=&quot;color:#ffc66d;&quot;&gt;callbackString&lt;/span&gt;(String s&lt;span style=&quot;color:#cc7832;&quot;&gt;, &lt;/span&gt;String s1){&lt;br&gt;        &lt;/span&gt;&lt;font color=&quot;#cc7832&quot;&gt;// ...&lt;/font&gt;&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;}&lt;br&gt;}&lt;/font&gt;&lt;/pre&gt;" style="html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1207" y="-2154" width="424" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
