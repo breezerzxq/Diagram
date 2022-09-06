@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T08:53:26.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="UL9v0rPFyXO8cHVXJ7Ue" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-06T08:55:00.385Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="iXst4Scua6gneUk_niHc" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1327" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1689,6 +1689,18 @@
             <mxPoint x="115" y="-1061" as="sourcePoint" />
             <mxPoint x="151" y="-1086" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-82" value="LoginSceneMediator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;html=1;" vertex="1" parent="1">
+          <mxGeometry x="202" y="-1361" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-83" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" vertex="1" parent="lhaf7kCjLSP3qDU8V0a_-82">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-84" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=12;html=1;" vertex="1" parent="lhaf7kCjLSP3qDU8V0a_-82">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lhaf7kCjLSP3qDU8V0a_-85" value="+&amp;nbsp;&lt;span style=&quot;color: rgb(220, 220, 170); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;onLoginSuccess()&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;html=1;" vertex="1" parent="lhaf7kCjLSP3qDU8V0a_-82">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
