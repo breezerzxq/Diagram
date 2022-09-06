@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T08:36:05.472Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="o8Vq0FzyHRJYP-jh9t_g" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-06T08:36:51.257Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="6xWZWUxBDhb-CPyag6dK" version="20.2.8" type="github" pages="4">
   <diagram id="0zepdcuSUfkhOP19Wc1x" name="SDK">
     <mxGraphModel dx="1327" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1503,25 +1503,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-11" value="真实任务加载进度" style="html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1278" y="-1279" width="110" height="50" as="geometry" />
+          <mxGeometry x="1370" y="-1279" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="lhaf7kCjLSP3qDU8V0a_-12" target="lhaf7kCjLSP3qDU8V0a_-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-12" value="虚拟加载进度" style="html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1278.32" y="-1464" width="110" height="50" as="geometry" />
+          <mxGeometry x="1316" y="-1460" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="lhaf7kCjLSP3qDU8V0a_-13" target="lhaf7kCjLSP3qDU8V0a_-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-13" value="100ms loop" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="-1479" width="70" height="80" as="geometry" />
+          <mxGeometry x="1463" y="-1475" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-15" value="每次虚拟进度值+=0.01" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;fontSize=12;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1565" y="-1481" width="243" height="78" as="geometry" />
+          <mxGeometry x="1580" y="-1477" width="229" height="76" as="geometry" />
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-16" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;virtualLoadingProgress()&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;fontSize=12;" vertex="1" parent="lhaf7kCjLSP3qDU8V0a_-15">
-          <mxGeometry y="30" width="243" height="48" as="geometry" />
+          <mxGeometry y="30" width="229" height="46" as="geometry" />
         </mxCell>
         <mxCell id="lhaf7kCjLSP3qDU8V0a_-22" value="真实任务进度更新" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;fontSize=12;html=1;" vertex="1" parent="1">
           <mxGeometry x="1584" y="-1293" width="221" height="67" as="geometry" />
