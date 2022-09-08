@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T08:23:24.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="DJytVc5ObrkTNQ3Us7Jc" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T08:23:41.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="yySwVlYL_wAarYmx8sKs" version="20.3.0" type="github">
   <diagram id="RyOypk_LRAsxnf7cehFb" name="第 1 页">
     <mxGraphModel dx="328" dy="11" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -25,6 +25,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1823" y="1022" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="iCX3cISmmqJYiOSi0hr1-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.345;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iCX3cISmmqJYiOSi0hr1-9" target="iCX3cISmmqJYiOSi0hr1-53">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iCX3cISmmqJYiOSi0hr1-9" value="egret" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
           <mxGeometry x="1449" y="1324" width="160" height="60" as="geometry" />
@@ -140,6 +143,9 @@
         </mxCell>
         <mxCell id="iCX3cISmmqJYiOSi0hr1-54" value="行为树编辑" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="1288" y="1359" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="iCX3cISmmqJYiOSi0hr1-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iCX3cISmmqJYiOSi0hr1-10" target="iCX3cISmmqJYiOSi0hr1-54">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
