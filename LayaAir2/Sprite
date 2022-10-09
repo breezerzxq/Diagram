@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T12:20:02.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="CrajmqqPvJ1hfWsBOxdK" version="20.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-09T12:20:06.102Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="U6FQYukABYd8MWXAJuj0" version="20.3.0" type="github" pages="2">
   <diagram id="zfwy2uWJYWnZjwtDPjBV" name="Tranform">
     <mxGraphModel dx="1185" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -186,7 +186,7 @@
           <mxGeometry x="107" y="462.5" width="119" height="43" as="geometry" />
         </mxCell>
         <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-29" value="&lt;span style=&quot;&quot;&gt;是否有裁剪&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#02052A;" vertex="1" parent="1">
-          <mxGeometry x="131" y="344" width="78" height="26" as="geometry" />
+          <mxGeometry x="131" y="340.5" width="78" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
