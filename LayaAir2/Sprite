@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T11:50:36.298Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="VKvN2jidigD2ksasbp5H" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-09T11:51:43.712Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GKJ3r4cPnN3QaYqckcdp" version="20.3.0" type="github">
   <diagram id="zfwy2uWJYWnZjwtDPjBV" name="Tranform">
     <mxGraphModel dx="1185" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -66,6 +66,9 @@
             <mxPoint x="601" y="535" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="za2zdGqp7BlvP2-gXPTa-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="za2zdGqp7BlvP2-gXPTa-25" target="za2zdGqp7BlvP2-gXPTa-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="za2zdGqp7BlvP2-gXPTa-25" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;_transform&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="614" y="409" width="120" height="40" as="geometry" />
         </mxCell>
@@ -89,6 +92,9 @@
         </mxCell>
         <mxCell id="za2zdGqp7BlvP2-gXPTa-38" value="节点旋转，缩放，大小，裁切，需更新节点的矩阵信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="213.5" y="91" width="103" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="za2zdGqp7BlvP2-gXPTa-39" value="该矩阵不包括坐标" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="756" y="328" width="120" height="67" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
