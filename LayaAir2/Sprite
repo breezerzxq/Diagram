@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T12:08:39.298Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="G9yQPT0R6QAEatx2XILs" version="20.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-09T12:12:03.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="eGwT6tqeYjqyCiA1xLPq" version="20.3.0" type="github" pages="2">
   <diagram id="zfwy2uWJYWnZjwtDPjBV" name="Tranform">
     <mxGraphModel dx="1185" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -122,13 +122,26 @@
         <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-3" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;_point&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;setTo&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;mouseX&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;mouseY&lt;/span&gt;);&lt;/div&gt;&lt;div&gt;mouseX, mouseY =&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;sp&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;fromParentPoint&lt;/span&gt;(&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;_point&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontFamily=Helvetica;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="131" y="216" width="406" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;" edge="1" source="TJFSzhjGTLXw2WDZ9Fa6-3" parent="1">
+        <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="TJFSzhjGTLXw2WDZ9Fa6-3" parent="1" target="TJFSzhjGTLXw2WDZ9Fa6-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="351" y="371" as="targetPoint" />
+            <mxPoint x="334" y="371" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-6" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;将sp父容器坐标系坐标_point转换到sp本地坐标系。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="598" y="229.5" width="332" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-13" value="&lt;font color=&quot;#02052a&quot;&gt;是否有裁剪(has scrollRect)&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#FFFFFF;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="268" y="324" width="132" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-14" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FFFFFF;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;" edge="1" source="TJFSzhjGTLXw2WDZ9Fa6-13" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="503" y="357" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-15" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#FFFFFF;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;" edge="1" source="TJFSzhjGTLXw2WDZ9Fa6-13" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="335" y="459" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
