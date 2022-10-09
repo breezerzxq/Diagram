@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T11:54:34.079Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Sg1vUhejcBoZh8uBqh0I" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-09T11:56:35.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="uv1WRRdVYh6hqnBxurNr" version="20.3.0" type="github">
   <diagram id="zfwy2uWJYWnZjwtDPjBV" name="Tranform">
     <mxGraphModel dx="1185" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -98,6 +98,9 @@
         </mxCell>
         <mxCell id="za2zdGqp7BlvP2-gXPTa-39" value="该矩阵不包括坐标" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="756" y="328" width="133" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="za2zdGqp7BlvP2-gXPTa-44" value="矩阵也是先进行缩放，旋转再运用位移。所以这里的transform矩阵只应该用了width(height)，scale，skew。" style="text;html=1;strokeColor=#3A5431;fillColor=#6d8764;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="582" y="32" width="300" height="57" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
