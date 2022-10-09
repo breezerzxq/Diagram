@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T12:19:17.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GZzdJ8xQoZpo-h_tCGuN" version="20.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-09T12:20:02.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="CrajmqqPvJ1hfWsBOxdK" version="20.3.0" type="github" pages="2">
   <diagram id="zfwy2uWJYWnZjwtDPjBV" name="Tranform">
     <mxGraphModel dx="1185" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K4J9bfT6IfU4qf-6Al4Z" name="鼠标碰撞检测">
-    <mxGraphModel dx="677" dy="363" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="569" dy="305" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,8 +130,11 @@
         <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-6" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;将sp父容器坐标系坐标_point转换到sp本地坐标系。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="598" y="229.5" width="332" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-13" value="&lt;font color=&quot;#02052a&quot;&gt;是否有裁剪(has scrollRect)&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#FFFFFF;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="268" y="324" width="132" height="66" as="geometry" />
+        <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;" edge="1" parent="1" source="TJFSzhjGTLXw2WDZ9Fa6-13" target="TJFSzhjGTLXw2WDZ9Fa6-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-13" value="&lt;font color=&quot;#02052a&quot;&gt;has scrollRect&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#FFFFFF;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="279" y="333" width="110" height="41" as="geometry" />
         </mxCell>
         <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-14" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FFFFFF;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="TJFSzhjGTLXw2WDZ9Fa6-13" parent="1" target="TJFSzhjGTLXw2WDZ9Fa6-16">
           <mxGeometry x="-1" relative="1" as="geometry">
@@ -167,7 +170,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-24" value="is disableMouseEvent" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;" vertex="1" parent="1">
-          <mxGeometry x="262" y="467" width="138" height="34" as="geometry" />
+          <mxGeometry x="263" y="467" width="138" height="34" as="geometry" />
         </mxCell>
         <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-25" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;" edge="1" source="TJFSzhjGTLXw2WDZ9Fa6-24" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
@@ -181,6 +184,9 @@
         </mxCell>
         <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-27" value="是否禁用除 stage 以外的鼠标事件检测。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;" vertex="1" parent="1">
           <mxGeometry x="107" y="462.5" width="119" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-29" value="&lt;span style=&quot;&quot;&gt;是否有裁剪&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#02052A;" vertex="1" parent="1">
+          <mxGeometry x="131" y="344" width="78" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
