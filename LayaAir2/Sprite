@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T12:12:40.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="O5FIHDoqJi_KmBx1VHkx" version="20.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-09T12:13:32.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GqpajrOBAPIjjSYv03km" version="20.3.0" type="github" pages="2">
   <diagram id="zfwy2uWJYWnZjwtDPjBV" name="Tranform">
     <mxGraphModel dx="1185" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -133,7 +133,7 @@
         <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-13" value="&lt;font color=&quot;#02052a&quot;&gt;是否有裁剪(has scrollRect)&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#FFFFFF;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="268" y="324" width="132" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-14" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FFFFFF;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;" edge="1" source="TJFSzhjGTLXw2WDZ9Fa6-13" parent="1">
+        <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-14" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#FFFFFF;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="TJFSzhjGTLXw2WDZ9Fa6-13" parent="1" target="TJFSzhjGTLXw2WDZ9Fa6-16">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="503" y="357" as="targetPoint" />
           </mxGeometry>
@@ -141,6 +141,19 @@
         <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-15" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#FFFFFF;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;" edge="1" source="TJFSzhjGTLXw2WDZ9Fa6-13" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="334" y="429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-16" value="是否在裁剪范围内" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;rounded=1;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;" vertex="1" parent="1">
+          <mxGeometry x="460" y="337" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-17" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;" edge="1" source="TJFSzhjGTLXw2WDZ9Fa6-16" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="611" y="357" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-18" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;" edge="1" source="TJFSzhjGTLXw2WDZ9Fa6-16" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="500" y="424" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
