@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T02:53:22.140Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="HgJjnozl6wX5XXPzGgt_" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-10T02:55:04.583Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ckzqTKtmV2HvvYtXZVn7" version="20.4.0" type="github" pages="2">
   <diagram id="zfwy2uWJYWnZjwtDPjBV" name="Tranform">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -213,6 +213,9 @@
         <mxCell id="g99DlgfX6FP-GpY-wMkd-7" value="是否优先检测自身(还是子对象)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;" vertex="1" parent="1">
           <mxGeometry x="107" y="572.5" width="119" height="43" as="geometry" />
         </mxCell>
+        <mxCell id="g99DlgfX6FP-GpY-wMkd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#02052A;" edge="1" parent="1" source="g99DlgfX6FP-GpY-wMkd-9" target="g99DlgfX6FP-GpY-wMkd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="g99DlgfX6FP-GpY-wMkd-9" value="sp.mouseThrough" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#02052A;" vertex="1" parent="1">
           <mxGeometry x="438" y="575.5" width="120" height="40" as="geometry" />
         </mxCell>
@@ -223,8 +226,11 @@
         </mxCell>
         <mxCell id="g99DlgfX6FP-GpY-wMkd-11" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#02052A;" edge="1" source="g99DlgfX6FP-GpY-wMkd-9" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="525" y="672" as="targetPoint" />
+            <mxPoint x="498" y="669" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="g99DlgfX6FP-GpY-wMkd-12" value="是否可穿透" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;" vertex="1" parent="1">
+          <mxGeometry x="438.5" y="514" width="119" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
