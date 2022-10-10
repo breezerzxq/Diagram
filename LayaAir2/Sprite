@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T03:45:31.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="re0z-TQGglihr3ltumbb" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-10T04:02:55.975Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="p5nyZpqxYmMKPY1yaI7v" version="20.4.0" type="github" pages="2">
   <diagram id="zfwy2uWJYWnZjwtDPjBV" name="Tranform">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K4J9bfT6IfU4qf-6Al4Z" name="鼠标碰撞检测">
-    <mxGraphModel dx="813" dy="435" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -228,7 +228,7 @@
         <mxCell id="hbyo7ZtpQI49v91JhcAx-2" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;mouseThrough&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;boolean&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;false&lt;/span&gt;;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;鼠标事件与此对象的碰撞检测是否可穿透。碰撞检测发生在鼠标事件的捕获阶段，此阶段引擎会从stage开始递归检测stage及其子对象，直到找到命中的目标对象或者未命中任何对象。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;穿透表示鼠标事件发生的位置处于本对象绘图区域内时，才算命中，而与对象宽高和值为Rectangle对象的hitArea属性无关。如果sprite.hitArea值是HitArea对象，表示显式声明了此对象的鼠标事件响应区域，而忽略对象的宽高、mouseThrough属性。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;影响对象鼠标事件响应区域的属性为：width、height、hitArea，优先级顺序为：hitArea(type:HitArea)&amp;gt;hitArea(type:Rectangle)&amp;gt;width/height。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;@default&lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;false&lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;不可穿透，此对象的鼠标响应区域由width、height、hitArea属性决定。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#005700;fillColor=#008a00;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1185" y="261" width="717" height="235.5" as="geometry" />
         </mxCell>
-        <mxCell id="hbyo7ZtpQI49v91JhcAx-3" value="this.hitTest(sp,mouseX,mouseY)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#02052A;" vertex="1" parent="1">
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-3" value="this.hitTest(sp,mouseX,mouseY)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="588" y="570" width="206" height="51" as="geometry" />
         </mxCell>
         <mxCell id="hbyo7ZtpQI49v91JhcAx-4" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#02052A;" edge="1" source="hbyo7ZtpQI49v91JhcAx-3" parent="1" target="hbyo7ZtpQI49v91JhcAx-6">
@@ -323,7 +323,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hbyo7ZtpQI49v91JhcAx-34" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;check&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;child&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;mouseX&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;mouseY&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;callBack&lt;/span&gt;)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#02052A;" vertex="1" parent="1">
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-34" value="this.check(child, mouseX, mouseY, callBack)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1098" y="725" width="479" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hbyo7ZtpQI49v91JhcAx-35" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#02052A;" edge="1" source="hbyo7ZtpQI49v91JhcAx-34" parent="1" target="hbyo7ZtpQI49v91JhcAx-37">
