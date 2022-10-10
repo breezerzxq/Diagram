@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T02:59:37.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="qTxAFWZ6UQ8AiU4sZs1e" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-10T03:03:05.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="7G7j-DSucBZb8gG58S2O" version="20.4.0" type="github" pages="2">
   <diagram id="zfwy2uWJYWnZjwtDPjBV" name="Tranform">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K4J9bfT6IfU4qf-6Al4Z" name="鼠标碰撞检测">
-    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="813" dy="435" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -207,13 +207,11 @@
         <mxCell id="g99DlgfX6FP-GpY-wMkd-4" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;check&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;sp&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Sprite&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;mouseX&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;number&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;mouseY&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;number&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;callBack&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Function&lt;/span&gt;):&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;boolean&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="27.25" y="125" width="613.5" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.029;entryY=0.496;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#02052A;" edge="1" parent="1" source="g99DlgfX6FP-GpY-wMkd-9" target="hbyo7ZtpQI49v91JhcAx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="g99DlgfX6FP-GpY-wMkd-9" value="sp.mouseThrough" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#02052A;" vertex="1" parent="1">
           <mxGeometry x="438" y="575.5" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="g99DlgfX6FP-GpY-wMkd-10" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#02052A;" edge="1" source="g99DlgfX6FP-GpY-wMkd-9" parent="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="647" y="596" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="g99DlgfX6FP-GpY-wMkd-11" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#02052A;" edge="1" source="g99DlgfX6FP-GpY-wMkd-9" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
@@ -225,6 +223,25 @@
         </mxCell>
         <mxCell id="hbyo7ZtpQI49v91JhcAx-2" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;mouseThrough&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;boolean&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;false&lt;/span&gt;;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;鼠标事件与此对象的碰撞检测是否可穿透。碰撞检测发生在鼠标事件的捕获阶段，此阶段引擎会从stage开始递归检测stage及其子对象，直到找到命中的目标对象或者未命中任何对象。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;穿透表示鼠标事件发生的位置处于本对象绘图区域内时，才算命中，而与对象宽高和值为Rectangle对象的hitArea属性无关。如果sprite.hitArea值是HitArea对象，表示显式声明了此对象的鼠标事件响应区域，而忽略对象的宽高、mouseThrough属性。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;影响对象鼠标事件响应区域的属性为：width、height、hitArea，优先级顺序为：hitArea(type:HitArea)&amp;gt;hitArea(type:Rectangle)&amp;gt;width/height。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;@default&lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;false&lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;不可穿透，此对象的鼠标响应区域由width、height、hitArea属性决定。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#005700;fillColor=#008a00;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1185" y="261" width="717" height="235.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-3" value="this.hitTest(sp,mouseX,mouseY)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#02052A;" vertex="1" parent="1">
+          <mxGeometry x="588" y="570" width="206" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-4" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#02052A;" edge="1" source="hbyo7ZtpQI49v91JhcAx-3" parent="1" target="hbyo7ZtpQI49v91JhcAx-6">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="986" y="598" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-5" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#02052A;" edge="1" source="hbyo7ZtpQI49v91JhcAx-3" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="691" y="681" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-6" value="return false" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="834" y="576.5" width="78" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-8" value="遍历sp.children" style="html=1;fontColor=#02052A;" vertex="1" parent="1">
+          <mxGeometry x="443" y="718" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
