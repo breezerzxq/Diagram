@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T02:31:03.830Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="TnrXwF3PNShDI9UJ-3TA" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-10T02:32:33.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="EwbGVVylW_JhB3J2YEDH" version="20.4.0" type="github" pages="2">
   <diagram id="zfwy2uWJYWnZjwtDPjBV" name="Tranform">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -187,6 +187,19 @@
         </mxCell>
         <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-29" value="&lt;span style=&quot;&quot;&gt;是否有裁剪&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#02052A;" parent="1" vertex="1">
           <mxGeometry x="131" y="340.5" width="78" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="g99DlgfX6FP-GpY-wMkd-1" value="&lt;font color=&quot;#02052a&quot;&gt;Condition&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="292" y="587" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g99DlgfX6FP-GpY-wMkd-2" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="g99DlgfX6FP-GpY-wMkd-1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="472" y="607" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g99DlgfX6FP-GpY-wMkd-3" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="g99DlgfX6FP-GpY-wMkd-1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="332" y="687" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
