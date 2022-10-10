@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T07:16:51.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="WPKvvcu6sNRSpYwL5gN2" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-10T07:20:18.225Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="jN00qVVJgVaR8m4jUZPc" version="20.4.0" type="github" pages="2">
   <diagram id="zfwy2uWJYWnZjwtDPjBV" name="Tranform">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K4J9bfT6IfU4qf-6Al4Z" name="鼠标碰撞检测">
-    <mxGraphModel dx="813" dy="435" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -349,8 +349,33 @@
             <mxPoint x="498" y="870" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#02052A;" edge="1" parent="1" source="hbyo7ZtpQI49v91JhcAx-41" target="hbyo7ZtpQI49v91JhcAx-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hbyo7ZtpQI49v91JhcAx-41" value="检查sp自身" style="html=1;fontColor=#02052A;" vertex="1" parent="1">
           <mxGeometry x="443" y="852" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-42" value="this.hitTest(sp,mouseX,mouseY)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="395" y="933" width="206" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-45" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#02052A;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hbyo7ZtpQI49v91JhcAx-42" target="hbyo7ZtpQI49v91JhcAx-47">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="670" y="959" as="targetPoint" />
+            <mxPoint x="623.9422969187672" y="965.5142857142857" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-46" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#02052A;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hbyo7ZtpQI49v91JhcAx-42" target="hbyo7ZtpQI49v91JhcAx-48">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="498" y="1039" as="targetPoint" />
+            <mxPoint x="491" y="1001" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-47" value="return false" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="640.75" y="939" width="78" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-48" value="return true" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="459" y="1021" width="78" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
