@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T02:33:56.309Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="INqExYJJzngCn2TCE3vh" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-10T02:37:21.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="A9dTF3m7kA3SLRIZIjD7" version="20.4.0" type="github" pages="2">
   <diagram id="zfwy2uWJYWnZjwtDPjBV" name="Tranform">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K4J9bfT6IfU4qf-6Al4Z" name="鼠标碰撞检测">
-    <mxGraphModel dx="1185" dy="635" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="677" dy="363" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -177,7 +177,7 @@
             <mxPoint x="483" y="484" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-26" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;" parent="1" source="TJFSzhjGTLXw2WDZ9Fa6-24" edge="1">
+        <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-26" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TJFSzhjGTLXw2WDZ9Fa6-24" edge="1" target="g99DlgfX6FP-GpY-wMkd-1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="332" y="566" as="targetPoint" />
           </mxGeometry>
@@ -188,8 +188,11 @@
         <mxCell id="TJFSzhjGTLXw2WDZ9Fa6-29" value="&lt;span style=&quot;&quot;&gt;是否有裁剪&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=#02052A;" parent="1" vertex="1">
           <mxGeometry x="131" y="340.5" width="78" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="g99DlgfX6FP-GpY-wMkd-1" value="&lt;font color=&quot;#02052a&quot;&gt;Condition&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="292" y="587" width="80" height="40" as="geometry" />
+        <mxCell id="g99DlgfX6FP-GpY-wMkd-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#02052A;" edge="1" parent="1" source="g99DlgfX6FP-GpY-wMkd-1" target="g99DlgfX6FP-GpY-wMkd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g99DlgfX6FP-GpY-wMkd-1" value="&lt;font color=&quot;#02052a&quot;&gt;is hitTestPrior&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="292" y="574" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="g99DlgfX6FP-GpY-wMkd-2" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="g99DlgfX6FP-GpY-wMkd-1" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
@@ -206,6 +209,9 @@
         </mxCell>
         <mxCell id="g99DlgfX6FP-GpY-wMkd-4" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;check&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;sp&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Sprite&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;mouseX&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;number&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;mouseY&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;number&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;callBack&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Function&lt;/span&gt;):&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;boolean&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="27.25" y="125" width="613.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g99DlgfX6FP-GpY-wMkd-7" value="是否优先检测自身(还是子对象)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;" vertex="1" parent="1">
+          <mxGeometry x="107" y="572.5" width="119" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
