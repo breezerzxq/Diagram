@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T07:48:14.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="TLFAcmAPpKrdXf69u4QE" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-10T07:55:52.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="1J3kGbx-YfUbZdcbl9jc" version="20.4.0" type="github" pages="2">
   <diagram id="zfwy2uWJYWnZjwtDPjBV" name="Tranform">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="K4J9bfT6IfU4qf-6Al4Z" name="鼠标碰撞检测">
-    <mxGraphModel dx="1185" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -392,11 +392,44 @@
         <mxCell id="hbyo7ZtpQI49v91JhcAx-51" value="return true" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="551" y="1112" width="78" height="39" as="geometry" />
         </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#02052A;" edge="1" parent="1" source="hbyo7ZtpQI49v91JhcAx-52" target="hbyo7ZtpQI49v91JhcAx-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hbyo7ZtpQI49v91JhcAx-52" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;hitTest&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;sp&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Sprite&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;mouseX&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;number&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;mouseY&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;number&lt;/span&gt;):&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;boolean&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#FF3333;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1188" y="875" width="488" height="50" as="geometry" />
+          <mxGeometry x="1198" y="918" width="488" height="50" as="geometry" />
         </mxCell>
         <mxCell id="hbyo7ZtpQI49v91JhcAx-53" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;&quot;&gt;hitTest：检查坐标点(sp本地坐标系)是否在sp对象上。参数mouseX &amp;amp; mouseY的坐标系是sp本地坐标系。&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#005700;fillColor=#008a00;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1908" y="842" width="362" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-58" value="sp.mouseThrough" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#02052A;" vertex="1" parent="1">
+          <mxGeometry x="1376" y="1042" width="132" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-59" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#02052A;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="hbyo7ZtpQI49v91JhcAx-58" parent="1" target="hbyo7ZtpQI49v91JhcAx-62">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1582" y="1063" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-60" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#02052A;" edge="1" source="hbyo7ZtpQI49v91JhcAx-58" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1442" y="1143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#02052A;" edge="1" parent="1" source="hbyo7ZtpQI49v91JhcAx-62" target="hbyo7ZtpQI49v91JhcAx-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-62" value="按照宽高计算点击区域，宽高外可穿透" style="html=1;fontColor=#02052A;" vertex="1" parent="1">
+          <mxGeometry x="1548" y="1045.25" width="246" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-64" value="isHit = (hitArea ? hitArea : this._rect.setTo(0, 0, sp.width, sp.height)).contains(mouseX, mouseY);" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1829" y="1034" width="293" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-65" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#02052A;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="hbyo7ZtpQI49v91JhcAx-64" parent="1" target="hbyo7ZtpQI49v91JhcAx-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1975" y="1129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-67" value="return isHit" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1936.5" y="1142" width="78" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
