@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T08:30:11.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="7b1yJdiS454VNigtZp4O" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-10T08:30:44.613Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="o5Lv34qn9zT07E7YSq7m" version="20.4.0" type="github" pages="2">
   <diagram id="zfwy2uWJYWnZjwtDPjBV" name="Tranform">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -436,11 +436,11 @@
             <mxPoint x="1442" y="1269" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hbyo7ZtpQI49v91JhcAx-72" value="按graphics绘制区域计算鼠标碰撞区域，碰撞区内不可穿透，没有graphics绘制图形的才可以穿透" style="html=1;fontColor=#02052A;" vertex="1" parent="1">
-          <mxGeometry x="1185" y="1162" width="516" height="32" as="geometry" />
+        <mxCell id="hbyo7ZtpQI49v91JhcAx-72" value="按graphics绘制区域计算鼠标碰撞区域，即按照对象实际大小来判断" style="html=1;fontColor=#02052A;" vertex="1" parent="1">
+          <mxGeometry x="1259" y="1157" width="366" height="32" as="geometry" />
         </mxCell>
         <mxCell id="hbyo7ZtpQI49v91JhcAx-76" value="isHit = sp.getGraphicBounds().contains(mouseX, mouseY);" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="1277.75" y="1269" width="330.5" height="59" as="geometry" />
+          <mxGeometry x="1276.75" y="1263" width="330.5" height="59" as="geometry" />
         </mxCell>
         <mxCell id="hbyo7ZtpQI49v91JhcAx-77" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#02052A;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hbyo7ZtpQI49v91JhcAx-76" target="hbyo7ZtpQI49v91JhcAx-78">
           <mxGeometry relative="1" as="geometry">
@@ -448,7 +448,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hbyo7ZtpQI49v91JhcAx-78" value="return isHit" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=#02052A;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1404" y="1371" width="78" height="39" as="geometry" />
+          <mxGeometry x="1403" y="1363" width="78" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
