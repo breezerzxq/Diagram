@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T12:42:44.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="d3CJ5nK8qSvahwygAQTu" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T12:44:06.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="a0FmGfGk5waASyYUR3Ig" version="20.4.0" type="github">
   <diagram id="h1tNBSuD1bcVy_GLsnbA" name="sound base">
     <mxGraphModel dx="677" dy="379" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -45,8 +45,19 @@
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-13" value="创建http请求，请求加载。&lt;br&gt;标记资源正在loading。" style="html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;align=left;" vertex="1" parent="1">
           <mxGeometry x="208.75" y="405" width="146" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#33001A;" edge="1" parent="1" source="vsVCTycP6Kz5JZ55F8mK-17" target="vsVCTycP6Kz5JZ55F8mK-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-17" value="该资源loading标志取消。" style="html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;align=left;" vertex="1" parent="1">
           <mxGeometry x="430" y="485" width="146" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-18" value="抛出音频资源加载完成的消息" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="443" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#33001A;" edge="1" source="vsVCTycP6Kz5JZ55F8mK-18" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519" y="658" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
