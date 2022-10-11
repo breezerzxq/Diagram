@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T12:41:40.785Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4C_3WSZhCuZ7JrK7QUPm" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T12:42:35.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="on7GBY1wNxgO3f1la93J" version="20.4.0" type="github">
   <diagram id="h1tNBSuD1bcVy_GLsnbA" name="sound base">
     <mxGraphModel dx="677" dy="379" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-10" value="监听音频资源是否load完成" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#33001A;" vertex="1" parent="1">
           <mxGeometry x="204.75" y="490" width="154" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vsVCTycP6Kz5JZ55F8mK-11" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#33001A;" edge="1" source="vsVCTycP6Kz5JZ55F8mK-10" parent="1">
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-11" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#33001A;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="vsVCTycP6Kz5JZ55F8mK-10" parent="1" target="vsVCTycP6Kz5JZ55F8mK-17">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="424" y="510" as="targetPoint" />
           </mxGeometry>
@@ -44,6 +44,9 @@
         </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-13" value="创建http请求，请求加载。&lt;br&gt;标记资源正在loading。" style="html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;align=left;" vertex="1" parent="1">
           <mxGeometry x="208.75" y="405" width="146" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-17" value="该资源loading标志取消" style="html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="430" y="485" width="146" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
