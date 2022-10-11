@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T12:54:47.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="91UQv6OnQuW1-28Mf_Bv" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T12:55:13.647Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="unjtHMKJZxdnysu5ogX0" version="20.4.0" type="github">
   <diagram id="h1tNBSuD1bcVy_GLsnbA" name="sound base">
     <mxGraphModel dx="1185" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -94,7 +94,7 @@
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-31" value="请求加载" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="210" y="423" width="191" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="vsVCTycP6Kz5JZ55F8mK-36" value="soundChannel是否有音频资源" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;rounded=0;fontColor=#33001A;" vertex="1" parent="1">
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-36" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;soundChannel是否有音频资源&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;rounded=0;fontColor=#33001A;" vertex="1" parent="1">
           <mxGeometry x="46" y="476" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-37" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#33001A;" edge="1" source="vsVCTycP6Kz5JZ55F8mK-36" parent="1" target="vsVCTycP6Kz5JZ55F8mK-42">
