@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T12:54:21.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ZwT-ovgb8LEMkKkWETn5" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T12:54:47.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="91UQv6OnQuW1-28Mf_Bv" version="20.4.0" type="github">
   <diagram id="h1tNBSuD1bcVy_GLsnbA" name="sound base">
     <mxGraphModel dx="1185" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -79,20 +79,20 @@
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#33001A;" edge="1" parent="1" source="vsVCTycP6Kz5JZ55F8mK-28" target="vsVCTycP6Kz5JZ55F8mK-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vsVCTycP6Kz5JZ55F8mK-28" value="将声音参数(startTime,loops,soundChannel)。添加到待播放队列中" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="210" y="260.5" width="240" height="47" as="geometry" />
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-28" value="soundChannel添加到待播放队列中" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="260.5" width="192" height="47" as="geometry" />
         </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" edge="1" parent="1" source="vsVCTycP6Kz5JZ55F8mK-29" target="vsVCTycP6Kz5JZ55F8mK-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-29" value="注册声音资源加载完毕的回调" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="210" y="344" width="240" height="47" as="geometry" />
+          <mxGeometry x="210" y="344" width="192" height="47" as="geometry" />
         </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#33001A;" edge="1" parent="1" source="vsVCTycP6Kz5JZ55F8mK-31" target="vsVCTycP6Kz5JZ55F8mK-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-31" value="请求加载" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="210" y="423" width="240" height="47" as="geometry" />
+          <mxGeometry x="210" y="423" width="191" height="47" as="geometry" />
         </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-36" value="soundChannel是否有音频资源" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;rounded=0;fontColor=#33001A;" vertex="1" parent="1">
           <mxGeometry x="46" y="476" width="130" height="40" as="geometry" />
