@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T12:52:07.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dFhzTawAuStA8xBVRUAh" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T12:53:46.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="AvCLDqE1tFXdNV6dIrnx" version="20.4.0" type="github">
   <diagram id="h1tNBSuD1bcVy_GLsnbA" name="sound base">
-    <mxGraphModel dx="981" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-6" value="return" style="html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="799" y="313" width="110" height="50" as="geometry" />
+          <mxGeometry x="791" y="327" width="53" height="22" as="geometry" />
         </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-10" value="监听音频资源是否load完成" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#33001A;" vertex="1" parent="1">
           <mxGeometry x="584.75" y="500" width="154" height="40" as="geometry" />
@@ -65,7 +65,7 @@
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-21" value="请求播放声音" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="38.5" y="159" width="145" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vsVCTycP6Kz5JZ55F8mK-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" edge="1" parent="1" source="vsVCTycP6Kz5JZ55F8mK-24" target="vsVCTycP6Kz5JZ55F8mK-34">
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" edge="1" parent="1" source="vsVCTycP6Kz5JZ55F8mK-24" target="vsVCTycP6Kz5JZ55F8mK-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-24" value="是否已有声音资源" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;rounded=0;fontColor=#33001A;" vertex="1" parent="1">
@@ -94,8 +94,27 @@
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-31" value="请求加载" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="210" y="423" width="240" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="vsVCTycP6Kz5JZ55F8mK-34" value="soundChannel请求播放" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="33" y="493" width="156" height="47" as="geometry" />
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-36" value="soundChannel是否有音频资源" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;rounded=0;fontColor=#33001A;" vertex="1" parent="1">
+          <mxGeometry x="46" y="476" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-37" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#33001A;" edge="1" source="vsVCTycP6Kz5JZ55F8mK-36" parent="1" target="vsVCTycP6Kz5JZ55F8mK-42">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="298" y="496" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-38" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#33001A;" edge="1" source="vsVCTycP6Kz5JZ55F8mK-36" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="111" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#33001A;" edge="1" parent="1" source="vsVCTycP6Kz5JZ55F8mK-39" target="vsVCTycP6Kz5JZ55F8mK-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-39" value="soundChannel请求播放" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="42.5" y="363" width="137" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-42" value="return" style="html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="233" y="482.5" width="50" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
