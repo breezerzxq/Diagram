@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-11T12:37:30.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RNufVAXr2cQ-LnNsniVk" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-11T12:40:16.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="e-yD8hd6NNEkXZ8q3vpL" version="20.4.0" type="github">
   <diagram id="h1tNBSuD1bcVy_GLsnbA" name="sound base">
-    <mxGraphModel dx="1185" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="569" dy="318" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,13 +23,32 @@
             <mxPoint x="463" y="328" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vsVCTycP6Kz5JZ55F8mK-5" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="vsVCTycP6Kz5JZ55F8mK-3" parent="1">
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-5" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="vsVCTycP6Kz5JZ55F8mK-3" parent="1" target="vsVCTycP6Kz5JZ55F8mK-13">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="298" y="497" as="targetPoint" />
+            <mxPoint x="281" y="425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-6" value="return" style="html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="419" y="303" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-10" value="监听音频资源是否load完成" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#33001A;" vertex="1" parent="1">
+          <mxGeometry x="204.75" y="490" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-11" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#33001A;" edge="1" source="vsVCTycP6Kz5JZ55F8mK-10" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="424" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-12" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#33001A;" edge="1" source="vsVCTycP6Kz5JZ55F8mK-10" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="282" y="589" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#33001A;" edge="1" parent="1" source="vsVCTycP6Kz5JZ55F8mK-13" target="vsVCTycP6Kz5JZ55F8mK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-13" value="创建http请求，请求加载。&lt;br&gt;标记资源正在loading。" style="html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="208.75" y="405" width="146" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
