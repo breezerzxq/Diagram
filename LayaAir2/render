@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T13:15:07.122Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="IRMUGeb8mCoBqN5Dacsn" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-12T13:15:44.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xoXTGMTJOfCF7W5jIVP0" version="20.4.0" type="github" pages="2">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1422" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -106,42 +106,45 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AiTBq8JdRd2yI-qHGuWI" name="Graphics">
-    <mxGraphModel dx="981" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-10" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#ffffff;fillColor=#6d8764;strokeColor=#3A5431;" vertex="1" parent="1">
-          <mxGeometry x="253.5" y="122" width="279.5" height="119" as="geometry" />
-        </mxCell>
         <mxCell id="Nj5wOmc6HKNC7nkiZqjY-1" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;*&amp;nbsp;&amp;lt;code&amp;gt;Graphics&amp;lt;/code&amp;gt;&amp;nbsp;类用于创建绘图显示对象。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;*&amp;nbsp;Graphics可以同时绘制多个位图或者矢量图，还可以结合save，restore，transform，scale，rotate，translate，alpha等指令对绘图效果进行变化。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;*&amp;nbsp;Graphics以命令流方式存储，可以通过cmds属性访问所有命令流。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;*&amp;nbsp;Graphics是比Sprite更轻量级的对象，合理使用能提高应用性能(比如把大量的节点绘图改为一个节点的Graphics命令集合，能减少大量节点创建消耗)。&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=solid;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="12" y="24" width="996" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-3" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Graphics&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillStyle=solid;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="364" y="132" width="77" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=5;fontColor=#FFFFFF;" edge="1" parent="1" source="Nj5wOmc6HKNC7nkiZqjY-4" target="Nj5wOmc6HKNC7nkiZqjY-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-4" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;AutoBitmap&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillStyle=solid;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="304" y="206" width="83" height="23" as="geometry" />
-        </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#FFFFFF;" edge="1" parent="1" source="Nj5wOmc6HKNC7nkiZqjY-5" target="Nj5wOmc6HKNC7nkiZqjY-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-5" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;GraphicsAni&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillStyle=solid;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="417" y="206" width="89" height="24" as="geometry" />
-        </mxCell>
         <mxCell id="Nj5wOmc6HKNC7nkiZqjY-6" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;AutoBitmap&lt;/h1&gt;&lt;p&gt;需要显示图片的组件，均封装了AutoBitmap实例。比如Button,Clip,FontClip,Image，均分封装了AutoBitmap实例，从而实现显示图片。&lt;/p&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;perimeterSpacing=0;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="12" y="252" width="199" height="121" as="geometry" />
-        </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-11" value="继承关系" style="text;html=1;strokeColor=#005700;fillColor=#008a00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="257" y="125" width="60" height="30" as="geometry" />
+          <mxGeometry x="432" y="122" width="199" height="121" as="geometry" />
         </mxCell>
         <mxCell id="Nj5wOmc6HKNC7nkiZqjY-12" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;Graphics&lt;/h1&gt;&lt;p&gt;提供了绘制矢量图的接口，Sprite通过封装了Graphics实例，从而通过sprite.graphics.drawXXX()可以实现绘制矢量图的功能&lt;/p&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;perimeterSpacing=0;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="12" y="382" width="199" height="121" as="geometry" />
+          <mxGeometry x="222" y="122" width="199" height="121" as="geometry" />
         </mxCell>
         <mxCell id="Nj5wOmc6HKNC7nkiZqjY-13" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;Graphics&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 5px; font-weight: 400;&quot;&gt;提供了绘制多个位图的功能。但是比Sprite更轻量级。&lt;/p&gt;&lt;p style=&quot;font-size: 5px; font-weight: 400;&quot;&gt;比如AutoBitmap就是继承Graphics，来实现绘制位图(&amp;amp;九宫格位图)的功能。&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;perimeterSpacing=0;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
           <mxGeometry x="12" y="122" width="199" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="663.5" y="122" width="279.5" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-10" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#ffffff;fillColor=#6d8764;strokeColor=#3A5431;" vertex="1" parent="Nj5wOmc6HKNC7nkiZqjY-14">
+          <mxGeometry width="279.5" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-3" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Graphics&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillStyle=solid;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="Nj5wOmc6HKNC7nkiZqjY-14">
+          <mxGeometry x="110.5" y="10" width="77" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=5;fontColor=#FFFFFF;" edge="1" parent="Nj5wOmc6HKNC7nkiZqjY-14" source="Nj5wOmc6HKNC7nkiZqjY-4" target="Nj5wOmc6HKNC7nkiZqjY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-4" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;AutoBitmap&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillStyle=solid;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="Nj5wOmc6HKNC7nkiZqjY-14">
+          <mxGeometry x="50.5" y="84" width="83" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#FFFFFF;" edge="1" parent="Nj5wOmc6HKNC7nkiZqjY-14" source="Nj5wOmc6HKNC7nkiZqjY-5" target="Nj5wOmc6HKNC7nkiZqjY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-5" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;GraphicsAni&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillStyle=solid;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="Nj5wOmc6HKNC7nkiZqjY-14">
+          <mxGeometry x="163.5" y="84" width="89" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-11" value="继承关系" style="text;html=1;strokeColor=#005700;fillColor=#008a00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#ffffff;" vertex="1" parent="Nj5wOmc6HKNC7nkiZqjY-14">
+          <mxGeometry x="3.5" y="3" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
