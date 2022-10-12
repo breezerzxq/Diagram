@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T03:10:25.788Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="kBu_49i302VoIUP5Kxtd" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-12T03:10:58.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4h_GiPMK46tIvP0goxhQ" version="20.4.0" type="github">
   <diagram id="h1tNBSuD1bcVy_GLsnbA" name="sound base">
-    <mxGraphModel dx="1497" dy="2492" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#DAD2D8" math="0" shadow="0">
+    <mxGraphModel dx="1497" dy="2492" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vY6L8mhXFMwVROUl1KFY-28" value="" style="whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+        <mxCell id="vY6L8mhXFMwVROUl1KFY-28" value="" style="whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="11" y="-803" width="491" height="311" as="geometry" />
         </mxCell>
         <mxCell id="ReaAy63B6jtKjwbNqlwA-1" value="&lt;h1&gt;Sound &amp;amp; SoundChannel&lt;/h1&gt;&lt;p&gt;Sound：主要是处理加载指定url，并解码，保存音频arraybuff数据。&lt;/p&gt;&lt;p&gt;SoundChannel：可以创建多个SoundChannel来引用同一个Sound，从而获取需要播放的音频arraybuff数据。不同soundChannel实例可以独立控制其volume，loop，startTime&lt;/p&gt;" style="text;html=1;strokeColor=#0F8B8D;fillColor=#FAE5C7;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;fontColor=#143642;" parent="1" vertex="1">
