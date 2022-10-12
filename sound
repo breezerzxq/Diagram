@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T03:11:46.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="m-uzJ30wDIFqR2eVrLyY" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-12T03:11:58.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="HGmsVmf7TF-aS2c9P2OP" version="20.4.0" type="github">
   <diagram id="h1tNBSuD1bcVy_GLsnbA" name="sound base">
     <mxGraphModel dx="1497" dy="2492" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -65,7 +65,7 @@
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-27" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#143642;rounded=0;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;" parent="1" source="vsVCTycP6Kz5JZ55F8mK-21" target="vY6L8mhXFMwVROUl1KFY-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vsVCTycP6Kz5JZ55F8mK-21" value="请求播放声音（返回soundChannel）" style="whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;" parent="1" vertex="1">
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-21" value="请求播放声音（返回soundChannel实例）" style="whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;" parent="1" vertex="1">
           <mxGeometry x="105.5" y="-544" width="119.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-40" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#143642;rounded=0;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;" parent="1" source="vsVCTycP6Kz5JZ55F8mK-24" target="vsVCTycP6Kz5JZ55F8mK-39" edge="1">
