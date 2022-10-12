@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T07:31:50.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3mPxfYpAVraOrliS0VSe" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-12T07:32:11.256Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="JuyDs2qinZzY9LBMfE84" version="20.4.0" type="github">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="第 1 页">
     <mxGraphModel dx="981" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -33,26 +33,35 @@
         <mxCell id="aEti-XBkVmwji3XyCAgu-7" value="CallLater.I._update();&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="330" y="251" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="aEti-XBkVmwji3XyCAgu-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="aEti-XBkVmwji3XyCAgu-10" target="aEti-XBkVmwji3XyCAgu-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aEti-XBkVmwji3XyCAgu-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="aEti-XBkVmwji3XyCAgu-10" target="aEti-XBkVmwji3XyCAgu-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aEti-XBkVmwji3XyCAgu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="aEti-XBkVmwji3XyCAgu-10" target="aEti-XBkVmwji3XyCAgu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="aEti-XBkVmwji3XyCAgu-10" value="&lt;div&gt;渲染&lt;/div&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="161" y="336" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aEti-XBkVmwji3XyCAgu-11" value="&lt;div&gt;更新各种定时器&lt;/div&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="161" y="386" width="120" height="30" as="geometry" />
+          <mxGeometry x="161" y="446" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aEti-XBkVmwji3XyCAgu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="aEti-XBkVmwji3XyCAgu-15" target="aEti-XBkVmwji3XyCAgu-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aEti-XBkVmwji3XyCAgu-15" value="&lt;div&gt;清空缓存区&lt;/div&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="311" y="326" width="120" height="30" as="geometry" />
+          <mxGeometry x="331" y="326" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aEti-XBkVmwji3XyCAgu-16" value="contex.clear()" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="487" y="321" width="120" height="40" as="geometry" />
+          <mxGeometry x="507" y="321" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aEti-XBkVmwji3XyCAgu-20" value="搜集绘制指令并绘制到缓冲区" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="311" y="376" width="160" height="30" as="geometry" />
+          <mxGeometry x="331" y="376" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aEti-XBkVmwji3XyCAgu-21" value="刷新缓冲区，即把缓冲区绘制的内容绘制到画面上" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="311" y="416" width="268" height="30" as="geometry" />
+          <mxGeometry x="331" y="416" width="268" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
