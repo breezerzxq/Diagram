@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T02:37:03.292Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nhAOoxYoAkdvx8uztFSA" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-12T02:40:18.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="QUx5UrcB8wtEEIOSRjKE" version="20.4.0" type="github">
   <diagram id="h1tNBSuD1bcVy_GLsnbA" name="sound base">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -69,9 +69,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-24" value="是否已有声音资源" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;rounded=0;fontColor=#33001A;" parent="1" vertex="1">
-          <mxGeometry x="59" y="264" width="104" height="40" as="geometry" />
+          <mxGeometry x="64.5" y="230" width="93" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="vsVCTycP6Kz5JZ55F8mK-25" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#33001A;" parent="1" source="vsVCTycP6Kz5JZ55F8mK-24" target="vsVCTycP6Kz5JZ55F8mK-28" edge="1">
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-25" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontColor=#33001A;" parent="1" source="vsVCTycP6Kz5JZ55F8mK-24" target="vY6L8mhXFMwVROUl1KFY-1" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="252" y="285" as="targetPoint" />
           </mxGeometry>
@@ -141,6 +141,25 @@
         </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-47" value="遍历待播放soundChannel列表，进行soundChannel播放" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="611.25" y="736" width="157.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vY6L8mhXFMwVROUl1KFY-1" value="是否指定soundChannel实例" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#33001A;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="208" y="239.5" width="87" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="vY6L8mhXFMwVROUl1KFY-2" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="vY6L8mhXFMwVROUl1KFY-1" parent="1" target="vsVCTycP6Kz5JZ55F8mK-28">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="343" y="284" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vY6L8mhXFMwVROUl1KFY-3" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="vY6L8mhXFMwVROUl1KFY-1" parent="1" target="vY6L8mhXFMwVROUl1KFY-4">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="282" y="418" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vY6L8mhXFMwVROUl1KFY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="vY6L8mhXFMwVROUl1KFY-4" target="vsVCTycP6Kz5JZ55F8mK-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vY6L8mhXFMwVROUl1KFY-4" value="创建一个soundChannel实例" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="194" y="363" width="115" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
