@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T12:15:34.522Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ez8AQn6DoJwmA8_k6y9b" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-12T12:15:58.059Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dtpW1HLOx07uTE1MonsQ" version="20.4.0" type="github" pages="2">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1422" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AiTBq8JdRd2yI-qHGuWI" name="Graphics">
-    <mxGraphModel dx="813" dy="455" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,8 +128,8 @@
         <mxCell id="Nj5wOmc6HKNC7nkiZqjY-5" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;GraphicsAni&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillStyle=solid;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="139" y="332" width="89" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-6" value="&lt;h1&gt;AutoBitmap&lt;/h1&gt;&lt;p&gt;需要显示图片的组件，均封装了AutoBitmap实例。比如Button,Clip,FontClip,Image，均分封装了AutoBitmap实例，从而实现显示图片。&lt;/p&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;perimeterSpacing=0;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="12" y="122" width="185" height="91" as="geometry" />
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-6" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;AutoBitmap&lt;/h1&gt;&lt;p&gt;需要显示图片的组件，均封装了AutoBitmap实例。比如Button,Clip,FontClip,Image，均分封装了AutoBitmap实例，从而实现显示图片。&lt;/p&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;perimeterSpacing=0;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="12" y="122" width="199" height="121" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
