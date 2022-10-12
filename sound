@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-12T03:19:45.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="R2cAtnuG22FUFtowcw2r" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-12T03:20:19.681Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5VD1QsnfIfdEso_yJ8Uw" version="20.4.0" type="github">
   <diagram id="h1tNBSuD1bcVy_GLsnbA" name="sound base">
-    <mxGraphModel dx="1497" dy="2492" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="2346" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,7 +57,7 @@
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-18" value="抛出音频资源加载完成的消息" style="whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;" parent="1" vertex="1">
           <mxGeometry x="911.5" y="-492" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vsVCTycP6Kz5JZ55F8mK-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#A8201A;fontColor=#143642;rounded=0;labelBackgroundColor=#DAD2D8;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vsVCTycP6Kz5JZ55F8mK-18" target="vY6L8mhXFMwVROUl1KFY-34" edge="1">
+        <mxCell id="vsVCTycP6Kz5JZ55F8mK-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=middle;endArrow=classic;endSize=8;strokeColor=#A8201A;fontColor=#143642;rounded=0;labelBackgroundColor=default;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;fillColor=#FAE5C7;" parent="1" source="vsVCTycP6Kz5JZ55F8mK-18" target="vY6L8mhXFMwVROUl1KFY-34" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="720" y="-269" as="targetPoint" />
           </mxGeometry>
@@ -86,7 +86,7 @@
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-30" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#143642;rounded=0;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;" parent="1" source="vsVCTycP6Kz5JZ55F8mK-28" target="vsVCTycP6Kz5JZ55F8mK-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vY6L8mhXFMwVROUl1KFY-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="vsVCTycP6Kz5JZ55F8mK-28" target="vY6L8mhXFMwVROUl1KFY-34">
+        <mxCell id="vY6L8mhXFMwVROUl1KFY-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;dashed=1;" edge="1" parent="1" source="vsVCTycP6Kz5JZ55F8mK-28" target="vY6L8mhXFMwVROUl1KFY-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-28" value="soundChannel添加到待播放队列中" style="whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;" parent="1" vertex="1">
@@ -95,7 +95,7 @@
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-32" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#143642;rounded=0;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;" parent="1" source="vsVCTycP6Kz5JZ55F8mK-29" target="vsVCTycP6Kz5JZ55F8mK-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vY6L8mhXFMwVROUl1KFY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="vsVCTycP6Kz5JZ55F8mK-29" target="vY6L8mhXFMwVROUl1KFY-34">
+        <mxCell id="vY6L8mhXFMwVROUl1KFY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;dashed=1;" edge="1" parent="1" source="vsVCTycP6Kz5JZ55F8mK-29" target="vY6L8mhXFMwVROUl1KFY-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vsVCTycP6Kz5JZ55F8mK-29" value="注册声音资源加载完毕的回调" style="whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;" parent="1" vertex="1">
