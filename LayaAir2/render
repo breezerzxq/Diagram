@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T06:16:30.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="pd1KO-GcgHhNbmIaeH9a" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-13T06:19:30.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="-1ei_WhRCw1eXChv824W" version="20.4.0" type="github" pages="3">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1498" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -114,7 +114,7 @@
           <mxGeometry x="12" y="16" width="996" height="83" as="geometry" />
         </mxCell>
         <mxCell id="Nj5wOmc6HKNC7nkiZqjY-6" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;AutoBitmap&lt;/h1&gt;&lt;p&gt;需要显示图片的组件，均封装了AutoBitmap实例。比如Button,Clip,FontClip,Image，均分封装了AutoBitmap实例，从而实现显示图片。&lt;/p&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;perimeterSpacing=0;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
-          <mxGeometry x="905" y="292" width="199" height="121" as="geometry" />
+          <mxGeometry x="474" y="122" width="199" height="121" as="geometry" />
         </mxCell>
         <mxCell id="Nj5wOmc6HKNC7nkiZqjY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#FFFFFF;" parent="1" source="Nj5wOmc6HKNC7nkiZqjY-12" target="Nj5wOmc6HKNC7nkiZqjY-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -123,7 +123,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Nj5wOmc6HKNC7nkiZqjY-12" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;Graphics&lt;/h1&gt;&lt;p&gt;提供了绘制矢量图的接口，Sprite通过封装了Graphics实例，从而通过sprite.graphics.drawXXX()可以实现绘制矢量图的功能&lt;/p&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;perimeterSpacing=0;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
-          <mxGeometry x="652" y="292" width="199" height="121" as="geometry" />
+          <mxGeometry x="221" y="122" width="199" height="121" as="geometry" />
         </mxCell>
         <mxCell id="Nj5wOmc6HKNC7nkiZqjY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#FFFFFF;" parent="1" source="Nj5wOmc6HKNC7nkiZqjY-13" target="Nj5wOmc6HKNC7nkiZqjY-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -132,7 +132,7 @@
           <mxGeometry x="12" y="122" width="199" height="121" as="geometry" />
         </mxCell>
         <mxCell id="Nj5wOmc6HKNC7nkiZqjY-14" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="651" y="113" width="279.5" height="119" as="geometry" />
+          <mxGeometry x="719" y="123" width="279.5" height="119" as="geometry" />
         </mxCell>
         <mxCell id="Nj5wOmc6HKNC7nkiZqjY-10" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#ffffff;fillColor=#6d8764;strokeColor=#3A5431;" parent="Nj5wOmc6HKNC7nkiZqjY-14" vertex="1">
           <mxGeometry width="279.5" height="119" as="geometry" />
@@ -159,16 +159,16 @@
           <mxGeometry x="56.5" y="303" width="110" height="25" as="geometry" />
         </mxCell>
         <mxCell id="Nj5wOmc6HKNC7nkiZqjY-17" value="绘制矢量图" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="696.5" y="473" width="110" height="27" as="geometry" />
+          <mxGeometry x="265.5" y="303" width="110" height="27" as="geometry" />
         </mxCell>
         <mxCell id="Nj5wOmc6HKNC7nkiZqjY-20" value="drawRect():DrawRectCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="831" y="501" width="150" height="27" as="geometry" />
+          <mxGeometry x="1222" y="125" width="150" height="27" as="geometry" />
         </mxCell>
         <mxCell id="Nj5wOmc6HKNC7nkiZqjY-29" value="cmd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#C73500;fillColor=#fa6800;fontSize=5;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1201" y="30" width="41" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-1" value="drawTexture():DrawTextureCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="141" y="378" width="184" height="27" as="geometry" />
+          <mxGeometry x="1482" y="162" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-2" value="_renderEmpty" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="10.5" y="1041" width="137" height="27" as="geometry" />
@@ -201,76 +201,76 @@
           <mxGeometry x="11" y="841" width="59" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-12" value="drawImage():DrawImageCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="141" y="341" width="184" height="27" as="geometry" />
+          <mxGeometry x="1482" y="125" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-13" value="drawTextures():DrawTexturesCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="334" y="378" width="184" height="27" as="geometry" />
+          <mxGeometry x="1482" y="197" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-14" value="drawTriangles():DrawTrianglesCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="831" y="753" width="184" height="27" as="geometry" />
+          <mxGeometry x="1222" y="377" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-15" value="fillTexture():FillTextureCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="141" y="425" width="184" height="27" as="geometry" />
+          <mxGeometry x="1482" y="232" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-17" value="clipRect():ClipRectCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="141" y="465" width="184" height="27" as="geometry" />
+          <mxGeometry x="1900" y="325" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-18" value="fillText():FillTextCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="141" y="512" width="184" height="27" as="geometry" />
+          <mxGeometry x="1682" y="125" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-19" value="fillBorderText():FillTextCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="337" y="512" width="184" height="27" as="geometry" />
+          <mxGeometry x="1682" y="162" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-20" value="fillWorlds():FillTextCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="141" y="549" width="184" height="27" as="geometry" />
+          <mxGeometry x="1682" y="269" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-21" value="fillBorderWords():FillTextCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="339" y="549" width="184" height="27" as="geometry" />
+          <mxGeometry x="1682" y="197" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-22" value="strokeText():FillTextCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="531" y="549" width="184" height="27" as="geometry" />
+          <mxGeometry x="1682" y="232" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-24" value="alpha():AlphaCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="141" y="638" width="184" height="27" as="geometry" />
+          <mxGeometry x="1900" y="125" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-25" value="transform():TransformCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="141" y="678" width="184" height="27" as="geometry" />
+          <mxGeometry x="1900" y="165" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-26" value="rotate():RottateCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="141" y="718" width="184" height="27" as="geometry" />
+          <mxGeometry x="1900" y="205" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-27" value="scale():ScaleCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="141" y="758" width="184" height="27" as="geometry" />
+          <mxGeometry x="1900" y="245" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-28" value="translate():TranslateCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="141" y="798" width="184" height="27" as="geometry" />
+          <mxGeometry x="1900" y="285" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-29" value="save():SaveCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="439" y="658" width="133" height="27" as="geometry" />
+          <mxGeometry x="2105" y="125" width="133" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-30" value="restore():RestoreCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="439" y="698" width="133" height="27" as="geometry" />
+          <mxGeometry x="2105" y="165" width="133" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-32" value="drawLine():DrawLineCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="831" y="609" width="184" height="27" as="geometry" />
+          <mxGeometry x="1222" y="233" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-33" value="drawLines():DrawLineCmds" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="831" y="645" width="184" height="27" as="geometry" />
+          <mxGeometry x="1222" y="269" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-34" value="drawCurves():DrawCurvesCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="831" y="681" width="184" height="27" as="geometry" />
+          <mxGeometry x="1222" y="305" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-35" value="drawCircle():DrawCircleCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="831" y="537" width="150" height="27" as="geometry" />
+          <mxGeometry x="1222" y="161" width="150" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-36" value="drawPie():DrawPieCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="831" y="573" width="150" height="27" as="geometry" />
+          <mxGeometry x="1222" y="197" width="150" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-37" value="drawPoly():DrawPolyCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="831" y="717" width="184" height="27" as="geometry" />
+          <mxGeometry x="1222" y="341" width="184" height="27" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-38" value="drawPath():DrawPathCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="831" y="789" width="184" height="27" as="geometry" />
+          <mxGeometry x="1222" y="413" width="184" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
