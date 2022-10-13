@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T06:28:34.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Gj4rq8XnPZgiAb1sAiKW" version="20.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-13T06:37:22.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="7TP6DqgYZWTxE8cIAy5V" version="20.4.0" type="github" pages="4">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1498" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -104,7 +104,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AiTBq8JdRd2yI-qHGuWI" name="Graphics">
-    <mxGraphModel dx="1762" dy="936" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1248" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,8 +159,8 @@
         <mxCell id="Nj5wOmc6HKNC7nkiZqjY-17" value="绘制矢量图" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="265.5" y="303" width="110" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-29" value="cmd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#C73500;fillColor=#fa6800;fontSize=5;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1201" y="30" width="41" height="26" as="geometry" />
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-29" value="_sp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#C73500;fillColor=#fa6800;fontSize=5;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1203" y="30" width="37" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-2" value="_renderEmpty" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="10.5" y="1041" width="137" height="27" as="geometry" />
@@ -318,6 +318,9 @@
         <mxCell id="D0CCEP3SeKIgZE7VXrAF-56" value="其他" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#005700;fillColor=#008a00;fontSize=5;fontColor=#ffffff;" vertex="1" parent="xK3I0dap0T7KM0F8B_So-1">
           <mxGeometry x="886" y="6" width="42" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="a4wj7W82qjNWB6Yg2L6--1" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;Graphics&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 5px; font-weight: 400;&quot;&gt;_sp对象，即Graphics宿主对象。&lt;/p&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;_sp&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Sprite&lt;/span&gt;&amp;nbsp;|&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;null&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;null&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;perimeterSpacing=0;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1203" y="80" width="736" height="92" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -445,7 +448,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bQdUtPm0AxRMDNaypg2C" name="Graphics绘制位图">
-    <mxGraphModel dx="1498" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1762" dy="936" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
