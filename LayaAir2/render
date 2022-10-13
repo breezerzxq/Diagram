@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T03:14:23.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dyOz_WoJ0CGWGoTgHrey" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-13T03:15:22.482Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dnxO3zCf-L9MZKUTnmDf" version="20.4.0" type="github" pages="3">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
-    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1498" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -183,7 +183,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="g5eUe-C1Qw8NZWjUfYfP" name="绘制矢量图">
-    <mxGraphModel dx="1248" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2417" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -300,6 +300,12 @@
         </mxCell>
         <mxCell id="KnhOuqjZXX6vlJzPMaI0-15" value="sprite.graphics.drawRect()" style="html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
           <mxGeometry x="1663.98" y="21" width="162.02" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="g36X-OjZIzf_STqSUO6d-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KnhOuqjZXX6vlJzPMaI0-19" target="spcWfrbsud2jvnoBNE7A-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KnhOuqjZXX6vlJzPMaI0-19" value="sprite.render()" style="html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="23.869999999999997" y="723" width="162.02" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
