@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T06:44:58.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="QWMlW7uOdWD5ubb-KDuD" version="20.4.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-10-13T06:53:52.300Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="iUL2E3VCQYZ5zcc_J7xS" version="20.4.0" type="github" pages="4">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1498" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -457,10 +457,19 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bQdUtPm0AxRMDNaypg2C" name="Graphics绘制位图">
-    <mxGraphModel dx="1762" dy="936" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2140" dy="1137" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LUl1KCAQUmhJhkZgiJ3L-1" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;drawImage&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;texture&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Texture&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;x&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;number&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;y&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;number&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;width&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;number&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;height&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;number&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;):&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;DrawImageCmd&lt;/span&gt;&amp;nbsp;|&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;null&lt;/span&gt;&amp;nbsp;{}&lt;/div&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="22" y="94" width="941" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="bbsa06XT8xzNjyeL1i6Z-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bbsa06XT8xzNjyeL1i6Z-1" target="LUl1KCAQUmhJhkZgiJ3L-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bbsa06XT8xzNjyeL1i6Z-1" value="绘制单个图片" style="html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="22" y="24" width="162.02" height="29" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
