@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T03:17:17.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="PpWdz2Run5rs5AYW79i0" version="20.4.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-13T03:17:26.443Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="v5Qzl0qmcVLoCiPtaard" version="20.4.0" type="github" pages="3">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1498" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -106,77 +106,74 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AiTBq8JdRd2yI-qHGuWI" name="Graphics">
-    <mxGraphModel dx="1185" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1498" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-1" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;*&amp;nbsp;&amp;lt;code&amp;gt;Graphics&amp;lt;/code&amp;gt;&amp;nbsp;类用于创建绘图显示对象。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;*&amp;nbsp;Graphics可以同时绘制多个位图或者矢量图，还可以结合save，restore，transform，scale，rotate，translate，alpha等指令对绘图效果进行变化。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;*&amp;nbsp;Graphics以命令流方式存储，可以通过cmds属性访问所有命令流。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;*&amp;nbsp;Graphics是比Sprite更轻量级的对象，合理使用能提高应用性能(比如把大量的节点绘图改为一个节点的Graphics命令集合，能减少大量节点创建消耗)。&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=solid;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-1" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;*&amp;nbsp;&amp;lt;code&amp;gt;Graphics&amp;lt;/code&amp;gt;&amp;nbsp;类用于创建绘图显示对象。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;*&amp;nbsp;Graphics可以同时绘制多个位图或者矢量图，还可以结合save，restore，transform，scale，rotate，translate，alpha等指令对绘图效果进行变化。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;*&amp;nbsp;Graphics以命令流方式存储，可以通过cmds属性访问所有命令流。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;*&amp;nbsp;Graphics是比Sprite更轻量级的对象，合理使用能提高应用性能(比如把大量的节点绘图改为一个节点的Graphics命令集合，能减少大量节点创建消耗)。&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=solid;fontSize=5;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="12" y="16" width="996" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-6" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;AutoBitmap&lt;/h1&gt;&lt;p&gt;需要显示图片的组件，均封装了AutoBitmap实例。比如Button,Clip,FontClip,Image，均分封装了AutoBitmap实例，从而实现显示图片。&lt;/p&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;perimeterSpacing=0;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-6" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;AutoBitmap&lt;/h1&gt;&lt;p&gt;需要显示图片的组件，均封装了AutoBitmap实例。比如Button,Clip,FontClip,Image，均分封装了AutoBitmap实例，从而实现显示图片。&lt;/p&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;perimeterSpacing=0;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="475" y="122" width="199" height="121" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#FFFFFF;" edge="1" parent="1" source="Nj5wOmc6HKNC7nkiZqjY-12" target="Nj5wOmc6HKNC7nkiZqjY-17">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#FFFFFF;" parent="1" source="Nj5wOmc6HKNC7nkiZqjY-12" target="Nj5wOmc6HKNC7nkiZqjY-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=5;fontColor=#FFFFFF;" edge="1" parent="1" source="Nj5wOmc6HKNC7nkiZqjY-12" target="Nj5wOmc6HKNC7nkiZqjY-6">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=5;fontColor=#FFFFFF;" parent="1" source="Nj5wOmc6HKNC7nkiZqjY-12" target="Nj5wOmc6HKNC7nkiZqjY-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-12" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;Graphics&lt;/h1&gt;&lt;p&gt;提供了绘制矢量图的接口，Sprite通过封装了Graphics实例，从而通过sprite.graphics.drawXXX()可以实现绘制矢量图的功能&lt;/p&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;perimeterSpacing=0;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-12" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;Graphics&lt;/h1&gt;&lt;p&gt;提供了绘制矢量图的接口，Sprite通过封装了Graphics实例，从而通过sprite.graphics.drawXXX()可以实现绘制矢量图的功能&lt;/p&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;perimeterSpacing=0;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="222" y="122" width="199" height="121" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#FFFFFF;" edge="1" parent="1" source="Nj5wOmc6HKNC7nkiZqjY-13" target="Nj5wOmc6HKNC7nkiZqjY-15">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#FFFFFF;" parent="1" source="Nj5wOmc6HKNC7nkiZqjY-13" target="Nj5wOmc6HKNC7nkiZqjY-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-13" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;Graphics&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 5px; font-weight: 400;&quot;&gt;提供了绘制多个位图的功能。但是比Sprite更轻量级。&lt;/p&gt;&lt;p style=&quot;font-size: 5px; font-weight: 400;&quot;&gt;比如AutoBitmap就是继承Graphics，来实现绘制位图(&amp;amp;九宫格位图)的功能。&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;perimeterSpacing=0;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-13" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;Graphics&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 5px; font-weight: 400;&quot;&gt;提供了绘制多个位图的功能。但是比Sprite更轻量级。&lt;/p&gt;&lt;p style=&quot;font-size: 5px; font-weight: 400;&quot;&gt;比如AutoBitmap就是继承Graphics，来实现绘制位图(&amp;amp;九宫格位图)的功能。&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;perimeterSpacing=0;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="12" y="122" width="199" height="121" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-14" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-14" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="743.5" y="122" width="279.5" height="119" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-10" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#ffffff;fillColor=#6d8764;strokeColor=#3A5431;" vertex="1" parent="Nj5wOmc6HKNC7nkiZqjY-14">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-10" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#ffffff;fillColor=#6d8764;strokeColor=#3A5431;" parent="Nj5wOmc6HKNC7nkiZqjY-14" vertex="1">
           <mxGeometry width="279.5" height="119" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-3" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Graphics&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillStyle=solid;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="Nj5wOmc6HKNC7nkiZqjY-14">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-3" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Graphics&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillStyle=solid;fontSize=5;fontColor=#FFFFFF;" parent="Nj5wOmc6HKNC7nkiZqjY-14" vertex="1">
           <mxGeometry x="110.5" y="10" width="77" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=5;fontColor=#FFFFFF;" edge="1" parent="Nj5wOmc6HKNC7nkiZqjY-14" source="Nj5wOmc6HKNC7nkiZqjY-4" target="Nj5wOmc6HKNC7nkiZqjY-3">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=5;fontColor=#FFFFFF;" parent="Nj5wOmc6HKNC7nkiZqjY-14" source="Nj5wOmc6HKNC7nkiZqjY-4" target="Nj5wOmc6HKNC7nkiZqjY-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-4" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;AutoBitmap&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillStyle=solid;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="Nj5wOmc6HKNC7nkiZqjY-14">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-4" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;AutoBitmap&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillStyle=solid;fontSize=5;fontColor=#FFFFFF;" parent="Nj5wOmc6HKNC7nkiZqjY-14" vertex="1">
           <mxGeometry x="50.5" y="84" width="83" height="23" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#FFFFFF;" edge="1" parent="Nj5wOmc6HKNC7nkiZqjY-14" source="Nj5wOmc6HKNC7nkiZqjY-5" target="Nj5wOmc6HKNC7nkiZqjY-3">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=5;fontColor=#FFFFFF;" parent="Nj5wOmc6HKNC7nkiZqjY-14" source="Nj5wOmc6HKNC7nkiZqjY-5" target="Nj5wOmc6HKNC7nkiZqjY-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-5" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;GraphicsAni&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillStyle=solid;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="Nj5wOmc6HKNC7nkiZqjY-14">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-5" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;GraphicsAni&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillStyle=solid;fontSize=5;fontColor=#FFFFFF;" parent="Nj5wOmc6HKNC7nkiZqjY-14" vertex="1">
           <mxGeometry x="163.5" y="84" width="89" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-11" value="继承关系" style="text;html=1;strokeColor=#005700;fillColor=#008a00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#ffffff;" vertex="1" parent="Nj5wOmc6HKNC7nkiZqjY-14">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-11" value="继承关系" style="text;html=1;strokeColor=#005700;fillColor=#008a00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#ffffff;" parent="Nj5wOmc6HKNC7nkiZqjY-14" vertex="1">
           <mxGeometry x="3.5" y="3" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-15" value="绘制位图" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-15" value="绘制位图" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="56.5" y="303" width="110" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=5;fontColor=#FFFFFF;" edge="1" parent="1" source="Nj5wOmc6HKNC7nkiZqjY-17" target="Nj5wOmc6HKNC7nkiZqjY-20">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=5;fontColor=#FFFFFF;" parent="1" source="Nj5wOmc6HKNC7nkiZqjY-17" target="Nj5wOmc6HKNC7nkiZqjY-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=5;fontColor=#FFFFFF;" edge="1" parent="1" source="Nj5wOmc6HKNC7nkiZqjY-17" target="Nj5wOmc6HKNC7nkiZqjY-24">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=5;fontColor=#FFFFFF;" parent="1" source="Nj5wOmc6HKNC7nkiZqjY-17" target="Nj5wOmc6HKNC7nkiZqjY-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-17" value="绘制矢量图" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-17" value="绘制矢量图" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="266.5" y="303" width="110" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-20" value="drawRect" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-20" value="drawRect" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="371" y="351" width="110" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-22" value="_saveToCmd" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="564" y="374" width="110" height="27" as="geometry" />
-        </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-24" value="drawCircle" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-24" value="drawCircle" style="html=1;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=solid;strokeWidth=1;fontSize=5;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="371" y="401" width="110" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-29" value="cmd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#C73500;fillColor=#fa6800;fontSize=5;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Nj5wOmc6HKNC7nkiZqjY-29" value="cmd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#C73500;fillColor=#fa6800;fontSize=5;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1201" y="30" width="41" height="26" as="geometry" />
         </mxCell>
       </root>
