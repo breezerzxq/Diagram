@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T06:16:31.936Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="BQIuOeJZ4QzxCF1kYp8w" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T07:08:14.661Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="-uIc_fHmJlPaT1bq1to4" version="20.5.1" type="github">
   <diagram id="RyOypk_LRAsxnf7cehFb" name="第 1 页">
     <mxGraphModel dx="-188" dy="-301" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -67,6 +67,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yfJCY1lUy-ADghGYg0gO-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iCX3cISmmqJYiOSi0hr1-25" target="yfJCY1lUy-ADghGYg0gO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfJCY1lUy-ADghGYg0gO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iCX3cISmmqJYiOSi0hr1-25" target="yfJCY1lUy-ADghGYg0gO-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iCX3cISmmqJYiOSi0hr1-25" value="game_editor" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#ffffff;collapsible=0;rounded=1;arcSize=30;strokeColor=#6F0000;fillColor=#a20025;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
@@ -139,6 +142,12 @@
           <mxGeometry x="1619.5" y="1201" width="85" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yfJCY1lUy-ADghGYg0gO-7" value="语法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="yfJCY1lUy-ADghGYg0gO-6">
+          <mxGeometry y="30" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yfJCY1lUy-ADghGYg0gO-10" value="工程独立" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#B09500;fillColor=#e3c800;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="1619.5" y="1349" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfJCY1lUy-ADghGYg0gO-11" value="xxx.game" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="yfJCY1lUy-ADghGYg0gO-10">
           <mxGeometry y="30" width="85" height="30" as="geometry" />
         </mxCell>
       </root>
