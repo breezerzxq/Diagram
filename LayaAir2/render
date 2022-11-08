@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T06:55:41.673Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Ju_sCLL8JPPj-kn8uq49" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-08T06:56:23.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="FGPB-T4PSmryifvmdTfs" version="20.5.1" type="github" pages="6">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -523,7 +523,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ww_tzgoywAkPROx26_vd" name="运行时自动图集(add 分类 feature)">
-    <mxGraphModel dx="1673" dy="896" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#DAD2D8" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#DAD2D8" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -641,7 +641,7 @@
         <mxCell id="ACgcg7vUzYU4veIzk8KG-46" value="比如，设置文字使用texture的运行时图集类型为‘char’" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="ACgcg7vUzYU4veIzk8KG-44">
           <mxGeometry width="222.99999999999997" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ACgcg7vUzYU4veIzk8KG-15" value="" style="ellipse;html=1;shape=startState;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+        <mxCell id="ACgcg7vUzYU4veIzk8KG-15" value="" style="ellipse;html=1;shape=startState;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="409.87" y="855" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#A8201A;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#DAD2D8;fontColor=#143642;" edge="1" source="ACgcg7vUzYU4veIzk8KG-15" parent="1" target="ACgcg7vUzYU4veIzk8KG-23">
@@ -649,8 +649,8 @@
             <mxPoint x="424.87" y="945" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACgcg7vUzYU4veIzk8KG-18" value="start" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="410.87" y="858" width="28" height="22" as="geometry" />
+        <mxCell id="ACgcg7vUzYU4veIzk8KG-18" value="start" style="text;html=1;strokeColor=#6F0000;fillColor=#a20025;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="410.87" y="858" width="28" height="23" as="geometry" />
         </mxCell>
         <mxCell id="8_afW_ErsJOro3ncA2MH-1" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;Tip:&lt;/h1&gt;&lt;h1&gt;1. 图片：png，jpg&lt;/h1&gt;&lt;div&gt;2. texture：图片对应的纹理数据&lt;/div&gt;&lt;h1&gt;3. 图集：均为运行时图集。&lt;/h1&gt;&lt;h1&gt;4. atlasType：字符串，表示texture所属图集的类型，根据该值确定散图所加入的图集。&lt;/h1&gt;" style="text;html=1;strokeColor=#0F8B8D;fillColor=#FAE5C7;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fillStyle=solid;fontSize=5;fontColor=#143642;perimeterSpacing=0;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
           <mxGeometry x="662" y="855" width="494" height="125" as="geometry" />
