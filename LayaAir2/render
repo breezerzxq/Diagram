@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T06:45:50.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="rOqb3B8QrT1cLdLiuuuk" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-08T06:46:28.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="37hn93r7_1Bmgi3GYz1s" version="20.5.1" type="github" pages="6">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -591,8 +591,8 @@
             <mxPoint x="101" y="1214" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACgcg7vUzYU4veIzk8KG-27" value="&lt;font color=&quot;#33001a&quot;&gt;&amp;nbsp;获取texture所属运行时图集类型&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;pointerEvents=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="61" y="1227" width="80" height="40" as="geometry" />
+        <mxCell id="ACgcg7vUzYU4veIzk8KG-27" value="&lt;font color=&quot;#33001a&quot;&gt;是否有设置&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;pointerEvents=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="61.01" y="1073" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-28" value="获取失败" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" source="ACgcg7vUzYU4veIzk8KG-27" parent="1" target="ACgcg7vUzYU4veIzk8KG-36">
           <mxGeometry x="-1" relative="1" as="geometry">
