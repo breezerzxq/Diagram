@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T06:53:42.488Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="yKOVsfvyLow0K9axL5ul" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-08T06:55:11.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="NgPsu-PYEjeKE-9wGOf6" version="20.5.1" type="github" pages="6">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -633,13 +633,13 @@
           <mxGeometry x="352.85" y="1507" width="144.06" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-44" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="16" y="1100" width="259" height="90" as="geometry" />
+          <mxGeometry x="27" y="1115" width="223" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-45" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;texture&amp;nbsp;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;new&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Texture&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;texture._atlasType&amp;nbsp;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;char&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ACgcg7vUzYU4veIzk8KG-44">
-          <mxGeometry x="2" y="30" width="235" height="60" as="geometry" />
+          <mxGeometry x="1.72" y="30" width="220.28" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ACgcg7vUzYU4veIzk8KG-46" value="设置文字使用texture的运行时图集类型为‘char’" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ACgcg7vUzYU4veIzk8KG-44">
-          <mxGeometry width="259" height="30" as="geometry" />
+        <mxCell id="ACgcg7vUzYU4veIzk8KG-46" value="比如，设置文字使用texture的运行时图集类型为‘char’" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ACgcg7vUzYU4veIzk8KG-44">
+          <mxGeometry width="222.99999999999997" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-15" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="409.87" y="855" width="30" height="30" as="geometry" />
@@ -656,13 +656,15 @@
           <mxGeometry x="662" y="855" width="494" height="125" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-42" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;function(url:&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;String&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;):&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;String&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp; return &lt;/span&gt;&lt;font color=&quot;#569cd6&quot;&gt;AtlasType&lt;/font&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="637.87" y="1126.28" width="228" height="67.45" as="geometry" />
+          <mxGeometry x="608.87" y="1126.28" width="228" height="67.45" as="geometry" />
         </mxCell>
         <mxCell id="bYaO_ZIRQvT0NuAexYLa-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#33001A;" edge="1" parent="1" source="bYaO_ZIRQvT0NuAexYLa-2" target="bYaO_ZIRQvT0NuAexYLa-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bYaO_ZIRQvT0NuAexYLa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#33001A;" edge="1" parent="1" source="bYaO_ZIRQvT0NuAexYLa-2" target="ACgcg7vUzYU4veIzk8KG-45">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bYaO_ZIRQvT0NuAexYLa-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#33001A;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="bYaO_ZIRQvT0NuAexYLa-2" target="ACgcg7vUzYU4veIzk8KG-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="234" y="1322" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="bYaO_ZIRQvT0NuAexYLa-2" value="&lt;font color=&quot;#33001a&quot;&gt;直接获得&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="289" y="1140" width="89" height="40" as="geometry" />
