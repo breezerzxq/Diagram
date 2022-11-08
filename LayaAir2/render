@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T06:59:22.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="T-XU3vJVRpQCQK7UWs7E" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-08T06:59:55.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xvA1MbFLzZX6bORDQuvk" version="20.5.1" type="github" pages="6">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -582,7 +582,7 @@
             <mxPoint x="424.87" y="1193" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACgcg7vUzYU4veIzk8KG-27" value="&lt;font color=&quot;#33001a&quot;&gt;是否有设置&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;pointerEvents=0;fontFamily=Helvetica;fontSize=12;fontColor=#143642;" vertex="1" parent="1">
+        <mxCell id="ACgcg7vUzYU4veIzk8KG-27" value="&lt;font color=&quot;#33001a&quot;&gt;是否有设置&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;pointerEvents=0;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="384.88" y="1052" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-28" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#A8201A;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#143642;labelBackgroundColor=#DAD2D8;" edge="1" source="ACgcg7vUzYU4veIzk8KG-27" parent="1" target="ACgcg7vUzYU4veIzk8KG-36">
@@ -596,17 +596,17 @@
             <mxPoint x="398.87" y="1390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACgcg7vUzYU4veIzk8KG-33" value="atlasType是否有效" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FAE5C7;strokeColor=#0F8B8D;pointerEvents=0;fontFamily=Helvetica;fontSize=12;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="354.87" y="1405" width="139.13" height="47" as="geometry" />
+        <mxCell id="ACgcg7vUzYU4veIzk8KG-33" value="atlasType是否有效" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;pointerEvents=0;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="354.87" y="1354" width="139.13" height="47" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-34" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#A8201A;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#143642;labelBackgroundColor=#DAD2D8;" edge="1" source="ACgcg7vUzYU4veIzk8KG-33" parent="1" target="ACgcg7vUzYU4veIzk8KG-39">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="570.87" y="1418" as="targetPoint" />
+            <mxPoint x="570.87" y="1367" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-35" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#A8201A;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#143642;labelBackgroundColor=#DAD2D8;" edge="1" source="ACgcg7vUzYU4veIzk8KG-33" parent="1" target="ACgcg7vUzYU4veIzk8KG-40">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="424.87" y="1519" as="targetPoint" />
+            <mxPoint x="424.87" y="1468" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#143642;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;" edge="1" parent="1" source="ACgcg7vUzYU4veIzk8KG-36" target="ACgcg7vUzYU4veIzk8KG-42">
@@ -616,10 +616,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-36" value="&lt;span style=&quot;color: rgb(51, 0, 26);&quot;&gt;根据url获取所属图集类型&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="473.87" y="1140" width="78.13" height="40" as="geometry" />
+          <mxGeometry x="473.87" y="1115" width="78.13" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-37" value="&lt;span style=&quot;color: rgb(51, 0, 26);&quot;&gt;texture加入运行时图集&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="357.82" y="1333" width="134.13" height="40" as="geometry" />
+          <mxGeometry x="357.82" y="1286" width="134.13" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-38" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#A8201A;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#143642;labelBackgroundColor=#DAD2D8;" edge="1" source="ACgcg7vUzYU4veIzk8KG-37" parent="1" target="ACgcg7vUzYU4veIzk8KG-33">
           <mxGeometry relative="1" as="geometry">
@@ -627,13 +627,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-39" value="&lt;span style=&quot;color: rgb(51, 0, 26);&quot;&gt;texture加入到默认图集中&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="535" y="1408.5" width="141.13" height="40" as="geometry" />
+          <mxGeometry x="535" y="1357.5" width="141.13" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-40" value="&lt;span style=&quot;color: rgb(51, 0, 26);&quot;&gt;texture加入指定类型图集&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="352.85" y="1484" width="144.06" height="40" as="geometry" />
+          <mxGeometry x="352.85" y="1433" width="144.06" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-44" value="" style="group;fontColor=#143642;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="27" y="1115" width="223" height="90" as="geometry" />
+          <mxGeometry x="27" y="1090" width="223" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-45" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;texture&amp;nbsp;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;new&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Texture&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;texture._atlasType&amp;nbsp;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;char&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#143642;" vertex="1" parent="ACgcg7vUzYU4veIzk8KG-44">
           <mxGeometry x="1.72" y="30" width="220.28" height="60" as="geometry" />
@@ -656,24 +656,24 @@
           <mxGeometry x="662" y="855" width="494" height="125" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-42" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;function(url:&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;String&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;):&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;String&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;&amp;nbsp; return &lt;/span&gt;&lt;font color=&quot;#569cd6&quot;&gt;AtlasType&lt;/font&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="608.87" y="1126.28" width="228" height="67.45" as="geometry" />
+          <mxGeometry x="608.87" y="1101.28" width="228" height="67.45" as="geometry" />
         </mxCell>
         <mxCell id="bYaO_ZIRQvT0NuAexYLa-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#143642;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;" edge="1" parent="1" source="bYaO_ZIRQvT0NuAexYLa-2" target="bYaO_ZIRQvT0NuAexYLa-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bYaO_ZIRQvT0NuAexYLa-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#143642;entryX=1;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;" edge="1" parent="1" source="bYaO_ZIRQvT0NuAexYLa-2" target="ACgcg7vUzYU4veIzk8KG-45">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="234" y="1322" as="targetPoint" />
+            <mxPoint x="234" y="1297" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bYaO_ZIRQvT0NuAexYLa-2" value="&lt;font color=&quot;#33001a&quot;&gt;直接获得&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="289" y="1140" width="89" height="40" as="geometry" />
+          <mxGeometry x="289" y="1115" width="89" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bYaO_ZIRQvT0NuAexYLa-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#143642;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;" edge="1" parent="1" source="bYaO_ZIRQvT0NuAexYLa-3" target="ACgcg7vUzYU4veIzk8KG-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bYaO_ZIRQvT0NuAexYLa-3" value="&lt;font color=&quot;#33001a&quot;&gt;确定atlasType&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="364.87" y="1263" width="120" height="40" as="geometry" />
+          <mxGeometry x="364.87" y="1214" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
