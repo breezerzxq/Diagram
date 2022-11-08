@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T06:57:51.104Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Iv-MVWn8-WZtcxunrgGJ" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-08T06:58:07.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Y-Ze62v8TLIB8kZ8mHwF" version="20.5.1" type="github" pages="6">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -615,8 +615,8 @@
         <mxCell id="bYaO_ZIRQvT0NuAexYLa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#143642;labelBackgroundColor=#DAD2D8;strokeColor=#A8201A;" edge="1" parent="1" source="ACgcg7vUzYU4veIzk8KG-36" target="bYaO_ZIRQvT0NuAexYLa-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ACgcg7vUzYU4veIzk8KG-36" value="&lt;span style=&quot;color: rgb(51, 0, 26);&quot;&gt;根据url获取所属运行时图集类型&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="473.87" y="1140" width="89" height="40" as="geometry" />
+        <mxCell id="ACgcg7vUzYU4veIzk8KG-36" value="&lt;span style=&quot;color: rgb(51, 0, 26);&quot;&gt;根据url获取所属图集类型&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="473.87" y="1140" width="78.13" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-37" value="&lt;span style=&quot;color: rgb(51, 0, 26);&quot;&gt;texture加入运行时图集&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="357.82" y="1333" width="134.13" height="40" as="geometry" />
