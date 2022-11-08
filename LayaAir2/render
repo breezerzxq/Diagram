@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T03:42:52.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="--ZR_ygrG76MPYI7BPx5" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-08T03:44:27.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Y6KH8ue7i1OtgiqCAYst" version="20.5.1" type="github" pages="6">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -541,6 +541,12 @@
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-4" value="一个新的纹理数据，尝试加入运行时图集" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="22" y="439" width="234" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgcg7vUzYU4veIzk8KG-5" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;texture&amp;nbsp;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;new&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Texture&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;texture._atlasType&amp;nbsp;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;char&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="729" width="336" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ACgcg7vUzYU4veIzk8KG-6" value="设置文字使用texture的运行时图集类型为‘char’" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="22" y="699" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
