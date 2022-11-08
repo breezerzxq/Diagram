@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T06:51:46.431Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="yPEcQ6JoiGHS2ZsUx4NY" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-08T06:53:14.626Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="G0B-6Wz6F-jjitxlxoOT" version="20.5.1" type="github" pages="6">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -596,8 +596,8 @@
             <mxPoint x="398.87" y="1390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACgcg7vUzYU4veIzk8KG-33" value="texture是否拥有指定的运行时图集" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;pointerEvents=0;fontFamily=Helvetica;fontSize=12;fontColor=#33001A;" vertex="1" parent="1">
-          <mxGeometry x="384.87" y="1398" width="80" height="40" as="geometry" />
+        <mxCell id="ACgcg7vUzYU4veIzk8KG-33" value="atlasType是否有效" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;pointerEvents=0;fontFamily=Helvetica;fontSize=12;fontColor=#33001A;" vertex="1" parent="1">
+          <mxGeometry x="354.87" y="1405" width="139.13" height="47" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-34" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#33001A;" edge="1" source="ACgcg7vUzYU4veIzk8KG-33" parent="1" target="ACgcg7vUzYU4veIzk8KG-39">
           <mxGeometry x="-1" relative="1" as="geometry">
@@ -619,18 +619,18 @@
           <mxGeometry x="473.87" y="1140" width="89" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-37" value="&lt;span style=&quot;color: rgb(51, 0, 26);&quot;&gt;texture加入运行时图集&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="364.87" y="1332" width="120" height="40" as="geometry" />
+          <mxGeometry x="357.82" y="1333" width="134.13" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-38" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#33001A;" edge="1" source="ACgcg7vUzYU4veIzk8KG-37" parent="1" target="ACgcg7vUzYU4veIzk8KG-33">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="424.87" y="1387" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACgcg7vUzYU4veIzk8KG-39" value="&lt;span style=&quot;color: rgb(51, 0, 26);&quot;&gt;texture加入到默认运行时图集中&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="598.87" y="1398" width="89" height="40" as="geometry" />
+        <mxCell id="ACgcg7vUzYU4veIzk8KG-39" value="&lt;span style=&quot;color: rgb(51, 0, 26);&quot;&gt;texture加入到默认图集中&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="548.87" y="1408.5" width="141.13" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ACgcg7vUzYU4veIzk8KG-40" value="&lt;span style=&quot;color: rgb(51, 0, 26);&quot;&gt;texture加入指定类型的运行时图集&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="380.37" y="1484" width="89" height="40" as="geometry" />
+        <mxCell id="ACgcg7vUzYU4veIzk8KG-40" value="&lt;span style=&quot;color: rgb(51, 0, 26);&quot;&gt;texture加入指定类型图集&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="352.85" y="1507" width="144.06" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ACgcg7vUzYU4veIzk8KG-44" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="16" y="1100" width="259" height="90" as="geometry" />
