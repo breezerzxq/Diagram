@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T12:40:41.344Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DpYaD81cSLt_GBi_mLjq" version="20.5.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-14T12:42:23.795Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="t9EA1tUwb-WFowRj-MvM" version="20.5.3" type="github" pages="6">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -523,7 +523,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ww_tzgoywAkPROx26_vd" name="运行时自动图集(add分类feature)">
-    <mxGraphModel dx="1422" dy="1623" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#DAD2D8" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="1490" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#DAD2D8" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -685,7 +685,7 @@
           <mxGeometry x="2" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Yz6xBWuaok2sWE_gu5BO-9" value="&lt;font color=&quot;#33001a&quot;&gt;指定运行时图集类型&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="244.87000000000003" y="2155" width="120" height="40" as="geometry" />
+          <mxGeometry x="244.87000000000003" y="2149" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Yz6xBWuaok2sWE_gu5BO-10" value="" style="ellipse;html=1;shape=startState;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="289.87" y="2085" width="30" height="30" as="geometry" />
@@ -697,6 +697,31 @@
         </mxCell>
         <mxCell id="Yz6xBWuaok2sWE_gu5BO-12" value="销毁运行时图集" style="text;html=1;strokeColor=#6F0000;fillColor=#a20025;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="259.3" y="2088.5" width="91.13" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz6xBWuaok2sWE_gu5BO-13" value="类型" style="rhombus;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;pointerEvents=0;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="235" y="2229" width="139.13" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz6xBWuaok2sWE_gu5BO-14" value="空" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#A8201A;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#143642;labelBackgroundColor=#DAD2D8;" edge="1" parent="1" source="Yz6xBWuaok2sWE_gu5BO-13" target="Yz6xBWuaok2sWE_gu5BO-16">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="453.02" y="2249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yz6xBWuaok2sWE_gu5BO-15" value="有" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#A8201A;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#143642;labelBackgroundColor=#DAD2D8;" edge="1" parent="1" source="Yz6xBWuaok2sWE_gu5BO-13" target="Yz6xBWuaok2sWE_gu5BO-17">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="307.02" y="2350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yz6xBWuaok2sWE_gu5BO-16" value="&lt;font color=&quot;#33001a&quot;&gt;清理所有类型运行时图集&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="430.87" y="2232.5" width="141.13" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz6xBWuaok2sWE_gu5BO-17" value="&lt;span style=&quot;color: rgb(51, 0, 26);&quot;&gt;清理指定类型运行时图集&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#143642;fillColor=#FAE5C7;strokeColor=#0F8B8D;pointerEvents=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="232.84000000000003" y="2312" width="144.06" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz6xBWuaok2sWE_gu5BO-18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#A8201A;rounded=0;labelBackgroundColor=#DAD2D8;fontColor=#143642;" edge="1" parent="1" source="Yz6xBWuaok2sWE_gu5BO-9" target="Yz6xBWuaok2sWE_gu5BO-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="314.8699999999999" y="2165" as="targetPoint" />
+            <mxPoint x="347" y="2203" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
