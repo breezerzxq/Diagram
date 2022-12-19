@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T06:26:03.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="BS6eBltM4CYTLo9_WgJl" version="20.6.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-12-19T06:26:29.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="XM6K-hGAHvb50RUz3v-D" version="20.6.0" type="github" pages="7">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -727,7 +727,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5UktMYkmZV-Ge5QZbIqA" name="Shader">
-    <mxGraphModel dx="1673" dy="896" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -740,7 +740,7 @@
         <mxCell id="Ut679RaI4PAm66yEJcgP-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ut679RaI4PAm66yEJcgP-1">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Ut679RaI4PAm66yEJcgP-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ut679RaI4PAm66yEJcgP-1">
+        <mxCell id="Ut679RaI4PAm66yEJcgP-4" value="+ this._glTexture = LayaGL.instance.createTexture();" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ut679RaI4PAm66yEJcgP-1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
