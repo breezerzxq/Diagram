@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T06:52:28.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="a368h7AWUFPHBhnZKf9Q" version="20.6.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-12-19T06:53:53.237Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="y9EtpH9RPBmrUjL6MsDb" version="20.6.0" type="github" pages="7">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -807,9 +807,11 @@
             <mxPoint x="1300" y="319" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ut679RaI4PAm66yEJcgP-43" value="gl.texImage2D()" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="1178" y="334" width="243" height="88" as="geometry" />
-        </mxCell>
+        <UserObject label="gl.texImage2D()" id="Ut679RaI4PAm66yEJcgP-43">
+          <mxCell style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
+            <mxGeometry x="1178" y="334" width="243" height="88" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="Ut679RaI4PAm66yEJcgP-44" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;指定了二维纹理图像&lt;/span&gt;。&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Ut679RaI4PAm66yEJcgP-43">
           <mxGeometry y="30" width="243" height="58" as="geometry" />
         </mxCell>
