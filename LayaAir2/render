@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T07:30:35.949Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="NhunKoYWhs5TSkUHAnUb" version="20.6.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-12-19T07:40:21.460Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="FOpSYUO6mwzmeWS5yaFn" version="20.6.0" type="github" pages="7">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1522" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -727,30 +727,30 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5UktMYkmZV-Ge5QZbIqA" name="Shader">
-    <mxGraphModel dx="3402" dy="1270" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2745" dy="896" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ut679RaI4PAm66yEJcgP-11" value="constructor" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="412" y="74.5" width="392" height="67" as="geometry" />
+          <mxGeometry x="716" y="85.5" width="392" height="67" as="geometry" />
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-12" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;_glTexture&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;LayaGL&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;instance&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;createTexture&lt;/span&gt;();&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Ut679RaI4PAm66yEJcgP-11">
           <mxGeometry y="30" width="392" height="37" as="geometry" />
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-15" value="constructor(width = 0,height = 0, format = TextureFormat.R8G8B8A8)" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="406" y="187" width="418" height="70.5" as="geometry" />
+          <mxGeometry x="695" y="184" width="418" height="70.5" as="geometry" />
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-16" value="&#xa;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;_glTextureType&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;gl&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;TEXTURE_2D&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#xa;&#xa;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Ut679RaI4PAm66yEJcgP-15">
           <mxGeometry y="30" width="418" height="40.5" as="geometry" />
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-19" value="BaseTexture" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="194" y="69" width="163" height="52" as="geometry" />
+          <mxGeometry x="486" y="26" width="163" height="52" as="geometry" />
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-20" value="+_glTexture: WebGLTexture" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ut679RaI4PAm66yEJcgP-19">
           <mxGeometry y="26" width="163" height="26" as="geometry" />
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-23" value="Texture2D" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="195" y="222" width="161" height="78" as="geometry" />
+          <mxGeometry x="487" y="126" width="161" height="78" as="geometry" />
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-24" value="+ _glTextureType: number;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ut679RaI4PAm66yEJcgP-23">
           <mxGeometry y="26" width="161" height="26" as="geometry" />
@@ -758,57 +758,57 @@
         <mxCell id="Ut679RaI4PAm66yEJcgP-25" value="+ loadImageSource()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ut679RaI4PAm66yEJcgP-23">
           <mxGeometry y="52" width="161" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="Ut679RaI4PAm66yEJcgP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ut679RaI4PAm66yEJcgP-20" target="Ut679RaI4PAm66yEJcgP-11">
+        <mxCell id="Ut679RaI4PAm66yEJcgP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ut679RaI4PAm66yEJcgP-20" target="Ut679RaI4PAm66yEJcgP-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ut679RaI4PAm66yEJcgP-24" target="Ut679RaI4PAm66yEJcgP-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-32" value="loadImageSource(source:any,premultiplyAlpha:boolean = false)" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="295" width="661" height="80" as="geometry" />
+          <mxGeometry x="492" y="287" width="661" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-33" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;WebGLContext&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;bindTexture&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;gl&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;_glTextureType&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;_glTexture&lt;/span&gt;);&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;gl&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;texImage2D&lt;/span&gt;(&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;_glTextureType&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;gl&lt;/span&gt;.&lt;span style=&quot;color: #4fc1ff;&quot;&gt;RGBA&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;gl&lt;/span&gt;.&lt;span style=&quot;color: #4fc1ff;&quot;&gt;RGBA&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;gl&lt;/span&gt;.&lt;span style=&quot;color: #4fc1ff;&quot;&gt;UNSIGNED_BYTE&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;source&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Ut679RaI4PAm66yEJcgP-32">
           <mxGeometry y="30" width="661" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ut679RaI4PAm66yEJcgP-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ut679RaI4PAm66yEJcgP-25" target="Ut679RaI4PAm66yEJcgP-32">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Ut679RaI4PAm66yEJcgP-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ut679RaI4PAm66yEJcgP-25" target="Ut679RaI4PAm66yEJcgP-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="567" y="265" />
+              <mxPoint x="823" y="265" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ut679RaI4PAm66yEJcgP-37" target="Ut679RaI4PAm66yEJcgP-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-37" value="gl.createTexture()" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="1178" y="75" width="243" height="88" as="geometry" />
+          <mxGeometry x="1238" y="75" width="243" height="88" as="geometry" />
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-38" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;创建并初始化了一个WebGLTexture&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;目标&lt;/span&gt;。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Ut679RaI4PAm66yEJcgP-37">
           <mxGeometry y="30" width="243" height="58" as="geometry" />
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-39" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="Ut679RaI4PAm66yEJcgP-37" parent="1" target="Ut679RaI4PAm66yEJcgP-40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1300" y="191" as="targetPoint" />
+            <mxPoint x="1360" y="191" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ut679RaI4PAm66yEJcgP-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ut679RaI4PAm66yEJcgP-40" target="Ut679RaI4PAm66yEJcgP-32">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1105" y="270" />
-              <mxPoint x="1105" y="315" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="6foeN-r4GxHkSL7s8blt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="Ut679RaI4PAm66yEJcgP-40" target="Ut679RaI4PAm66yEJcgP-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-40" value="gl.bindTexture(target,texture)" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="1178" y="199" width="243" height="88" as="geometry" />
+          <mxGeometry x="1238" y="199" width="243" height="88" as="geometry" />
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-41" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;将给定的&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;WebGLTexture&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;绑定到目标&lt;/span&gt;（&lt;span style=&quot;color: #9cdcfe;&quot;&gt;绑定点&lt;/span&gt;）。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Ut679RaI4PAm66yEJcgP-40">
           <mxGeometry y="30" width="243" height="58" as="geometry" />
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ut679RaI4PAm66yEJcgP-40" target="Ut679RaI4PAm66yEJcgP-43">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1300" y="351" as="targetPoint" />
+            <mxPoint x="1360" y="351" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <UserObject label="gl.texImage2D()" id="Ut679RaI4PAm66yEJcgP-43">
           <mxCell style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-            <mxGeometry x="1178" y="318" width="243" height="88" as="geometry" />
+            <mxGeometry x="1238" y="318" width="243" height="88" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="Ut679RaI4PAm66yEJcgP-44" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;指定了二维纹理图像&lt;/span&gt;。&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Ut679RaI4PAm66yEJcgP-43">
@@ -816,7 +816,7 @@
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-45" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ut679RaI4PAm66yEJcgP-43" target="Ut679RaI4PAm66yEJcgP-52">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1300" y="511" as="targetPoint" />
+            <mxPoint x="1360" y="511" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ut679RaI4PAm66yEJcgP-44" target="Ut679RaI4PAm66yEJcgP-33">
@@ -827,7 +827,7 @@
         </mxCell>
         <UserObject label="gl.useProgram(program)" id="Ut679RaI4PAm66yEJcgP-52">
           <mxCell style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-            <mxGeometry x="1178" y="456" width="243" height="88" as="geometry" />
+            <mxGeometry x="1238" y="456" width="243" height="88" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="Ut679RaI4PAm66yEJcgP-53" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;将定义好的WebGLProgram&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;对象添加到当前的渲染状态中&lt;/span&gt;。&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Ut679RaI4PAm66yEJcgP-52">
@@ -835,7 +835,7 @@
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-54" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="Ut679RaI4PAm66yEJcgP-52" target="Ut679RaI4PAm66yEJcgP-55">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1300" y="670.9999999999998" as="targetPoint" />
+            <mxPoint x="1360" y="670.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zBltpBHX0f_aA2OENYTL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="Ut679RaI4PAm66yEJcgP-55" target="zBltpBHX0f_aA2OENYTL-9">
@@ -843,7 +843,7 @@
         </mxCell>
         <UserObject label="gl.uniformxxx()" id="Ut679RaI4PAm66yEJcgP-55">
           <mxCell style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-            <mxGeometry x="1178" y="587" width="243" height="88" as="geometry" />
+            <mxGeometry x="1238" y="587" width="243" height="88" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="Ut679RaI4PAm66yEJcgP-56" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font color=&quot;#9cdcfe&quot;&gt;设置绑定在该program上的vs和fs的各种uniform参数&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Ut679RaI4PAm66yEJcgP-55">
@@ -851,19 +851,26 @@
         </mxCell>
         <mxCell id="Ut679RaI4PAm66yEJcgP-57" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="Ut679RaI4PAm66yEJcgP-55" target="Ut679RaI4PAm66yEJcgP-58">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1300" y="820.9999999999998" as="targetPoint" />
+            <mxPoint x="1360" y="820.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6foeN-r4GxHkSL7s8blt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="Ut679RaI4PAm66yEJcgP-58" target="6foeN-r4GxHkSL7s8blt-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="213" y="766" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <UserObject label="gl.drawElements()" id="Ut679RaI4PAm66yEJcgP-58">
           <mxCell style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-            <mxGeometry x="1178" y="722" width="243" height="88" as="geometry" />
+            <mxGeometry x="1238" y="722" width="243" height="88" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="Ut679RaI4PAm66yEJcgP-59" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font color=&quot;#9cdcfe&quot;&gt;绘制三角形&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="Ut679RaI4PAm66yEJcgP-58">
           <mxGeometry y="30" width="243" height="58" as="geometry" />
         </mxCell>
         <mxCell id="zBltpBHX0f_aA2OENYTL-1" value="webgl" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1191" y="7" width="60" height="30" as="geometry" />
+          <mxGeometry x="1201" y="7" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zBltpBHX0f_aA2OENYTL-2" value="Laya2" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="24" y="7" width="60" height="30" as="geometry" />
@@ -875,13 +882,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zBltpBHX0f_aA2OENYTL-4" value="Shader" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="404" width="161" height="52" as="geometry" />
+          <mxGeometry x="469" y="404" width="161" height="52" as="geometry" />
         </mxCell>
         <mxCell id="zBltpBHX0f_aA2OENYTL-5" value="+ upload()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zBltpBHX0f_aA2OENYTL-4">
           <mxGeometry y="26" width="161" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zBltpBHX0f_aA2OENYTL-8" value="upload(shaderValue:ShaderValue,params:any[])" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="656" y="404" width="476" height="292" as="geometry" />
+          <mxGeometry x="680" y="404" width="476" height="292" as="geometry" />
         </mxCell>
         <mxCell id="zBltpBHX0f_aA2OENYTL-9" value="&lt;div style=&quot;background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;//&amp;nbsp;告诉webgl使用的program&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;var&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;gl&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;WebGLRenderingContext&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;WebGLContext&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;mainContext&lt;/span&gt;;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;WebGLContext&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;useProgram&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;gl&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;_program&lt;/span&gt;);&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;// 设置绑定在program上的shader的各种unifor参数&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;params&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;params&lt;/span&gt;&amp;nbsp;||&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;_params&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212); line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;for&lt;/span&gt;&amp;nbsp;(&lt;span style=&quot;color: #569cd6;&quot;&gt;var&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;i&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;number&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #b5cea8;&quot;&gt;0&lt;/span&gt;;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;i&lt;/span&gt;&amp;nbsp;&amp;lt;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;n&lt;/span&gt;;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;i&lt;/span&gt;++)&amp;nbsp;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;one&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;params&lt;/span&gt;[&lt;span style=&quot;color: #9cdcfe;&quot;&gt;i&lt;/span&gt;];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #c586c0;&quot;&gt;if&lt;/span&gt;&amp;nbsp;((&lt;span style=&quot;color: #9cdcfe;&quot;&gt;value&lt;/span&gt;&amp;nbsp;=&amp;nbsp;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;shaderValue&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #c586c0;&quot;&gt;as&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;any&lt;/span&gt;)[&lt;span style=&quot;color: #9cdcfe;&quot;&gt;one&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;name&lt;/span&gt;])&amp;nbsp;!==&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;null&lt;/span&gt;) {&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;//&amp;nbsp;从shaderValue获取参数，上层给shader中对应的uniform。&lt;/span&gt;&lt;/div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;// 更新shader参数值，并更新shaderCall计数。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;shaderCall&lt;/span&gt;&amp;nbsp;+=&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;one&lt;/span&gt;.&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;fun&lt;/span&gt;.&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;call&lt;/span&gt;(&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;this&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;one&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;value&lt;/span&gt;);&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;color: rgb(212, 212, 212);&quot;&gt;}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="zBltpBHX0f_aA2OENYTL-8">
           <mxGeometry y="30" width="476" height="262" as="geometry" />
@@ -914,7 +921,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zBltpBHX0f_aA2OENYTL-32" value="Shader2X" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="511" width="161" height="52" as="geometry" />
+          <mxGeometry x="469" y="511" width="161" height="52" as="geometry" />
         </mxCell>
         <mxCell id="zBltpBHX0f_aA2OENYTL-33" value="+ upload()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zBltpBHX0f_aA2OENYTL-32">
           <mxGeometry y="26" width="161" height="26" as="geometry" />
@@ -926,10 +933,10 @@
           <mxGeometry y="26" width="161" height="26" as="geometry" />
         </mxCell>
         <mxCell id="6foeN-r4GxHkSL7s8blt-5" value="renderSubmit()" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="-273" y="225" width="284" height="120" as="geometry" />
+          <mxGeometry x="-273" y="225" width="626" height="177" as="geometry" />
         </mxCell>
-        <mxCell id="6foeN-r4GxHkSL7s8blt-6" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;//&amp;nbsp;设置shader使用的纹理&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;shaderValue&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;texture&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;source&lt;/span&gt;;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;//&amp;nbsp;上传&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;shaderValue&lt;/span&gt;.&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;upload&lt;/span&gt;();&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="6foeN-r4GxHkSL7s8blt-5">
-          <mxGeometry y="30" width="284" height="90" as="geometry" />
+        <mxCell id="6foeN-r4GxHkSL7s8blt-6" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;shaderValue&lt;/span&gt;.&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;texture&lt;/span&gt;&amp;nbsp;=&amp;nbsp;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;source&lt;/span&gt;;&amp;nbsp;&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;//&amp;nbsp;设置shader使用的纹理&lt;/span&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;shaderValue&lt;/span&gt;.&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;upload&lt;/span&gt;();&lt;span style=&quot;color: rgb(106, 153, 85);&quot;&gt;//&amp;nbsp;上传&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;//&amp;nbsp;绘制三角形&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;gl&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;drawElements&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;gl&lt;/span&gt;.&lt;span style=&quot;color: #4fc1ff;&quot;&gt;TRIANGLES&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;_numEle&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;gl&lt;/span&gt;.&lt;span style=&quot;color: #4fc1ff;&quot;&gt;UNSIGNED_SHORT&lt;/span&gt;,&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;_startIdx&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="6foeN-r4GxHkSL7s8blt-5">
+          <mxGeometry y="30" width="626" height="147" as="geometry" />
         </mxCell>
         <mxCell id="6foeN-r4GxHkSL7s8blt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="6foeN-r4GxHkSL7s8blt-2" target="6foeN-r4GxHkSL7s8blt-5">
           <mxGeometry relative="1" as="geometry" />
