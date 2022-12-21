@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-21T03:06:56.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Z5DWVoU-cpshLPnqQIrs" version="20.7.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-12-21T03:07:27.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="0lbETlDWhBPkzk3oSJIL" version="20.7.4" type="github" pages="8">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1674" dy="798" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1050,13 +1050,21 @@
           <mxGeometry y="26" width="161" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ioaIVlEAZrFx-6qrnPIR-4" value="texture.ps.glsl" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1509" y="-374" width="175" height="78" as="geometry" />
+          <mxGeometry x="1525" y="-474" width="175" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="ioaIVlEAZrFx-6qrnPIR-5" value="+ uniform vec2 blurInfo;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ioaIVlEAZrFx-6qrnPIR-4">
+        <mxCell id="ioaIVlEAZrFx-6qrnPIR-5" value="+ strength_sig2_2sig2_gauss1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ioaIVlEAZrFx-6qrnPIR-4">
           <mxGeometry y="26" width="175" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ioaIVlEAZrFx-6qrnPIR-7" value="+ strength_sig2_2sig2_gauss1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ioaIVlEAZrFx-6qrnPIR-4">
+        <mxCell id="ioaIVlEAZrFx-6qrnPIR-7" value="+ uniform vec2 blurInfo;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ioaIVlEAZrFx-6qrnPIR-4">
           <mxGeometry y="52" width="175" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioaIVlEAZrFx-6qrnPIR-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8a4lVrDbmoeEfc8t2s3z-5" target="ioaIVlEAZrFx-6qrnPIR-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1434.030303030303" y="-401.9090909090909" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioaIVlEAZrFx-6qrnPIR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ioaIVlEAZrFx-6qrnPIR-6" target="ioaIVlEAZrFx-6qrnPIR-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
