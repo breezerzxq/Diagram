@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-21T02:53:02.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="KanMbIzucuCGKeKbEylu" version="20.7.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-12-21T03:02:46.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="2eFZ_55kRfa_IcTXP9G9" version="20.7.4" type="github" pages="8">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1674" dy="798" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -727,7 +727,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5UktMYkmZV-Ge5QZbIqA" name="webgl &amp; laya 渲染流程的映射">
-    <mxGraphModel dx="1674" dy="798" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="798" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -974,7 +974,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LBPl5Jx80TCN3gZ-jYy1" name="filter">
-    <mxGraphModel dx="1434" dy="798" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="869" dy="1311" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1020,7 +1020,40 @@
           <mxGeometry x="1181" y="296" width="497" height="83" as="geometry" />
         </mxCell>
         <mxCell id="8a4lVrDbmoeEfc8t2s3z-3" value="&lt;div style=&quot;color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(106, 153, 85);&quot;&gt;1. vs: vertex shader，顶点着色器&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: left;&quot;&gt;&lt;font color=&quot;#6a9955&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255, 255, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: left;&quot;&gt;&lt;font color=&quot;#6a9955&quot;&gt;2. ps: pixel shader，像素着色器&lt;/font&gt;&lt;/div&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="1846" y="54" width="259" height="88" as="geometry" />
+          <mxGeometry x="1186" y="-787" width="259" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="8a4lVrDbmoeEfc8t2s3z-4" value="TextureSV" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1178" y="-474" width="161" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="8a4lVrDbmoeEfc8t2s3z-5" value="+ blurInfo:any[] = null;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8a4lVrDbmoeEfc8t2s3z-4">
+          <mxGeometry y="26" width="161" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioaIVlEAZrFx-6qrnPIR-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8a4lVrDbmoeEfc8t2s3z-4">
+          <mxGeometry y="52" width="161" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8a4lVrDbmoeEfc8t2s3z-6" value="Value2D" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1178" y="-587" width="161" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8a4lVrDbmoeEfc8t2s3z-7" value="+ static _filter: Function" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="8a4lVrDbmoeEfc8t2s3z-6">
+          <mxGeometry y="26" width="161" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioaIVlEAZrFx-6qrnPIR-1" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8a4lVrDbmoeEfc8t2s3z-4" target="8a4lVrDbmoeEfc8t2s3z-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1130.5" y="-475" as="sourcePoint" />
+            <mxPoint x="1130.5" y="-530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ioaIVlEAZrFx-6qrnPIR-2" value="texture.vs.glsl" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1509" y="-595" width="161" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ioaIVlEAZrFx-6qrnPIR-3" value="+ static _filter: Function" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ioaIVlEAZrFx-6qrnPIR-2">
+          <mxGeometry y="26" width="161" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ioaIVlEAZrFx-6qrnPIR-4" value="texture.ps.glsl" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1509" y="-337" width="161" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ioaIVlEAZrFx-6qrnPIR-5" value="+ static _filter: Function" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ioaIVlEAZrFx-6qrnPIR-4">
+          <mxGeometry y="26" width="161" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
