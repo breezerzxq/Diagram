@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T06:17:47.755Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="qQ_ykibDFuoVV21NxEhj" version="20.7.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-17T06:19:21.386Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ZDdPCsYMpRlA5ZCEItuf" version="20.7.4" type="github" pages="4">
   <diagram id="M42NnmqpqFZ3cQRCHTO3" name="shader">
     <mxGraphModel dx="265" dy="1591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -780,6 +780,9 @@
             <mxPoint x="200" y="738" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mO-HboQ6fpamx1ivr-tr-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="mO-HboQ6fpamx1ivr-tr-49" target="mO-HboQ6fpamx1ivr-tr-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mO-HboQ6fpamx1ivr-tr-49" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;/**&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;*&amp;nbsp;获取指定资源地址的资源。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;*&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;@param&lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;url&amp;nbsp;资源地址。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;*&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;@return&lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;&amp;nbsp;&amp;nbsp;返回资源。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;*/&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;public&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;static&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;function&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;getRes&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;url&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;String&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;):&lt;/span&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #c586c0;&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp;loadedMap[URL.formatURL(url)];&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="209" y="1134" width="350" height="164" as="geometry" />
         </mxCell>
@@ -812,6 +815,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="89" y="1995" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mO-HboQ6fpamx1ivr-tr-59" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;/**&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #6a9955;&quot;&gt;已加载的资源池*/&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;public&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;static&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;color: #569cd6;&quot;&gt;const&lt;/span&gt;&amp;nbsp;loadedMap:&lt;span style=&quot;color: #4ec9b0;&quot;&gt;Object&lt;/span&gt;&amp;nbsp;=&amp;nbsp;{};&lt;/div&gt;&lt;/div&gt;" style="html=1;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="715" y="1191" width="329" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
