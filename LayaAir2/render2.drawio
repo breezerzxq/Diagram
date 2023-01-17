@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T03:46:05.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="x3n0K8bvbglq2_Mh0QKu" version="20.7.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-17T03:46:22.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="5jVJDNmdt9f-PZaR_td1" version="20.7.4" type="github" pages="4">
   <diagram id="M42NnmqpqFZ3cQRCHTO3" name="shader">
     <mxGraphModel dx="265" dy="1591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -761,8 +761,8 @@
         <mxCell id="mO-HboQ6fpamx1ivr-tr-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="mO-HboQ6fpamx1ivr-tr-42" target="mO-HboQ6fpamx1ivr-tr-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mO-HboQ6fpamx1ivr-tr-42" value="图集类型加载处理" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="799" y="175" width="120" height="40" as="geometry" />
+        <mxCell id="mO-HboQ6fpamx1ivr-tr-42" value="图集类型加载特殊处理" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="799" y="175" width="106" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mO-HboQ6fpamx1ivr-tr-43" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=15;" edge="1" source="mO-HboQ6fpamx1ivr-tr-42" parent="1" target="mO-HboQ6fpamx1ivr-tr-7">
           <mxGeometry relative="1" as="geometry">
