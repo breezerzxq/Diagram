@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T08:12:47.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="tcDtbYfUT6UgvlXoDjVC" version="20.8.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-06T08:13:28.967Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="MSK3wVTPrGndF9enzRNf" version="20.8.5" type="github" pages="5">
   <diagram id="M42NnmqpqFZ3cQRCHTO3" name="shaderValue">
     <mxGraphModel dx="265" dy="1591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -921,7 +921,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jd8egl8TizE4jHYQoMTR-14" value="1. _vb.bind_upload(_ib)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jd8egl8TizE4jHYQoMTR-14" value="1. _vb.bind_upload(_ib)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
           <mxGeometry x="176" y="212" width="131" height="25" as="geometry" />
         </mxCell>
         <mxCell id="jd8egl8TizE4jHYQoMTR-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jd8egl8TizE4jHYQoMTR-15" target="jd8egl8TizE4jHYQoMTR-36">
@@ -936,7 +936,7 @@
         <mxCell id="jd8egl8TizE4jHYQoMTR-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jd8egl8TizE4jHYQoMTR-19" target="jd8egl8TizE4jHYQoMTR-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jd8egl8TizE4jHYQoMTR-19" value="2. shaderValue.upload()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jd8egl8TizE4jHYQoMTR-19" value="2. shaderValue.upload()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="176" y="258" width="133" height="25" as="geometry" />
         </mxCell>
         <mxCell id="jd8egl8TizE4jHYQoMTR-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jd8egl8TizE4jHYQoMTR-20" target="fC8EKuk_PC_G25daue2T-4">
@@ -948,10 +948,10 @@
         <mxCell id="jd8egl8TizE4jHYQoMTR-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fC8EKuk_PC_G25daue2T-8" target="jd8egl8TizE4jHYQoMTR-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jd8egl8TizE4jHYQoMTR-24" value="«class»&lt;br&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Shader&lt;/div&gt;" style="html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+        <mxCell id="jd8egl8TizE4jHYQoMTR-24" value="«class»&lt;br&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Shader&lt;/div&gt;" style="html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="867.5" y="471" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jd8egl8TizE4jHYQoMTR-25" value="Shader2X" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+        <mxCell id="jd8egl8TizE4jHYQoMTR-25" value="Shader2X" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="764" y="584" width="320" height="86" as="geometry" />
         </mxCell>
         <mxCell id="jd8egl8TizE4jHYQoMTR-26" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jd8egl8TizE4jHYQoMTR-25">
@@ -984,7 +984,7 @@
         <mxCell id="jd8egl8TizE4jHYQoMTR-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jd8egl8TizE4jHYQoMTR-37" target="jd8egl8TizE4jHYQoMTR-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jd8egl8TizE4jHYQoMTR-37" value="sd.upload(this, params);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jd8egl8TizE4jHYQoMTR-37" value="sd.upload(this, params);" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="499" y="526.5" width="137" height="25" as="geometry" />
         </mxCell>
         <mxCell id="jd8egl8TizE4jHYQoMTR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fC8EKuk_PC_G25daue2T-4" target="jd8egl8TizE4jHYQoMTR-37">
