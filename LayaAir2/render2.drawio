@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T07:04:58.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="q8iYubYgbioRhqpeE92b" version="20.8.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-06T07:07:16.829Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="EVjUbjSXehg_xG8vKlor" version="20.8.5" type="github" pages="5">
   <diagram id="M42NnmqpqFZ3cQRCHTO3" name="shaderValue">
     <mxGraphModel dx="265" dy="1591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -844,10 +844,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hIm7oNTZVBPij_-vzkme" name="laya渲染框架">
-    <mxGraphModel dx="1687" dy="899" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="26" dy="1464" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="itagT_PjVLPHN2vCXV5i-1" value="«class»&lt;br&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;ShaderValue&lt;/div&gt;" style="html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="1799.5" y="-769" width="110" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
