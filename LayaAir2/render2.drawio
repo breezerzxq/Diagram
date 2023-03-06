@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T07:34:02.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="RjtN2I1Rd7-hFfUFE4Su" version="20.8.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-06T07:34:43.293Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="LE0HgpIH8KSX5MgqBHQ3" version="20.8.5" type="github" pages="5">
   <diagram id="M42NnmqpqFZ3cQRCHTO3" name="shaderValue">
     <mxGraphModel dx="265" dy="1591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -844,7 +844,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hIm7oNTZVBPij_-vzkme" name="laya渲染框架">
-    <mxGraphModel dx="2049" dy="1091" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -938,7 +938,7 @@
         <mxCell id="jd8egl8TizE4jHYQoMTR-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jd8egl8TizE4jHYQoMTR-20" target="fC8EKuk_PC_G25daue2T-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jd8egl8TizE4jHYQoMTR-20" value="上层shader到gpu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jd8egl8TizE4jHYQoMTR-20" value="提交shader到gpu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="302" y="585.5" width="100" height="21" as="geometry" />
         </mxCell>
         <mxCell id="jd8egl8TizE4jHYQoMTR-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fC8EKuk_PC_G25daue2T-8" target="jd8egl8TizE4jHYQoMTR-19">
@@ -989,7 +989,7 @@
         <mxCell id="jd8egl8TizE4jHYQoMTR-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jd8egl8TizE4jHYQoMTR-39" target="jd8egl8TizE4jHYQoMTR-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jd8egl8TizE4jHYQoMTR-39" value="上层shader到gpu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jd8egl8TizE4jHYQoMTR-39" value="提交shader到gpu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="804" y="718.5" width="100" height="21" as="geometry" />
         </mxCell>
       </root>
