@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T07:34:43.293Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="LE0HgpIH8KSX5MgqBHQ3" version="20.8.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-06T07:35:22.231Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="TkoKF4dcmlZpVuktllkQ" version="20.8.5" type="github" pages="5">
   <diagram id="M42NnmqpqFZ3cQRCHTO3" name="shaderValue">
     <mxGraphModel dx="265" dy="1591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -844,12 +844,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hIm7oNTZVBPij_-vzkme" name="laya渲染框架">
-    <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="1091" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="itagT_PjVLPHN2vCXV5i-1" value="«class»&lt;br&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;ShaderValue&lt;/div&gt;" style="html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-          <mxGeometry x="428" y="571" width="110" height="50" as="geometry" />
+          <mxGeometry x="357" y="634" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="itagT_PjVLPHN2vCXV5i-2" value="«class»&lt;br&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Buffer&lt;/div&gt;" style="html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
           <mxGeometry x="472" y="229" width="110" height="50" as="geometry" />
@@ -858,7 +858,7 @@
           <mxGeometry x="15" y="9" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fC8EKuk_PC_G25daue2T-1" value="Value2D" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-          <mxGeometry x="420" y="656" width="126" height="86" as="geometry" />
+          <mxGeometry x="349" y="719" width="126" height="86" as="geometry" />
         </mxCell>
         <mxCell id="fC8EKuk_PC_G25daue2T-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fC8EKuk_PC_G25daue2T-1">
           <mxGeometry y="26" width="126" height="26" as="geometry" />
@@ -898,8 +898,8 @@
         </mxCell>
         <mxCell id="iw9kv5D1lbp28o1cIMyV-1" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fC8EKuk_PC_G25daue2T-1" target="itagT_PjVLPHN2vCXV5i-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-104" y="767" as="sourcePoint" />
-            <mxPoint x="-104" y="691" as="targetPoint" />
+            <mxPoint x="-175" y="830" as="sourcePoint" />
+            <mxPoint x="-175" y="754" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iw9kv5D1lbp28o1cIMyV-2" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fC8EKuk_PC_G25daue2T-5" target="aFipisKqCtdZiY-PzPI2-1">
@@ -929,17 +929,17 @@
         <mxCell id="jd8egl8TizE4jHYQoMTR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fC8EKuk_PC_G25daue2T-8" target="jd8egl8TizE4jHYQoMTR-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jd8egl8TizE4jHYQoMTR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jd8egl8TizE4jHYQoMTR-19" target="jd8egl8TizE4jHYQoMTR-20">
+        <mxCell id="jd8egl8TizE4jHYQoMTR-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jd8egl8TizE4jHYQoMTR-19" target="jd8egl8TizE4jHYQoMTR-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jd8egl8TizE4jHYQoMTR-19" value="2. shaderValue.upload()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="176" y="258" width="137" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="jd8egl8TizE4jHYQoMTR-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jd8egl8TizE4jHYQoMTR-20" target="fC8EKuk_PC_G25daue2T-4">
+        <mxCell id="jd8egl8TizE4jHYQoMTR-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jd8egl8TizE4jHYQoMTR-20" target="fC8EKuk_PC_G25daue2T-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jd8egl8TizE4jHYQoMTR-20" value="提交shader到gpu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="302" y="585.5" width="100" height="21" as="geometry" />
+          <mxGeometry x="194.5" y="589" width="100" height="21" as="geometry" />
         </mxCell>
         <mxCell id="jd8egl8TizE4jHYQoMTR-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fC8EKuk_PC_G25daue2T-8" target="jd8egl8TizE4jHYQoMTR-19">
           <mxGeometry relative="1" as="geometry" />
@@ -981,7 +981,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jd8egl8TizE4jHYQoMTR-37" value="sd.upload(this, params);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="605" y="716.5" width="137" height="25" as="geometry" />
+          <mxGeometry x="534" y="779.5" width="137" height="25" as="geometry" />
         </mxCell>
         <mxCell id="jd8egl8TizE4jHYQoMTR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fC8EKuk_PC_G25daue2T-4" target="jd8egl8TizE4jHYQoMTR-37">
           <mxGeometry relative="1" as="geometry" />
@@ -990,7 +990,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jd8egl8TizE4jHYQoMTR-39" value="提交shader到gpu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="804" y="718.5" width="100" height="21" as="geometry" />
+          <mxGeometry x="733" y="781.5" width="100" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
