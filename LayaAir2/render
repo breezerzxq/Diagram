@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T09:11:30.052Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="wCxwj07lhFSvNXLjdC0m" version="21.0.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-03-06T09:11:44.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="UFo4ZoKsMVkXQFHIyfSC" version="21.0.2" type="github" pages="7">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -723,7 +723,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5UktMYkmZV-Ge5QZbIqA" name="webgl &amp; laya 渲染流程的映射">
-    <mxGraphModel dx="3187" dy="1698" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="804" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -864,7 +864,7 @@
         <mxCell id="zBltpBHX0f_aA2OENYTL-2" value="Laya2" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillStyle=solid;fontSize=5;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="3" y="4" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zBltpBHX0f_aA2OENYTL-3" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="Ut679RaI4PAm66yEJcgP-23" target="Ut679RaI4PAm66yEJcgP-19" edge="1">
+        <mxCell id="zBltpBHX0f_aA2OENYTL-3" value="&lt;font color=&quot;#ffffff&quot;&gt;Extends&lt;/font&gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="Ut679RaI4PAm66yEJcgP-23" target="Ut679RaI4PAm66yEJcgP-19" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="643" y="252" as="sourcePoint" />
             <mxPoint x="803" y="252" as="targetPoint" />
