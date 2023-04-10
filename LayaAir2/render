@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T12:15:07.957Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="CwPzsLyki_dBS636A9Mo" version="21.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-04-10T12:17:33.947Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="oiYnI2bp0pyrU8TIWiwJ" version="21.1.1" type="github" pages="8">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -983,7 +983,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-4" value="请求加载test.atlas" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="33" y="161" width="120" height="40" as="geometry" />
+          <mxGeometry x="33" y="131" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-4" parent="1" target="hSJHgzVcU_Z0M9Yc15jM-10">
           <mxGeometry relative="1" as="geometry">
@@ -994,7 +994,7 @@
           <mxGeometry x="11" y="13" width="396" height="49" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-10" value="创建一个加载器Loader" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="33" y="238" width="120" height="40" as="geometry" />
+          <mxGeometry x="33" y="194" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-10" parent="1" target="hSJHgzVcU_Z0M9Yc15jM-19">
           <mxGeometry relative="1" as="geometry">
@@ -1002,7 +1002,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-19" value="先加载test.atlas" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="33" y="314" width="120" height="40" as="geometry" />
+          <mxGeometry x="33" y="263" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-20" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-19" parent="1" target="hSJHgzVcU_Z0M9Yc15jM-21">
           <mxGeometry relative="1" as="geometry">
@@ -1010,9 +1010,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-21" value="再加载test.astc" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="33" y="396" width="120" height="40" as="geometry" />
+          <mxGeometry x="33" y="326" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-22" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-21">
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-22" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-21" target="hSJHgzVcU_Z0M9Yc15jM-37">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="93" y="493" as="targetPoint" />
           </mxGeometry>
@@ -1021,7 +1021,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-34" value="创建出所有小块Texture，并传入WebGLImage和资源地址(test.astc)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="180" y="238.5" width="140" height="58" as="geometry" />
+          <mxGeometry x="188" y="250" width="140" height="58" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-37" target="hSJHgzVcU_Z0M9Yc15jM-56">
           <mxGeometry relative="1" as="geometry">
@@ -1029,43 +1029,43 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-37" value="创建WebGLImage对象，并保存到resdict中" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="190" y="123" width="120" height="40" as="geometry" />
+          <mxGeometry x="198" y="168" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-38" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-37" target="hSJHgzVcU_Z0M9Yc15jM-34">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="223" as="targetPoint" />
+            <mxPoint x="264" y="238.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-45" value="gc" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="233" y="381" width="30" height="30" as="geometry" />
+          <mxGeometry x="1084" y="73" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-45" parent="1" target="hSJHgzVcU_Z0M9Yc15jM-47">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="248" y="471" as="targetPoint" />
+            <mxPoint x="1099" y="163" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-47" value="遍历resdict字典，清楚引用次数=0的webGLImage" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="188" y="434" width="120" height="40" as="geometry" />
+          <mxGeometry x="1039" y="126" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-48" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-47" parent="1" target="hSJHgzVcU_Z0M9Yc15jM-49">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="248" y="534" as="targetPoint" />
+            <mxPoint x="1099" y="226" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-49" value="webGLImage.dispose" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="188" y="504" width="120" height="40" as="geometry" />
+          <mxGeometry x="1039" y="196" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-50" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-49" parent="1" target="hSJHgzVcU_Z0M9Yc15jM-51">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="248" y="604" as="targetPoint" />
+            <mxPoint x="1099" y="296" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-51" value="销毁自身的_image &amp;amp; _source" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="188" y="576" width="120" height="40" as="geometry" />
+          <mxGeometry x="1039" y="268" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-52" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-51" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="248" y="676" as="targetPoint" />
+            <mxPoint x="1099" y="368" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-56" value="保存资源地址url并且根据data创建出_image和_source" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
