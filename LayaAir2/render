@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T12:33:37.056Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ptNi49XUPXi4yK53yWAg" version="21.1.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-04-10T12:35:36.378Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tbiT5vwBDkRtAVx-6HPm" version="21.1.5" type="github" pages="8">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1012,13 +1012,16 @@
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-19" value="先加载test.atlas" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="153" y="263" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-21" value="再加载test.astc" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
-          <mxGeometry x="153" y="457" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-22" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-21" target="hSJHgzVcU_Z0M9Yc15jM-37" edge="1">
+        <mxCell id="XhPOY44ROhsI_AUatWQ--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-21" target="XhPOY44ROhsI_AUatWQ--13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="213" y="533" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="213" y="522" />
+              <mxPoint x="213" y="522" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-21" value="再加载test.astc" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
+          <mxGeometry x="153" y="448" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-34" target="hSJHgzVcU_Z0M9Yc15jM-59" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1026,7 +1029,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-34" value="创建出所有小块Texture，并传入WebGLImage和资源地址(test.astc)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
-          <mxGeometry x="143" y="586" width="140" height="58" as="geometry" />
+          <mxGeometry x="143" y="720" width="140" height="58" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-37" target="hSJHgzVcU_Z0M9Yc15jM-56" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1034,7 +1037,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-37" value="创建WebGLImage对象，并保存到resdict中" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
-          <mxGeometry x="153" y="526" width="120" height="40" as="geometry" />
+          <mxGeometry x="153" y="623" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-38" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-37" target="hSJHgzVcU_Z0M9Yc15jM-34" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1073,6 +1076,15 @@
             <mxPoint x="1019" y="408" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="XhPOY44ROhsI_AUatWQ--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-56" target="hSJHgzVcU_Z0M9Yc15jM-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="389" y="584" />
+              <mxPoint x="717" y="584" />
+              <mxPoint x="717" y="368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-56" value="保存资源地址url并且根据data创建出_image和_source" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="331" y="484" width="116" height="60" as="geometry" />
         </mxCell>
@@ -1084,11 +1096,11 @@
             <mxPoint x="573" y="188" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-59" target="hSJHgzVcU_Z0M9Yc15jM-64" edge="1">
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-59" target="hSJHgzVcU_Z0M9Yc15jM-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-59" value="根据小块地址缓存texture对象到loadedMap中" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="369" y="603" width="120" height="60" as="geometry" />
+          <mxGeometry x="331" y="603" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-61" value="根据image.skin" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="513" y="171" width="120" height="40" as="geometry" />
@@ -1219,6 +1231,40 @@
         </mxCell>
         <mxCell id="XhPOY44ROhsI_AUatWQ--7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="208" y="340.5" width="10" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="XhPOY44ROhsI_AUatWQ--10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="113" y="510.5" width="10" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="XhPOY44ROhsI_AUatWQ--11" value="callback" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="XhPOY44ROhsI_AUatWQ--10" target="XhPOY44ROhsI_AUatWQ--13">
+          <mxGeometry x="-0.0073" relative="1" as="geometry">
+            <mxPoint x="191" y="585.6700000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="557.5" />
+              <mxPoint x="212" y="567.5" />
+              <mxPoint x="172" y="571.5" />
+              <mxPoint x="208" y="559.5" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XhPOY44ROhsI_AUatWQ--12" value="http请求" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="XhPOY44ROhsI_AUatWQ--13" target="XhPOY44ROhsI_AUatWQ--10">
+          <mxGeometry x="0.3757" y="-9" width="80" relative="1" as="geometry">
+            <mxPoint x="384" y="551.5" as="sourcePoint" />
+            <mxPoint x="285" y="584.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="173" y="516.5" />
+              <mxPoint x="155" y="532.5" />
+              <mxPoint x="242" y="561.5" />
+              <mxPoint x="318" y="564.5" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XhPOY44ROhsI_AUatWQ--15" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" source="XhPOY44ROhsI_AUatWQ--13" target="hSJHgzVcU_Z0M9Yc15jM-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XhPOY44ROhsI_AUatWQ--13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="208" y="510.5" width="10" height="83" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
