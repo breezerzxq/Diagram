@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T10:00:48.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="AJXTm8yhK1k7Z-kHLyo4" version="21.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-04-10T10:01:10.237Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="XYZPTNjg2JQ1EAVawxTP" version="21.1.1" type="github" pages="8">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1048,27 +1048,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-47" value="遍历resdict字典，清楚引用次数=0的webGLImage" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="501" y="358" width="120" height="40" as="geometry" />
+          <mxGeometry x="501" y="308" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-48" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-47" parent="1" target="hSJHgzVcU_Z0M9Yc15jM-49">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="561" y="458" as="targetPoint" />
+            <mxPoint x="561" y="408" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-49" value="webGLImage.dispose" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="501" y="468" width="120" height="40" as="geometry" />
+          <mxGeometry x="501" y="378" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-50" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-49" parent="1" target="hSJHgzVcU_Z0M9Yc15jM-51">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="561" y="568" as="targetPoint" />
+            <mxPoint x="561" y="478" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-51" value="销毁自身的_image &amp;amp; _source" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="501" y="600" width="120" height="40" as="geometry" />
+          <mxGeometry x="501" y="450" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-52" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-51" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="561" y="700" as="targetPoint" />
+            <mxPoint x="561" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
