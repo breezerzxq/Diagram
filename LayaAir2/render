@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T09:35:25.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="RdU9iuevMTnLvv737peg" version="21.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-04-10T09:38:05.552Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="4voobZ-3xbDbu1r3aKJM" version="21.1.1" type="github" pages="8">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -989,6 +989,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="183" y="261" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-6" value="test.atlas：表示是一个图集资源，.atlas就是图集描述文件，还有一个test.astc的纹理文件。因此需要加载2个文件test.atlas和test.astc，才表示图集资源加载完成。" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="11" y="13" width="396" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
