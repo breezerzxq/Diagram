@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T09:12:10.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="jKdHFRzasmDCbRlF9bgD" version="21.0.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-04-10T09:32:39.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="4IxIi4cOBPP73AWszpkc" version="21.1.1" type="github" pages="8">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -84,7 +84,7 @@
         <mxCell id="aEti-XBkVmwji3XyCAgu-29" value="this._updateTimers()" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="273" y="431" width="129" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4a9iayq7kXdfapG9voCM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aEti-XBkVmwji3XyCAgu-31" target="aEti-XBkVmwji3XyCAgu-36">
+        <mxCell id="4a9iayq7kXdfapG9voCM-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aEti-XBkVmwji3XyCAgu-31" target="aEti-XBkVmwji3XyCAgu-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aEti-XBkVmwji3XyCAgu-31" value="render(ctx:Context,x,y)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
@@ -966,6 +966,14 @@
             <mxPoint x="39" y="176" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RZ9X_SJM8Cr1mpMFzrar" name="astc纹理重建">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
