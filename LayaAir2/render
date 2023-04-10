@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T10:02:36.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="rEcKH8UGD18i6EzT370t" version="21.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-04-10T11:26:45.114Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="iPZTqYAgsim2dXbJKEQn" version="21.1.1" type="github" pages="8">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1017,6 +1017,9 @@
             <mxPoint x="93" y="493" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-34" target="hSJHgzVcU_Z0M9Yc15jM-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-34" value="创建出所有小块Texture，并传入WebGLImage和资源地址(test.astc)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="252" y="251" width="140" height="58" as="geometry" />
         </mxCell>
@@ -1039,39 +1042,50 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-45" value="gc" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="546" y="255" width="30" height="30" as="geometry" />
+          <mxGeometry x="570" y="328" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-45" parent="1" target="hSJHgzVcU_Z0M9Yc15jM-47">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="561" y="345" as="targetPoint" />
+            <mxPoint x="585" y="418" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-47" value="遍历resdict字典，清楚引用次数=0的webGLImage" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="501" y="308" width="120" height="40" as="geometry" />
+          <mxGeometry x="525" y="381" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-48" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-47" parent="1" target="hSJHgzVcU_Z0M9Yc15jM-49">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="561" y="408" as="targetPoint" />
+            <mxPoint x="585" y="481" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-49" value="webGLImage.dispose" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="501" y="378" width="120" height="40" as="geometry" />
+          <mxGeometry x="525" y="451" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-50" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-49" parent="1" target="hSJHgzVcU_Z0M9Yc15jM-51">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="561" y="478" as="targetPoint" />
+            <mxPoint x="585" y="551" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-51" value="销毁自身的_image &amp;amp; _source" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="501" y="450" width="120" height="40" as="geometry" />
+          <mxGeometry x="525" y="523" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-52" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-51" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="561" y="550" as="targetPoint" />
+            <mxPoint x="585" y="623" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-56" value="保存资源地址url并且根据data创建出_image和_source" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="456" y="126.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-57" value="绘制一个image对象" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="818" y="111" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-58" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-57" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="833" y="201" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-59" value="根据小块地址缓存texture对象到loadedMap中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462" y="251" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
