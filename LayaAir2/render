@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T11:35:43.183Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="fcbx4vgfvKM6U9HNqyKZ" version="21.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-04-10T11:36:14.005Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="GKHv8LWWEbpBj8pTxbvi" version="21.1.1" type="github" pages="8">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1139,7 +1139,7 @@
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-79" value="resourceRebuild" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="930" y="107" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-81" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-81" value="很久持有的url，http请求下载" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="930" y="198" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-82" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-81" parent="1">
