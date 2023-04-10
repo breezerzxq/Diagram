@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T11:26:45.114Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="iPZTqYAgsim2dXbJKEQn" version="21.1.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-04-10T11:27:59.952Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="dPuqgVyz4OszX0V5GzLl" version="21.1.1" type="github" pages="8">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1079,13 +1079,27 @@
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-57" value="绘制一个image对象" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="818" y="111" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-58" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-57" parent="1">
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-58" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-57" parent="1" target="hSJHgzVcU_Z0M9Yc15jM-61">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="833" y="201" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-59" target="hSJHgzVcU_Z0M9Yc15jM-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-59" value="根据小块地址缓存texture对象到loadedMap中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="462" y="251" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-61" value="根据image.skin" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="773" y="184" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-62" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="hSJHgzVcU_Z0M9Yc15jM-61" parent="1" target="hSJHgzVcU_Z0M9Yc15jM-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="833" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-64" value="从loadeMap中获得texture" style="rhombus;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="793" y="258" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
