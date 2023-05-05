@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T07:55:13.596Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="oT8T3Njak-OOgXzU3gDz" version="21.2.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-05T07:56:05.811Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ANJboUD6L5XadmbF1JWh" version="21.2.7" type="github" pages="2">
   <diagram name="render" id="e1oT-nx0cN_IvU85QJFF">
     <mxGraphModel dx="1195" dy="637" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -39,6 +39,29 @@
         </mxCell>
         <mxCell id="qQzPLSAb_yc15qAoAnq2-1" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;ObjectRenderer&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="562" y="23" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qQzPLSAb_yc15qAoAnq2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qQzPLSAb_yc15qAoAnq2-2" target="qQzPLSAb_yc15qAoAnq2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qQzPLSAb_yc15qAoAnq2-2" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;BatchRenderer&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="153" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qQzPLSAb_yc15qAoAnq2-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qQzPLSAb_yc15qAoAnq2-4" target="qQzPLSAb_yc15qAoAnq2-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qQzPLSAb_yc15qAoAnq2-4" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;ParticleRenderer&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="601" y="153" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qQzPLSAb_yc15qAoAnq2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qQzPLSAb_yc15qAoAnq2-6" target="qQzPLSAb_yc15qAoAnq2-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="801" y="118" />
+              <mxPoint x="622" y="118" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qQzPLSAb_yc15qAoAnq2-6" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;TilingSpriteRenderer&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="741" y="153" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
