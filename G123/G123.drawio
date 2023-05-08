@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T02:32:14.502Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="nGoWP8iQlUKpoFohgSZH" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T02:32:50.080Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Wbn7C9MOmzxneQxVPBqa" version="21.2.9" type="github">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="989" dy="527" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -218,7 +218,10 @@
           <mxGeometry y="116.41791044776119" width="120" height="33.582089552238806" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-121" value="core: 动作" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="951" y="31" width="60" height="16.791044776119403" as="geometry" />
+          <mxGeometry x="910" y="31" width="60" height="16.791044776119403" as="geometry" />
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-122" value="core: 特效" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1046" y="31" width="60" height="16.791044776119403" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
