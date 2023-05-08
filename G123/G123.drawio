@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T01:59:24.034Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="_jXSqUH57X9W0eEN1WL8" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T02:02:25.220Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="BFvx6SiKYBqTq-vYsvfZ" version="21.2.9" type="github">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -156,12 +156,6 @@
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-99" value="WarTree" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="285" y="270" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-100" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ucgf8HChTW4hrIL-4ixv-69" target="Ucgf8HChTW4hrIL-4ixv-60">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="451" y="669" as="sourcePoint" />
-            <mxPoint x="611" y="669" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
