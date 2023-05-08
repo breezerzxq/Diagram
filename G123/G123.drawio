@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T07:18:53.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="wNkCAVngyO5aEO-Zeq1D" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T07:20:40.727Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="nNn4-JclpsreCWrGvUGb" version="21.2.9" type="github">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
-    <mxGraphModel dx="1687" dy="1726" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="1354" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -316,6 +316,27 @@
         </mxCell>
         <mxCell id="RmpQUJFCXnQjnNN-iKfI-8" value="&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px;&quot;&gt;serverToClientData&lt;/span&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="96" y="223" width="124" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="RmpQUJFCXnQjnNN-iKfI-26" value="服务器数据&lt;br&gt;(serverCmdsSet)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="1343.0043119266054" y="84.66666666666666" width="113.39449541284404" height="49.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="RmpQUJFCXnQjnNN-iKfI-27" value="客户端数据(clientCmdsSet)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="1483.80247706422" y="84.66666666666666" width="113.39449541284404" height="49.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="RmpQUJFCXnQjnNN-iKfI-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RmpQUJFCXnQjnNN-iKfI-26" target="RmpQUJFCXnQjnNN-iKfI-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RmpQUJFCXnQjnNN-iKfI-29" value="构建WarTree" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="1624.7933027522936" y="84.66666666666666" width="113.39449541284404" height="49.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="RmpQUJFCXnQjnNN-iKfI-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RmpQUJFCXnQjnNN-iKfI-27" target="RmpQUJFCXnQjnNN-iKfI-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RmpQUJFCXnQjnNN-iKfI-31" value="播放WarTree" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="1764.5364220183483" y="84.66666666666666" width="113.39449541284404" height="49.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="RmpQUJFCXnQjnNN-iKfI-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RmpQUJFCXnQjnNN-iKfI-29" target="RmpQUJFCXnQjnNN-iKfI-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
