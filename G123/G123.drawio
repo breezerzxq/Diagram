@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T02:09:06.730Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="bLQeo3f8J6vL7L1PBMEq" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T02:14:30.569Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="LibmQ0S7Ga2gOLR-UXrf" version="21.2.9" type="github">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
-    <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="398" dy="212" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,16 +10,16 @@
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-23">
           <mxGeometry width="211" height="408" as="geometry" />
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-17" value="&lt;h1&gt;WarTree&lt;/h1&gt;&lt;p&gt;组织TreeNode&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-23">
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-17" value="&lt;h1&gt;WarTree&lt;/h1&gt;&lt;p&gt;组织TreeNode&lt;/p&gt;" style="text;html=1;strokeColor=#001DBC;fillColor=#0050ef;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#ffffff;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-23">
           <mxGeometry x="4" y="62.83" width="190" height="74.17" as="geometry" />
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-18" value="&lt;h1&gt;TreeNode&amp;nbsp;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;流程控制&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-23">
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-18" value="&lt;h1&gt;TreeNode&amp;nbsp;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;流程控制&lt;/p&gt;" style="text;html=1;strokeColor=#001DBC;fillColor=#0050ef;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#ffffff;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-23">
           <mxGeometry x="4" y="180.34" width="190" height="66.66" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-19" value="几个概念" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-23">
           <mxGeometry x="9" y="17.952" width="60" height="24.48" as="geometry" />
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-20" value="&lt;h1&gt;WarCommand &lt;br&gt;&lt;/h1&gt;&lt;p&gt;具体行为&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-23">
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-20" value="&lt;h1&gt;WarCommand &lt;br&gt;&lt;/h1&gt;&lt;p&gt;具体行为&lt;/p&gt;" style="text;html=1;strokeColor=#001DBC;fillColor=#0050ef;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#ffffff;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-23">
           <mxGeometry x="4" y="301.1" width="190" height="71.9" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-24" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -118,6 +118,20 @@
             <mxPoint x="261" y="52.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-110" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;curved=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.992;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Ucgf8HChTW4hrIL-4ixv-67" source="Ucgf8HChTW4hrIL-4ixv-69" target="Ucgf8HChTW4hrIL-4ixv-68">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="43" as="sourcePoint" />
+            <mxPoint x="320" y="43" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="137" y="51" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-111" value="finishCmd" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ucgf8HChTW4hrIL-4ixv-110">
+          <mxGeometry x="0.5078" y="7" relative="1" as="geometry">
+            <mxPoint x="48" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-71" value="" style="group;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" connectable="0" parent="Ucgf8HChTW4hrIL-4ixv-105">
           <mxGeometry x="322" y="331" width="196" height="101" as="geometry" />
         </mxCell>
@@ -159,6 +173,42 @@
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-99" value="WarTree" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-105">
           <mxGeometry x="17" y="16" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-106" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="798" y="156" as="sourcePoint" />
+            <mxPoint x="958" y="156" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="874" y="197" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-107" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="808" y="166" as="sourcePoint" />
+            <mxPoint x="968" y="166" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="884" y="207" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-108" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="818" y="176" as="sourcePoint" />
+            <mxPoint x="978" y="176" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="894" y="217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-109" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;curved=1;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="828" y="186" as="sourcePoint" />
+            <mxPoint x="988" y="186" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="904" y="227" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
