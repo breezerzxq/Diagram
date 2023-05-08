@@ -1,50 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T01:45:23.311Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="HN55HHnmunQAhFVH2hby" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T01:46:11.573Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="_XVIRSiMLUXjpd571Mvz" version="21.2.9" type="github">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="28" y="22" width="211" height="581" as="geometry" />
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="923" y="36" width="211" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="12" y="-178" width="820" height="150" as="geometry" />
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-23">
+          <mxGeometry width="211" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ucgf8HChTW4hrIL-4ixv-8" target="Ucgf8HChTW4hrIL-4ixv-9">
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-17" value="&lt;h1&gt;WarTree&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-23">
+          <mxGeometry x="4" y="77" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-18" value="&lt;h1&gt;TreeNode&amp;nbsp;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-23">
+          <mxGeometry x="4" y="223" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-19" value="几个概念" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-23">
+          <mxGeometry x="9" y="22" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-20" value="&lt;h1&gt;WarCommand &lt;br&gt;&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-23">
+          <mxGeometry x="4" y="377" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-24" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="52" y="-178" width="654" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-24">
+          <mxGeometry width="654" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-8" value="服务器数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-24">
+          <mxGeometry x="15" y="48" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-9" value="数据格式转换" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-24">
+          <mxGeometry x="164" y="48" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Ucgf8HChTW4hrIL-4ixv-24" source="Ucgf8HChTW4hrIL-4ixv-8" target="Ucgf8HChTW4hrIL-4ixv-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-8" value="服务器数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="67" y="-130" width="120" height="60" as="geometry" />
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-11" value="构建WarTree" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-24">
+          <mxGeometry x="364" y="48" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ucgf8HChTW4hrIL-4ixv-9" target="Ucgf8HChTW4hrIL-4ixv-11">
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Ucgf8HChTW4hrIL-4ixv-24" source="Ucgf8HChTW4hrIL-4ixv-9" target="Ucgf8HChTW4hrIL-4ixv-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-9" value="数据格式转换" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="216" y="-130" width="120" height="60" as="geometry" />
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-13" value="播放WarTree" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-24">
+          <mxGeometry x="514" y="48" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ucgf8HChTW4hrIL-4ixv-11" target="Ucgf8HChTW4hrIL-4ixv-13">
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="Ucgf8HChTW4hrIL-4ixv-24" source="Ucgf8HChTW4hrIL-4ixv-11" target="Ucgf8HChTW4hrIL-4ixv-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-11" value="构建WarTree" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="466" y="-130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-13" value="播放WarTree" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="616" y="-130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-16" value="总流程" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="22" y="-168" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-17" value="&lt;h1&gt;WarTree&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="32" y="123" width="190" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-18" value="&lt;h1&gt;TreeNode&amp;nbsp;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="32" y="299" width="190" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-19" value="几个概念" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="37" y="44" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-20" value="&lt;h1&gt;WarCommand &lt;br&gt;&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="32" y="480" width="190" height="120" as="geometry" />
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-16" value="总流程" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-24">
+          <mxGeometry x="15" y="6" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
