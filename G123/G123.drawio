@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T06:26:06.826Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Be1BdABKLGWIWyU-GcEi" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T06:26:30.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="mxUANPbw0tlEmOjZpxwj" version="21.2.9" type="github">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -31,10 +31,10 @@
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="Ucgf8HChTW4hrIL-4ixv-24" vertex="1">
           <mxGeometry width="618" height="124.99999999999999" as="geometry" />
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-8" value="服务器数据&lt;br&gt;(cmdSet)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="Ucgf8HChTW4hrIL-4ixv-24" vertex="1">
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-8" value="服务器数据&lt;br&gt;(serverCmdsSet)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="Ucgf8HChTW4hrIL-4ixv-24" vertex="1">
           <mxGeometry x="14.174311926605505" y="56.66666666666666" width="113.39449541284404" height="49.99999999999999" as="geometry" />
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-9" value="数据格式转换(cmdDict)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="Ucgf8HChTW4hrIL-4ixv-24" vertex="1">
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-9" value="数据格式转换(clientCmdsSet)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" parent="Ucgf8HChTW4hrIL-4ixv-24" vertex="1">
           <mxGeometry x="154.9724770642202" y="56.66666666666666" width="113.39449541284404" height="49.99999999999999" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="Ucgf8HChTW4hrIL-4ixv-24" source="Ucgf8HChTW4hrIL-4ixv-8" target="Ucgf8HChTW4hrIL-4ixv-9" edge="1">
