@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T03:18:34.604Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="nHDUSw2t6Bxh-7LrjSuo" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T03:18:46.121Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="7TXqhq28WMSgI0RmMy9p" version="21.2.9" type="github">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="797" dy="1251" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -232,7 +232,7 @@
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-139" value="回合制战斗流程：&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;玩家和敌人轮流进行行动，通常服务器计算出结果，将过程数据传给客户端，客户端进行播放。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="15" y="-493" width="512" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-143" value="&lt;b&gt;技能表控制行为过程，过程中产生各种效果&lt;/b&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-143" value="&lt;b&gt;技能控制行为过程，过程中产生各种效果&lt;/b&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1204" y="-810" width="249" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-144" value="效果表" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
