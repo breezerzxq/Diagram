@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T06:37:24.067Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Wbu9U8rNNzpetcpvmrRx" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T07:11:27.296Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="NZPg_u1Rd0r3vPSYwUoO" version="21.2.9" type="github">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
-    <mxGraphModel dx="989" dy="1354" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1147" dy="1438" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -316,6 +316,15 @@
         </mxCell>
         <mxCell id="RmpQUJFCXnQjnNN-iKfI-8" value="&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px;&quot;&gt;serverToClientData&lt;/span&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="96" y="223" width="124" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="RmpQUJFCXnQjnNN-iKfI-17" value="原始数据转换" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="1303.9964220183485" y="102.99666666666667" width="113.39449541284404" height="49.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="RmpQUJFCXnQjnNN-iKfI-18" value="视频播放" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="1303.9964220183485" y="174.99666666666667" width="113.39449541284404" height="49.99999999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="RmpQUJFCXnQjnNN-iKfI-19" value="更到操作？" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="1303.9964220183485" y="248.99666666666667" width="113.39449541284404" height="49.99999999999999" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
