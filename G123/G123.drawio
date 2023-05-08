@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T02:28:47.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="W8OP49up5-NXEjEDEzlD" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T02:31:58.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="nJ4l-G663Xl0UX71tWWY" version="21.2.9" type="github">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
-    <mxGraphModel dx="683" dy="364" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="527" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,17 +202,20 @@
             <mxPoint x="27" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-115" value="core: 技能" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1206" y="21" width="60" height="30" as="geometry" />
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-120" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="775" y="31" width="120" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-117" value="active_perform" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-          <mxGeometry x="1224" y="121" width="120" height="60" as="geometry" />
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-115" value="core: 技能" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-120">
+          <mxGeometry width="60" height="16.791044776119403" as="geometry" />
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-118" value="passive_perform" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-          <mxGeometry x="1224" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-117" value="active_perform" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-120">
+          <mxGeometry y="29.664179104477608" width="120" height="33.582089552238806" as="geometry" />
         </mxCell>
-        <mxCell id="Ucgf8HChTW4hrIL-4ixv-119" value="status_perfom" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-          <mxGeometry x="1224" y="276" width="120" height="60" as="geometry" />
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-118" value="passive_perform" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-120">
+          <mxGeometry y="73.88059701492537" width="120" height="33.582089552238806" as="geometry" />
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-119" value="status_perfom" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-120">
+          <mxGeometry y="116.41791044776119" width="120" height="33.582089552238806" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
