@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T07:17:16.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="mMQ1C4OaROzA78JcESc6" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T07:18:53.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="wNkCAVngyO5aEO-Zeq1D" version="21.2.9" type="github">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1687" dy="1726" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -316,18 +316,6 @@
         </mxCell>
         <mxCell id="RmpQUJFCXnQjnNN-iKfI-8" value="&lt;span style=&quot;background-color: rgb(30, 30, 30); color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px;&quot;&gt;serverToClientData&lt;/span&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="96" y="223" width="124" height="19" as="geometry" />
-        </mxCell>
-        <mxCell id="RmpQUJFCXnQjnNN-iKfI-21" value="&lt;h1&gt;低频通信&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#001DBC;fillColor=#0050ef;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1332.5" y="392" width="155" height="316" as="geometry" />
-        </mxCell>
-        <mxCell id="RmpQUJFCXnQjnNN-iKfI-22" value="&lt;h1&gt;更多操作？&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#001DBC;fillColor=#0050ef;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1673" y="392" width="155" height="316" as="geometry" />
-        </mxCell>
-        <mxCell id="RmpQUJFCXnQjnNN-iKfI-23" value="&lt;h1&gt;更丰富表现？&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#001DBC;fillColor=#0050ef;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1843" y="392" width="155" height="316" as="geometry" />
-        </mxCell>
-        <mxCell id="RmpQUJFCXnQjnNN-iKfI-24" value="&lt;h1&gt;节点树&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#001DBC;fillColor=#0050ef;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1502.5" y="392" width="155" height="316" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
