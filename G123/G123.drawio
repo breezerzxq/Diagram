@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T03:19:17.629Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="aPR9ZylBM8VQB616v79d" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T03:20:59.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="0Mx_NtjiVK7SArzdWD6p" version="21.2.9" type="github">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
-    <mxGraphModel dx="956" dy="1336" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="667" dy="1182" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -248,40 +248,46 @@
           <mxGeometry x="5" y="213" width="1131.88" height="138" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-161" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1205" y="-813" width="336" height="243.66999999999996" as="geometry" />
+          <mxGeometry x="1188" y="-823" width="356" height="250.67" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-128" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-161">
-          <mxGeometry width="336" height="243.67" as="geometry" />
+          <mxGeometry width="356" height="250.67000000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-162" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-161">
+          <mxGeometry x="3" y="39.09164033323758" width="138" height="207.80293019247344" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-143" value="&lt;b&gt;技能控制行为过程，过程中产生各种效果&lt;/b&gt;" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-161">
-          <mxGeometry x="10" y="4" width="249" height="30" as="geometry" />
+          <mxGeometry x="10" y="4.11490950876185" width="249" height="30.86182131571388" as="geometry" />
+        </mxCell>
+        <mxCell id="Ucgf8HChTW4hrIL-4ixv-164" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-161">
+          <mxGeometry x="154" y="39.09164033323758" width="191" height="207.80293019247344" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-122" value="42表(action &amp;amp; effect)" style="text;html=1;strokeColor=#005700;fillColor=#008a00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-161">
-          <mxGeometry x="166" y="45" width="120" height="22.386666666666667" as="geometry" />
+          <mxGeometry x="166" y="46.29273197357082" width="120" height="23.029776884037155" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-123" value="群体" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-161">
-          <mxGeometry x="251" y="79.5533333333334" width="74" height="44.77333333333333" as="geometry" />
+          <mxGeometry x="259" y="81.83869194675867" width="74" height="46.05955376807431" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-124" value="单体" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-161">
-          <mxGeometry x="251" y="135.50666666666666" width="74" height="44.77333333333333" as="geometry" />
+          <mxGeometry x="259" y="139.3994177918223" width="74" height="46.05955376807431" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-125" value="状态" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-161">
-          <mxGeometry x="251" y="190.2266666666667" width="74" height="44.77333333333333" as="geometry" />
+          <mxGeometry x="259" y="195.69137987168443" width="74" height="46.05955376807431" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-126" value="动作" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-161">
-          <mxGeometry x="163" y="79.5533333333334" width="74" height="44.77333333333333" as="geometry" />
+          <mxGeometry x="163" y="81.83869194675867" width="74" height="46.05955376807431" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-115" value="167表：skill" style="text;html=1;strokeColor=#005700;fillColor=#008a00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-161">
-          <mxGeometry x="10" y="45" width="77" height="22.386666666666667" as="geometry" />
+          <mxGeometry x="10" y="46.29273197357082" width="77" height="23.029776884037155" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-117" value="active_perform" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-161">
-          <mxGeometry x="10" y="79.55223880597009" width="120" height="44.776119402985074" as="geometry" />
+          <mxGeometry x="10" y="81.83756597649494" width="120" height="46.06241987419982" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-118" value="passive_perform" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-161">
-          <mxGeometry x="10" y="135.50746268656712" width="120" height="44.776119402985074" as="geometry" />
+          <mxGeometry x="10" y="139.40023667928668" width="120" height="46.06241987419982" as="geometry" />
         </mxCell>
         <mxCell id="Ucgf8HChTW4hrIL-4ixv-119" value="status_perfom" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="Ucgf8HChTW4hrIL-4ixv-161">
-          <mxGeometry x="10" y="190.22388059701495" width="120" height="44.776119402985074" as="geometry" />
+          <mxGeometry x="10" y="195.68851376555892" width="120" height="46.06241987419982" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
