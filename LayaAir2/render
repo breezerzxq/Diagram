@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T13:31:36.336Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="C4ArMpXxqjXjWFNlcf9p" version="21.2.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-05-09T13:43:58.596Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="-pkbtgejZSUc0rMBl3-K" version="21.2.9" type="github" pages="8">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -970,7 +970,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RZ9X_SJM8Cr1mpMFzrar" name="astc纹理重建">
-    <mxGraphModel dx="1195" dy="665" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="637" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1099,7 +1099,7 @@
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-59" value="根据小块地址缓存texture对象到loadedMap中" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="331" y="603" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-61" value="根据image.skin" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-61" value="根据image.url" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="513" y="171" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-62" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-61" target="hSJHgzVcU_Z0M9Yc15jM-64" edge="1">
