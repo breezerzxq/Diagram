@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T13:45:29.993Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="2KAJQoULzinXPgUh80Cl" version="21.2.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-05-09T13:46:57.309Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="cXI5fHcYzP4mxYmTsril" version="21.2.9" type="github" pages="8">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1158,6 +1158,9 @@
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-81" value="根据持有的url，http请求下载" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="784" y="348" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="NSnCXWM1NbTwvAysUb6h-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-87" target="NSnCXWM1NbTwvAysUb6h-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-87" value="获得data，重建_image &amp;amp; _source" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="784" y="540" width="120" height="40" as="geometry" />
         </mxCell>
@@ -1262,6 +1265,9 @@
         </mxCell>
         <mxCell id="XhPOY44ROhsI_AUatWQ--13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="208" y="496.5" width="10" height="73.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NSnCXWM1NbTwvAysUb6h-1" value="draw()" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="784" y="611" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
