@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T13:29:10.019Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="FZ0MkC8lCsytNonUFnYp" version="21.2.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-05-09T13:29:43.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="SiMaQu5CeEqdJaJ0WKTn" version="21.2.9" type="github" pages="8">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -970,7 +970,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RZ9X_SJM8Cr1mpMFzrar" name="astc纹理重建">
-    <mxGraphModel dx="1195" dy="637" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="665" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -982,7 +982,7 @@
             <mxPoint x="213" y="129" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-4" value="请求加载test.atlas" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;请求加载test.atlas&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="153" y="142" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-4" target="hSJHgzVcU_Z0M9Yc15jM-10" edge="1">
@@ -993,7 +993,7 @@
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-6" value="test.atlas：表示是一个图集资源，.atlas就是图集描述文件，还有一个test.astc的纹理文件。因此需要加载2个文件test.atlas和test.astc，才表示图集资源加载完成。" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="11" y="13" width="396" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-10" value="创建一个加载器Loader" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;创建一个加载器Loader&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="153" y="209" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-10" target="hSJHgzVcU_Z0M9Yc15jM-19" edge="1">
