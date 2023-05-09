@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T13:58:20.189Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="j_pllri7bMPjSFebpQg3" version="21.2.9" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-05-09T13:58:39.356Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="j3_MSg3_GDMpTJhqY4m8" version="21.2.9" type="github" pages="8">
   <diagram id="jUSdnT73hwJOA4kNEIZR" name="root">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1068,7 +1068,7 @@
             <mxPoint x="1029" y="336" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-51" value="销毁自身的_image &amp;amp; _source" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-51" value="销毁自身的_image &amp;amp;&amp;nbsp;_glTexture" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="969" y="297" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XhPOY44ROhsI_AUatWQ--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-56" target="hSJHgzVcU_Z0M9Yc15jM-81" edge="1">
@@ -1121,7 +1121,7 @@
             <mxPoint x="573" y="441" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-74" value="_image &amp;amp; _source" style="rhombus;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
+        <mxCell id="hSJHgzVcU_Z0M9Yc15jM-74" value="_image &amp;amp;&amp;nbsp;_glTexture" style="rhombus;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="533" y="432" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hSJHgzVcU_Z0M9Yc15jM-75" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hSJHgzVcU_Z0M9Yc15jM-74" target="hSJHgzVcU_Z0M9Yc15jM-79" edge="1">
