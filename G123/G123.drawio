@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T09:15:52.006Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="AUGBF8DykoX8kqYj2Prl" version="21.3.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-06-13T09:16:01.041Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="pQx6NewlJMBzr7PPUEET" version="21.3.3" type="github" pages="3">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1625" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -342,7 +342,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MrGO6GVik93nbuzxMxCQ" name="编队">
-    <mxGraphModel dx="819" dy="1283" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="1377" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -398,13 +398,13 @@
           <mxGeometry y="162" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="lfNLu3YTZ9GzT0oXvmpe-1" value="«interface»&lt;br&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;TeamMgrTemplate&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="520" y="-768" width="129" height="50" as="geometry" />
+          <mxGeometry x="171" y="-757" width="129" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lfNLu3YTZ9GzT0oXvmpe-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lfNLu3YTZ9GzT0oXvmpe-2" target="lfNLu3YTZ9GzT0oXvmpe-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lfNLu3YTZ9GzT0oXvmpe-2" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;TeamMultiplayerMgr&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="-665" width="160" height="86" as="geometry" />
+          <mxGeometry x="11" y="-654" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="lfNLu3YTZ9GzT0oXvmpe-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lfNLu3YTZ9GzT0oXvmpe-2">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -419,7 +419,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lfNLu3YTZ9GzT0oXvmpe-6" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;TeamMgrBase&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="641" y="-665" width="160" height="86" as="geometry" />
+          <mxGeometry x="292" y="-654" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="lfNLu3YTZ9GzT0oXvmpe-7" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lfNLu3YTZ9GzT0oXvmpe-6">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -434,7 +434,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lfNLu3YTZ9GzT0oXvmpe-12" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;TeamArenaMgr&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="556" y="-504" width="160" height="86" as="geometry" />
+          <mxGeometry x="207" y="-493" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="lfNLu3YTZ9GzT0oXvmpe-13" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lfNLu3YTZ9GzT0oXvmpe-12">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -449,7 +449,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lfNLu3YTZ9GzT0oXvmpe-16" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;TeamMgr&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="753" y="-504" width="160" height="86" as="geometry" />
+          <mxGeometry x="404" y="-493" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="lfNLu3YTZ9GzT0oXvmpe-17" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="lfNLu3YTZ9GzT0oXvmpe-16">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
