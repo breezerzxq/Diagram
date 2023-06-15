@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T04:08:38.462Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="FLj8bs2ncYNcuMPCN2H1" version="21.3.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-06-15T04:09:36.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KOobMFS7vEPOAVWJczK3" version="21.3.8" type="github" pages="4">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1625" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -561,6 +561,15 @@
         </mxCell>
         <mxCell id="fG7TLi7m19G11udUGdFX-15" value="DataGroup.prototype.createOneRenderer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="582" y="462" width="237" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="fG7TLi7m19G11udUGdFX-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.466;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fG7TLi7m19G11udUGdFX-17" target="fG7TLi7m19G11udUGdFX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fG7TLi7m19G11udUGdFX-17" value="layout.updateDisplayList" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="804" y="50" width="172" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="fG7TLi7m19G11udUGdFX-18" value="itemRender.data = data" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="807" y="140" width="178" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
