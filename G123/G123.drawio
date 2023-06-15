@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T04:02:20.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="b9aTsrwHD21S3guRougt" version="21.3.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-06-15T04:08:38.462Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="FLj8bs2ncYNcuMPCN2H1" version="21.3.8" type="github" pages="4">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1625" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -523,23 +523,44 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fG7TLi7m19G11udUGdFX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fG7TLi7m19G11udUGdFX-1" target="fG7TLi7m19G11udUGdFX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fG7TLi7m19G11udUGdFX-1" value="list.dataProvider.source = arr" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="444" y="108" width="171" height="50" as="geometry" />
+          <mxGeometry x="349" y="52" width="171" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fG7TLi7m19G11udUGdFX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fG7TLi7m19G11udUGdFX-2" target="fG7TLi7m19G11udUGdFX-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fG7TLi7m19G11udUGdFX-2" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;dataProvider.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;dispatchCoEvent&lt;/span&gt;(&lt;span style=&quot;color: #4ec9b0;&quot;&gt;CollectionEventKind&lt;/span&gt;.&lt;span style=&quot;color: #4fc1ff;&quot;&gt;RESET&lt;/span&gt;);&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="364" y="257" width="463" height="50" as="geometry" />
+          <mxGeometry x="203" y="135" width="463" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fG7TLi7m19G11udUGdFX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fG7TLi7m19G11udUGdFX-3" target="fG7TLi7m19G11udUGdFX-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fG7TLi7m19G11udUGdFX-3" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&amp;nbsp;list.&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;invalidateProperties&lt;/span&gt;();&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="359" y="362" width="226" height="60" as="geometry" />
+        <mxCell id="fG7TLi7m19G11udUGdFX-3" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;this&lt;span style=&quot;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;$dataProviderChanged = true&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;list.&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;invalidateProperties&lt;/span&gt;();&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298.5" y="228" width="272" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fG7TLi7m19G11udUGdFX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fG7TLi7m19G11udUGdFX-4" target="fG7TLi7m19G11udUGdFX-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fG7TLi7m19G11udUGdFX-4" value="delay" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="434.5" y="463" width="75" height="28" as="geometry" />
+          <mxGeometry x="397" y="329" width="75" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="fG7TLi7m19G11udUGdFX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fG7TLi7m19G11udUGdFX-6" target="fG7TLi7m19G11udUGdFX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fG7TLi7m19G11udUGdFX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fG7TLi7m19G11udUGdFX-6" target="fG7TLi7m19G11udUGdFX-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fG7TLi7m19G11udUGdFX-6" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;commitProperties&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="381.5" y="535" width="181" height="28" as="geometry" />
+          <mxGeometry x="344" y="391" width="181" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="fG7TLi7m19G11udUGdFX-10" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;this.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;removeAllRenderers&lt;/span&gt;();&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="582" y="385" width="228" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fG7TLi7m19G11udUGdFX-15" value="DataGroup.prototype.createOneRenderer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="582" y="462" width="237" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
