@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T02:18:04.460Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="pPQQ-U-rX6rWEs5Sosbq" version="21.7.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-30T02:20:32.921Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="RoM6jeuKcjsPr9ncavTj" version="21.7.0" type="github" pages="4">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -605,7 +605,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AChjGPiPGmpSEsKwBgYI" name="伙伴&amp;守护">
-    <mxGraphModel dx="1434" dy="758" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="632" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -633,8 +633,44 @@
         <mxCell id="7XwLZdystyvn_SWKcjBZ-8" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;PetDetailUI&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="265" y="250" width="110" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="qF4227RemQijwsmJ-LBw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7XwLZdystyvn_SWKcjBZ-11" target="qF4227RemQijwsmJ-LBw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7XwLZdystyvn_SWKcjBZ-11" value="PetPageInfo.exml" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="311" y="159" width="113" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qF4227RemQijwsmJ-LBw-3" value="DetailSelector" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="677" y="116" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="qF4227RemQijwsmJ-LBw-4" value="+ lstIcon:eui.List" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qF4227RemQijwsmJ-LBw-3">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qF4227RemQijwsmJ-LBw-7" value="+ tableIcon:eui.List" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qF4227RemQijwsmJ-LBw-3">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qF4227RemQijwsmJ-LBw-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="qF4227RemQijwsmJ-LBw-3">
+          <mxGeometry y="78" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="qF4227RemQijwsmJ-LBw-6" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="qF4227RemQijwsmJ-LBw-3">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qF4227RemQijwsmJ-LBw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.115;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qF4227RemQijwsmJ-LBw-9" target="qF4227RemQijwsmJ-LBw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qF4227RemQijwsmJ-LBw-9" value="icon选择器组件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="463" y="159" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qF4227RemQijwsmJ-LBw-13" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;FollowerSelectorListIcon&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="893" y="121" width="201" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qF4227RemQijwsmJ-LBw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qF4227RemQijwsmJ-LBw-4" target="qF4227RemQijwsmJ-LBw-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qF4227RemQijwsmJ-LBw-15" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;FollowerSelectorTableIcon&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="893" y="166" width="201" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qF4227RemQijwsmJ-LBw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qF4227RemQijwsmJ-LBw-7" target="qF4227RemQijwsmJ-LBw-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
