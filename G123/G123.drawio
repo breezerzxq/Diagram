@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T02:17:34.984Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="m75WTCOXS7gUiaHd5I1S" version="21.7.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-30T02:18:04.460Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="pPQQ-U-rX6rWEs5Sosbq" version="21.7.0" type="github" pages="4">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -604,36 +604,36 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="AChjGPiPGmpSEsKwBgYI" name="帧动画动态补帧">
-    <mxGraphModel dx="1687" dy="892" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram id="AChjGPiPGmpSEsKwBgYI" name="伙伴&amp;守护">
+    <mxGraphModel dx="1434" dy="758" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7XwLZdystyvn_SWKcjBZ-1" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;DetailUIBase&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="7XwLZdystyvn_SWKcjBZ-1" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;DetailUIBase&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="143" y="56" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7XwLZdystyvn_SWKcjBZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7XwLZdystyvn_SWKcjBZ-4" target="7XwLZdystyvn_SWKcjBZ-1">
+        <mxCell id="7XwLZdystyvn_SWKcjBZ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7XwLZdystyvn_SWKcjBZ-4" target="7XwLZdystyvn_SWKcjBZ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7XwLZdystyvn_SWKcjBZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7XwLZdystyvn_SWKcjBZ-4" target="7XwLZdystyvn_SWKcjBZ-11">
+        <mxCell id="7XwLZdystyvn_SWKcjBZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7XwLZdystyvn_SWKcjBZ-4" target="7XwLZdystyvn_SWKcjBZ-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7XwLZdystyvn_SWKcjBZ-4" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;DetailTrainUIBase&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="7XwLZdystyvn_SWKcjBZ-4" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;DetailTrainUIBase&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="145" y="147" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7XwLZdystyvn_SWKcjBZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7XwLZdystyvn_SWKcjBZ-6" target="7XwLZdystyvn_SWKcjBZ-4">
+        <mxCell id="7XwLZdystyvn_SWKcjBZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7XwLZdystyvn_SWKcjBZ-6" target="7XwLZdystyvn_SWKcjBZ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7XwLZdystyvn_SWKcjBZ-6" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;PartnerDetailUI&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="7XwLZdystyvn_SWKcjBZ-6" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;PartnerDetailUI&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="20" y="250" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7XwLZdystyvn_SWKcjBZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7XwLZdystyvn_SWKcjBZ-8" target="7XwLZdystyvn_SWKcjBZ-4">
+        <mxCell id="7XwLZdystyvn_SWKcjBZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7XwLZdystyvn_SWKcjBZ-8" target="7XwLZdystyvn_SWKcjBZ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7XwLZdystyvn_SWKcjBZ-8" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;PetDetailUI&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="7XwLZdystyvn_SWKcjBZ-8" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;PetDetailUI&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="265" y="250" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="7XwLZdystyvn_SWKcjBZ-11" value="PetPageInfo.exml" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="7XwLZdystyvn_SWKcjBZ-11" value="PetPageInfo.exml" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="311" y="159" width="113" height="26" as="geometry" />
         </mxCell>
       </root>
