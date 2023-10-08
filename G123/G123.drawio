@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T02:35:46.015Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="cLDYQHpbSLrZlNPF-dt_" version="21.7.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-08T02:36:40.584Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="v3zmXIfVIr0MRqkLeulV" version="21.7.1" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -754,8 +754,8 @@
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-9" value="首次遇见不同的hierarchy = 1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="751.1800000000001" y="95" as="sourcePoint" />
-            <mxPoint x="677.9996721311475" y="143" as="targetPoint" />
+            <mxPoint x="769" y="141.66" as="sourcePoint" />
+            <mxPoint x="654.9996721311475" y="141.66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-13" value="DisplayObject.bRenderLogicHierarchy = true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -773,10 +773,10 @@
         <mxCell id="nSq2Mdswr7JU9dSIR73g-19" value="hierarchy = 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="543" y="308" width="88" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="nSq2Mdswr7JU9dSIR73g-22" value="首次遇见不同的hierarchy = 2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="nSq2Mdswr7JU9dSIR73g-23" value="首次遇见不同的hierarchy = 2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="757.1800000000001" y="274" as="sourcePoint" />
-            <mxPoint x="683.9996721311475" y="322" as="targetPoint" />
+            <mxPoint x="769" y="321.65999999999997" as="sourcePoint" />
+            <mxPoint x="654.9996721311475" y="321.65999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
