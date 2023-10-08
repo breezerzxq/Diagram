@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T02:28:40.020Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="VQtceyMDjJ4gbhXSpqg-" version="21.7.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-08T02:30:00.736Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="TeB423RapOwUQj_6lWoS" version="21.7.1" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -739,6 +739,12 @@
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-7" value="hierarchy = 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="487" y="254" width="88" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nSq2Mdswr7JU9dSIR73g-9" value="首次遇见不同的hierarchy" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.892;entryY=-0.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="nSq2Mdswr7JU9dSIR73g-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="618" y="206" as="sourcePoint" />
+            <mxPoint x="698" y="206" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
