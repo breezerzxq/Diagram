@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T02:30:47.528Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="9D3AS5z0TgajWXvH6TTy" version="21.7.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-08T02:31:57.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="MKrXCeXF0tBXCMjN0Ki4" version="21.7.1" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -722,6 +722,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nSq2Mdswr7JU9dSIR73g-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="256" y="8" width="409" height="499" as="geometry" />
+        </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-2" value="cmd1" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="338" y="56" width="110" height="50" as="geometry" />
         </mxCell>
@@ -745,6 +748,9 @@
             <mxPoint x="618" y="101" as="sourcePoint" />
             <mxPoint x="698" y="101" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nSq2Mdswr7JU9dSIR73g-13" value="DisplayObject.bRenderLogicHierarchy = true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="256" y="8" width="261" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
