@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T02:15:31.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="JKLFo1W_c6lkx8zpjywm" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-12T02:17:14.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="XFNUyw3WKEA2PHU1u6Hy" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -718,14 +718,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PQyK4rf6VZuUjDVT4pNJ" name="render logic hierarchy">
-    <mxGraphModel dx="869" dy="459" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="410" dy="217" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nSq2Mdswr7JU9dSIR73g-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="nSq2Mdswr7JU9dSIR73g-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="633" y="8" width="186" height="429" as="geometry" />
         </mxCell>
-        <mxCell id="nSq2Mdswr7JU9dSIR73g-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="nSq2Mdswr7JU9dSIR73g-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="256" y="8" width="259" height="429" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nSq2Mdswr7JU9dSIR73g-2" target="nSq2Mdswr7JU9dSIR73g-3" edge="1">
@@ -767,8 +767,8 @@
             <mxPoint x="661.9996721311475" y="147.66" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nSq2Mdswr7JU9dSIR73g-13" value="DisplayObject.bRenderLogicHierarchyEnable = true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="256" y="8" width="261" height="30" as="geometry" />
+        <mxCell id="nSq2Mdswr7JU9dSIR73g-13" value="DisplayObject.bRenderLogicHierarchyEnable = true" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="256" y="8" width="259" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nSq2Mdswr7JU9dSIR73g-17" target="nSq2Mdswr7JU9dSIR73g-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
