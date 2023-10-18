@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T07:12:07.053Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="-qdtfr0fwiIkuvkghV5f" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T07:14:52.493Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="sTjF7A7QtVAJuwC2ocLP" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -767,9 +767,6 @@
             <mxPoint x="1189" y="2064.7641624365483" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nSq2Mdswr7JU9dSIR73g-13" value="parent.bRenderLogicHierarchyEnable = true" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="844" y="1896" width="260" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nSq2Mdswr7JU9dSIR73g-17" target="nSq2Mdswr7JU9dSIR73g-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -900,10 +897,10 @@
           <mxGeometry x="15" y="1734" width="391" height="158" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-105" value="首先，显示容器新增一个属性，本案取名为：bRenderLogicHierarchyEnable。&lt;br&gt;表示在渲染该容器下的子孩子(包括孙子对象)时，是否需要检查处理渲染分层的逻辑，即本案的合批方案。这是一个容器开关，而不是一个全局开关。&lt;br&gt;这样的好处，是更加精准的对目标容器进行优化。上层拥有自主权，根据实际情况，对指定容器使用该优化特性。&lt;br&gt;如果是一个全局开关，底层代码为了兼容很多情况下，务必会添加大量的兼容计算代码，造成不必要的销毁。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="844" y="1210" width="806" height="70" as="geometry" />
+          <mxGeometry x="844" y="1179" width="806" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-106" value="其次，显示对象新增一个属性，本案取名：nRenderLogicHierarchy。即该对象所属于的渲染分层层级。&lt;br&gt;当一个容器启动了bRenderLogicHierarchyEnable属性后，&lt;br&gt;在渲染该容器下的所有子对象(包括孙子对象)时候，就会处理那些nRenderLogicHierarchy 有值的对象，使用本案的优化方案。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="844" y="1300" width="683" height="55" as="geometry" />
+          <mxGeometry x="844" y="1257" width="683" height="55" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-121" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="15" y="1468" width="361" height="259" as="geometry" />
@@ -987,7 +984,7 @@
           <mxGeometry x="5" y="1.5" width="36" height="15.5" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-149" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="844" y="1369" width="361" height="259" as="geometry" />
+          <mxGeometry x="844" y="1358" width="361" height="259" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-150" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;fontStyle=1" vertex="1" parent="-bMjB7RCd2HwmuNxz3vt-149">
           <mxGeometry width="361" height="259" as="geometry" />
@@ -1068,7 +1065,7 @@
           <mxGeometry x="5" y="1.5" width="36" height="15.5" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-177" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="845" y="1640" width="161" height="227" as="geometry" />
+          <mxGeometry x="1164" y="1648" width="161" height="227" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-178" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-bMjB7RCd2HwmuNxz3vt-177">
           <mxGeometry width="161" height="227" as="geometry" />
@@ -1103,8 +1100,14 @@
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-188" value="一个图标" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-bMjB7RCd2HwmuNxz3vt-177">
           <mxGeometry width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-bMjB7RCd2HwmuNxz3vt-189" value="一个图标对象。&lt;br&gt;给该对象的子对象进行nRenderLogicHierarchy设置：&lt;br&gt;1.nRenderLogicHierarchy = 1&lt;br&gt;2.nRenderLogicHierarchy = 2&lt;br&gt;3.nRenderLogicHierarchy = 3&lt;br&gt;4.nRenderLogicHierarchy = 4&lt;br&gt;5.nRenderLogicHierarchy = 5&lt;br&gt;6.nRenderLogicHierarchy = 6" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1011" y="1640" width="300" height="127" as="geometry" />
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-189" value="给图标对象的子对象进行nRenderLogicHierarchy设置：&lt;br&gt;1.nRenderLogicHierarchy = 1&lt;br&gt;2.nRenderLogicHierarchy = 2&lt;br&gt;3.nRenderLogicHierarchy = 3&lt;br&gt;4.nRenderLogicHierarchy = 4&lt;br&gt;5.nRenderLogicHierarchy = 5&lt;br&gt;6.nRenderLogicHierarchy = 6" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="844" y="1647" width="312" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-190" value="还是以两个图标按钮为例" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="844" y="1319" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-191" value="开启两个图标对象实例的父容器的bRenderLogicHierarchyEnable属性，即parent.bRenderLogicHierarchyEnable = true;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="844" y="1891" width="648" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
