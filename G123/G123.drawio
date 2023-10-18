@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T06:56:56.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="cCvXXqYuBg8iyHKQU3YR" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T07:00:51.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="uh1GpdXEq166VVg8BKp6" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -971,11 +971,11 @@
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-104" value="webgl渲染是画家模式，根据显示列表的顺序进行绘制。&#xa;&#xa;因此当前渲染顺序为：&#xa;a1-&gt;a2-&gt;a3-&gt;a4-&gt;a5-&gt;a6-&gt;b1-&gt;b2-&gt;b3-&gt;b4-&gt;b5-&gt;b6。&#xa;因此最终的drawCall为2 * 6 = 12，如果图标合数为n，则drawCall为16n。" style="text;whiteSpace=wrap;align=left;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="15" y="1734" width="391" height="158" as="geometry" />
         </mxCell>
-        <mxCell id="-bMjB7RCd2HwmuNxz3vt-105" value="首先，显示容器新增一个属性，本案取名为：bRenderLogicHierarchyEnable。&lt;br&gt;表示在渲染该容器下的对象时，是否需要检查处理渲染分层的逻辑，即本案的合批方案。这是一个容器开关，而不是一个全局开关。&lt;br&gt;这样的好处，是更加精准的对目标容器进行优化。上层拥有自主权，根据实际情况，对指定容器使用该优化特性。&lt;br&gt;如果是一个全局开关，底层代码为了兼容很多情况下，务必会添加大量的兼容计算代码，造成不必要的销毁。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="862.5" y="1680" width="714" height="70" as="geometry" />
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-105" value="首先，显示容器新增一个属性，本案取名为：bRenderLogicHierarchyEnable。&lt;br&gt;表示在渲染该容器下的子孩子(包括孙子对象)时，是否需要检查处理渲染分层的逻辑，即本案的合批方案。这是一个容器开关，而不是一个全局开关。&lt;br&gt;这样的好处，是更加精准的对目标容器进行优化。上层拥有自主权，根据实际情况，对指定容器使用该优化特性。&lt;br&gt;如果是一个全局开关，底层代码为了兼容很多情况下，务必会添加大量的兼容计算代码，造成不必要的销毁。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="862.5" y="1680" width="806" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-bMjB7RCd2HwmuNxz3vt-106" value="其次，显示对象新增一个属性，本案取名：nRenderLogicHierarchy" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="862.5" y="1784" width="372" height="26" as="geometry" />
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-106" value="其次，显示对象新增一个属性，本案取名：nRenderLogicHierarchy。即该对象所属于的渲染分层层级。&lt;br&gt;当一个容器启动了bRenderLogicHierarchyEnable属性后，&lt;br&gt;在渲染该容器下的所有子对象(包括孙子对象)时候，遇到nRenderLogicHierarchy 有值的就会被本案的合批方案处理。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="862.5" y="1770" width="635" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
