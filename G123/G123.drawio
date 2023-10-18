@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T08:05:36.360Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="3LKz2k3aSzYnx7cmAV-K" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T08:11:31.701Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="O2SJw4sykGYkNTZeixoB" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1013,8 +1013,8 @@
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-191" value="开启两个图标对象实例的父容器的bRenderLogicHierarchyEnable属性，即parent.bRenderLogicHierarchyEnable = true;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="844" y="1891" width="648" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="-bMjB7RCd2HwmuNxz3vt-192" value="下面开始模拟在遍历parent整个显示列表，是如何搜集cmd的。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1665" y="1182" width="351" height="26" as="geometry" />
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-192" value="下面开始模拟在遍历parent整个显示列表，是如何搜集cmd的。下面是一个基本逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1665" y="1191" width="459" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-271" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="2017" y="1262" width="186" height="382" as="geometry" />
@@ -1115,8 +1115,8 @@
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-415" value="基础逻辑顺序如下：" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1665" y="1662" width="126" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="-bMjB7RCd2HwmuNxz3vt-416" value="1. cmd1，没有预见hierarchy属性，直接添加到arrDrawData的尾部。 [cmd1];&lt;br&gt;2. cmd2，首次预见hierarchy = 1，&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;2.1 直接添加到arrDrawData的尾部。 [cmd1，cmd2];&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;2.2 记录首次出现hierarchy = 1的cmd的cmdPos(cmd2在arrDrawData的索引值)。m_dictDrawTextureCmdPos[1] = 1;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1665" y="1687" width="646" height="70" as="geometry" />
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-416" value="1. cmd1，没有预见hierarchy属性，直接添加到arrDrawData的尾部。 [cmd1];&lt;br&gt;2. cmd2，首次预见hierarchy = 1，&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;2.1 直接添加到arrDrawData的尾部。 [cmd1，cmd2];&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;2.2 记录首次出现hierarchy = 1的cmd的cmdPos(cmd2在arrDrawData的索引值)。m_dictDrawTextureCmdPos[1] = 1;&lt;br&gt;3. cmd3，没有预见hierarchy属性，直接添加到arrDrawData的尾部。 [cmd1，cmd2，cmd3];&lt;br&gt;4. cmd4，首次预见hierarchy = 2，&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;3.1 直接添加到arrDrawData的尾部。 [cmd1，cmd2，cmd3，cmd4];&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;3.2 记录首次出现hierarchy = 2的cmd的cmdPos(cmd4在arrDrawData的索引值)。m_dictDrawTextureCmdPos[2] = 3;&lt;br&gt;5. cmd5，再次预见hierachy = 1，&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;5.1 找到对应cmdPos = 1，将cmd5合并到cmd2中去。[cmd1，cmd(2,5)，cmd3];&lt;br&gt;6. cmd6，再次预见hierachy = 2，&lt;br&gt;&amp;nbsp; &amp;nbsp; 6.1&amp;nbsp;找到对应cmdPos = 3，将cmd6合并到cmd3中去。[cmd1，cmd(2,5)，cmd(3,6)];&lt;br&gt;7. 解释所有arrDrawData的搜集，最终为[cmd1，cmd(2,5)，cmd(3,6)];即三个批次提交渲染指令。" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1665" y="1691" width="646" height="199" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
