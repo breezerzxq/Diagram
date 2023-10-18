@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T06:53:38.969Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="jcKSfrXqzz5RnWTBgfSJ" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T06:53:49.237Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="iij5fq4izGTNV3uNNU8s" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -819,7 +819,7 @@
           <mxGeometry x="1420" y="1405" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="s17bRn1sX1Mqp2mxuz5r-2" value="&lt;p&gt;cmd1→&lt;/p&gt;&#xa;&lt;p&gt;cmd2→cmd5→&lt;/p&gt;&#xa;&lt;p&gt;cmd3→&lt;/p&gt;&#xa;&lt;p&gt;cmd4-cmd6&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1544" y="1319.9966666666667" width="111" height="219" as="geometry" />
+          <mxGeometry x="1533" y="1319.9966666666667" width="111" height="219" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-45" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="17" y="1194" width="161" height="227" as="geometry" />
