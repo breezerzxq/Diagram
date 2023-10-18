@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T06:26:08.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="BRnGG8X3PON73tTrgzA6" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T06:26:54.015Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="pPN8qsyDVWzG7JW_GvNZ" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -962,7 +962,7 @@
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-97" value="而希望的是，在不改变显示列表的结构的前提下，在遍历显示列表下，希望具有相同纹理的cmd相邻连续，这样当两个相邻cmd的纹理相同，&lt;br&gt;就可以将后面的cmd合并到前一个cmd中，则最终的arrDrawData内元素顺序如下：&lt;br&gt;cmd(a1、b2)-&amp;gt;cmd(a2、b2)-&amp;gt;cmd(a3、b3)-&amp;gt;cmd(a4、b4)-&amp;gt;cmd(a5)-&amp;gt;cmd(b5)-&amp;gt;cmd(a6)-&amp;gt;cmd(b6)。&lt;br&gt;这就出现了7cmd，也就对应了7次绘制指令，即7次drawCall" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="19" y="2080" width="759" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-bMjB7RCd2HwmuNxz3vt-98" value="接下来，本案就是详细解释如何完成这样目标。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-98" value="接下来，本案就是详细解释如何完成这样目标。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="19" y="2185" width="270" height="26" as="geometry" />
         </mxCell>
       </root>
