@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T06:46:22.252Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="-WVrbFhMOMEHjQiSl8Nz" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T06:50:23.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="sdZD53vwVYBKAdQrMZFP" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -970,6 +970,9 @@
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-104" value="webgl渲染是画家模式，根据显示列表的顺序进行绘制。&#xa;&#xa;因此当前渲染顺序为：&#xa;a1-&gt;a2-&gt;a3-&gt;a4-&gt;a5-&gt;a6-&gt;b1-&gt;b2-&gt;b3-&gt;b4-&gt;b5-&gt;b6。&#xa;因此最终的drawCall为2 * 6 = 12，如果图标合数为n，则drawCall为16n。" style="text;whiteSpace=wrap;align=left;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="15" y="1734" width="391" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-105" value="首先，显示容器需要提供一个属性，本案取名为：bRenderLogicHierarchyEnable。&lt;br&gt;表示该容器下所有对象是否加入渲染分层处理，即本案的合批方案。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="862.5" y="1694" width="457" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
