@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T03:19:11.852Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="B_eaiMWsARCGTG92rEE1" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T03:19:59.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="7M8d3dC0enP6ohC9s_oT" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -944,8 +944,8 @@
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-89" value="a1和b1来自同一纹理。&lt;br&gt;a2和b2来自同一纹理。&lt;br&gt;a3和b3来自同一纹理。&lt;br&gt;a4和b4来自同一纹理。&lt;br&gt;a5和b5是程序字。&lt;br&gt;a6和b6来自同一纹理。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="358" y="1146" width="141" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="-bMjB7RCd2HwmuNxz3vt-90" value="当前显示列表层级为：&lt;br&gt;先添加图标a，再填图标b。&lt;br&gt;&lt;br&gt;webgl渲染是画家模式，根据显示列表的顺序进行绘制。&lt;br&gt;因此渲染顺序为：&lt;br&gt;a1-&amp;gt;a2-&amp;gt;a3-&amp;gt;a4-&amp;gt;a5-&amp;gt;a6-&amp;gt;b1-&amp;gt;b2-&amp;gt;b3-&amp;gt;b4-&amp;gt;b5-&amp;gt;b6" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="358" y="1242" width="313" height="98" as="geometry" />
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-90" value="当前显示列表层级为：&lt;br&gt;先添加图标a，再填图标b。&lt;br&gt;&lt;br&gt;webgl渲染是画家模式，根据显示列表的顺序进行绘制。&lt;br&gt;因此渲染顺序为：&lt;br&gt;a1-&amp;gt;a2-&amp;gt;a3-&amp;gt;a4-&amp;gt;a5-&amp;gt;a6-&amp;gt;b1-&amp;gt;b2-&amp;gt;b3-&amp;gt;b4-&amp;gt;b5-&amp;gt;b6。&lt;br&gt;因此最终的drawCall为2 * 6 = 12" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="358" y="1261" width="313" height="113" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
