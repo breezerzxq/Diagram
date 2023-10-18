@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T07:01:36.749Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="okRO_V1rV_O0Hj4L9PTB" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T07:04:15.978Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="EFTDqf-pVlo-nu8oPor6" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -722,17 +722,20 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-107" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="15" y="1468" width="361" height="254" as="geometry" />
+        </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="1217" y="1224" width="186" height="429" as="geometry" />
+          <mxGeometry x="1196" y="1432.5" width="186" height="429" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="865" y="1224" width="217" height="429" as="geometry" />
+          <mxGeometry x="844" y="1432.5" width="217" height="429" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nSq2Mdswr7JU9dSIR73g-2" target="nSq2Mdswr7JU9dSIR73g-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-2" value="cmd1" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="925" y="1272" width="110" height="27" as="geometry" />
+          <mxGeometry x="904" y="1480.5" width="110" height="27" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nSq2Mdswr7JU9dSIR73g-3" target="nSq2Mdswr7JU9dSIR73g-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -741,13 +744,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-3" value="cmd2" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="925" y="1347" width="110" height="22" as="geometry" />
+          <mxGeometry x="904" y="1555.5" width="110" height="22" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nSq2Mdswr7JU9dSIR73g-4" target="nSq2Mdswr7JU9dSIR73g-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-4" value="cmd3" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="925" y="1405" width="110" height="21" as="geometry" />
+          <mxGeometry x="904" y="1613.5" width="110" height="21" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nSq2Mdswr7JU9dSIR73g-5" target="nSq2Mdswr7JU9dSIR73g-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -756,19 +759,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-5" value="cmd4" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="925" y="1468" width="110" height="22" as="geometry" />
+          <mxGeometry x="904" y="1676.5" width="110" height="22" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-7" value="hierarchy = 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1113" y="1345" width="88" height="26" as="geometry" />
+          <mxGeometry x="1092" y="1553.5" width="88" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-9" value="首次遇见hierarchy = 1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="nSq2Mdswr7JU9dSIR73g-7" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1363" y="1358.66" as="sourcePoint" />
-            <mxPoint x="1210" y="1354.2641624365483" as="targetPoint" />
+            <mxPoint x="1342" y="1567.16" as="sourcePoint" />
+            <mxPoint x="1189" y="1562.7641624365483" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-13" value="DisplayObjectContainer.bRenderLogicHierarchyEnable = true" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="965" y="1183" width="364" height="30" as="geometry" />
+          <mxGeometry x="944" y="1391.5" width="364" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nSq2Mdswr7JU9dSIR73g-17" target="nSq2Mdswr7JU9dSIR73g-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -777,49 +780,49 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-17" value="cmd5" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="925" y="1526" width="110" height="22" as="geometry" />
+          <mxGeometry x="904" y="1734.5" width="110" height="22" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nSq2Mdswr7JU9dSIR73g-18" target="nSq2Mdswr7JU9dSIR73g-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-18" value="cmd6" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="925" y="1592" width="110" height="22" as="geometry" />
+          <mxGeometry x="904" y="1800.5" width="110" height="22" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-19" value="hierarchy = 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1115" y="1524" width="88" height="26" as="geometry" />
+          <mxGeometry x="1094" y="1732.5" width="88" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-23" value="再次遇见hierarchy = 1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="nSq2Mdswr7JU9dSIR73g-19" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1358" y="1536.6599999999999" as="sourcePoint" />
-            <mxPoint x="1219" y="1536.91825136612" as="targetPoint" />
+            <mxPoint x="1337" y="1745.1599999999999" as="sourcePoint" />
+            <mxPoint x="1198" y="1745.4182513661199" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-26" value="hierarchy = 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1114" y="1466" width="88" height="26" as="geometry" />
+          <mxGeometry x="1093" y="1674.5" width="88" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-28" value="首次遇见hierarchy = 2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="nSq2Mdswr7JU9dSIR73g-26" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1358" y="1480" as="sourcePoint" />
-            <mxPoint x="1248.9996721311475" y="1486.6599999999999" as="targetPoint" />
+            <mxPoint x="1337" y="1688.5" as="sourcePoint" />
+            <mxPoint x="1227.9996721311475" y="1695.1599999999999" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-30" value="hierarchy = 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1115" y="1590" width="88" height="26" as="geometry" />
+          <mxGeometry x="1094" y="1798.5" width="88" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nSq2Mdswr7JU9dSIR73g-32" value="再次遇见hierarchy = 2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="nSq2Mdswr7JU9dSIR73g-30" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="1363" y="1603" as="sourcePoint" />
-            <mxPoint x="1211" y="1599.1685714285713" as="targetPoint" />
+            <mxPoint x="1342" y="1811.5" as="sourcePoint" />
+            <mxPoint x="1190" y="1807.6685714285713" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="s17bRn1sX1Mqp2mxuz5r-1" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
-          <mxGeometry x="1420" y="1405" width="100" height="70" as="geometry" />
+          <mxGeometry x="1399" y="1613.5" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="s17bRn1sX1Mqp2mxuz5r-2" value="&lt;p&gt;cmd1→&lt;/p&gt;&#xa;&lt;p&gt;cmd2→cmd5→&lt;/p&gt;&#xa;&lt;p&gt;cmd3→&lt;/p&gt;&#xa;&lt;p&gt;cmd4-cmd6&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="1533" y="1319.9966666666667" width="111" height="219" as="geometry" />
+          <mxGeometry x="1512" y="1528.4966666666667" width="111" height="219" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-45" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="17" y="1194" width="161" height="227" as="geometry" />
@@ -858,10 +861,10 @@
           <mxGeometry width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-50" value="通常，游戏的活动栏，会有很多图标对象，如下所示，这里用2个图标进行演示" style="text;html=1;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="16" y="1452" width="428" height="30" as="geometry" />
+          <mxGeometry x="14" y="1430" width="428" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-63" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="16" y="1487" width="161" height="227" as="geometry" />
+          <mxGeometry x="23" y="1491" width="161" height="227" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-bMjB7RCd2HwmuNxz3vt-63">
           <mxGeometry width="161" height="227" as="geometry" />
@@ -897,7 +900,7 @@
           <mxGeometry width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-76" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="197" y="1487" width="161" height="227" as="geometry" />
+          <mxGeometry x="204" y="1491" width="161" height="227" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-77" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-bMjB7RCd2HwmuNxz3vt-76">
           <mxGeometry width="161" height="227" as="geometry" />
@@ -942,10 +945,10 @@
           <mxGeometry x="185" y="1341" width="269" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-89" value="a1和b1来自同一纹理。&lt;br&gt;a2和b2来自同一纹理。&lt;br&gt;a3和b3来自同一纹理。&lt;br&gt;a4和b4来自同一纹理。&lt;br&gt;a5和b5是程序字。不具备同一纹理特性&lt;br&gt;a6和b6来自同一纹理。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="378" y="1487" width="225" height="98" as="geometry" />
+          <mxGeometry x="385" y="1487" width="225" height="98" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-90" value="当前显示列表层级为：&lt;br&gt;先添加图标a，再添加图标b。即整个显示列表的顺序为：&lt;br&gt;a1-&amp;gt;a2-&amp;gt;a3-&amp;gt;a4-&amp;gt;a5-&amp;gt;a6-&amp;gt;b1-&amp;gt;b2-&amp;gt;b3-&amp;gt;b4-&amp;gt;b5-&amp;gt;b6。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="378" y="1599" width="319" height="55" as="geometry" />
+          <mxGeometry x="385" y="1599" width="319" height="55" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-92" value="如果单纯通过代码进行显示分层，即将a1和b1放到一个父对象容器中，a2和b2放到一个父对象容器中...。&lt;br&gt;这样是可以打到所希望的渲染顺序的。&lt;br&gt;会需要写很多上层代码，同时由于对象依赖父对象的布局设置，如果更改了父对象，这些布局就失效了，就会造成位置的所乱。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="16" y="1906" width="690" height="55" as="geometry" />
@@ -972,10 +975,13 @@
           <mxGeometry x="15" y="1734" width="391" height="158" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-105" value="首先，显示容器新增一个属性，本案取名为：bRenderLogicHierarchyEnable。&lt;br&gt;表示在渲染该容器下的子孩子(包括孙子对象)时，是否需要检查处理渲染分层的逻辑，即本案的合批方案。这是一个容器开关，而不是一个全局开关。&lt;br&gt;这样的好处，是更加精准的对目标容器进行优化。上层拥有自主权，根据实际情况，对指定容器使用该优化特性。&lt;br&gt;如果是一个全局开关，底层代码为了兼容很多情况下，务必会添加大量的兼容计算代码，造成不必要的销毁。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="862.5" y="1680" width="806" height="70" as="geometry" />
+          <mxGeometry x="844" y="1210" width="806" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-106" value="其次，显示对象新增一个属性，本案取名：nRenderLogicHierarchy。即该对象所属于的渲染分层层级。&lt;br&gt;当一个容器启动了bRenderLogicHierarchyEnable属性后，&lt;br&gt;在渲染该容器下的所有子对象(包括孙子对象)时候，就会处理那些nRenderLogicHierarchy 有值的对象，使用本案的优化方案。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="862.5" y="1770" width="683" height="55" as="geometry" />
+          <mxGeometry x="844" y="1300" width="683" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-120" value="parent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="17" y="1469.5" width="36" height="11" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
