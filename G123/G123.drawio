@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T03:40:27.983Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="1aS5eAnLkpEcEU0pFr0Q" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T03:42:32.963Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="sRfx8nmeh3yLmDJpRGkM" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -952,6 +952,9 @@
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-94" value="希望的渲染顺序是：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;a1-&amp;gt;b1: 相同纹理可进行合批，drawCall = 1&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;a2-&amp;gt;b2&lt;/span&gt;: 相同纹理可进行合批，drawCall = 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;a3-&amp;gt;b3&lt;/span&gt;: 相同纹理可进行合批，drawCall = 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;a4-&amp;gt;b4&lt;/span&gt;: 相同纹理可进行合批，drawCall = 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;a5-&amp;gt;b5&lt;/span&gt;: 不同的程序字，不进行合批，drawCall = 2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;a6-&amp;gt;b6&lt;/span&gt;: 相同纹理可进行合批，drawCall = 1&lt;br&gt;最终drawCall = 5 + 2，如果图标个数为n，则drawCall为5 + n" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="16" y="1375" width="342" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-95" value="因此想着，在不改变显示列表的结构的前提下，去调节画家绘制的顺序，该如何办到？" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="19" y="1581" width="474" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
