@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T06:36:40.086Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="_F6O9ujqdSfGCSFtSmr1" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T06:41:41.040Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="BxD0RbjVQHTtaOWuacW_" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -944,14 +944,14 @@
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-89" value="a1和b1来自同一纹理。&lt;br&gt;a2和b2来自同一纹理。&lt;br&gt;a3和b3来自同一纹理。&lt;br&gt;a4和b4来自同一纹理。&lt;br&gt;a5和b5是程序字。&lt;br&gt;a6和b6来自同一纹理。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="378" y="1487" width="141" height="98" as="geometry" />
         </mxCell>
-        <mxCell id="-bMjB7RCd2HwmuNxz3vt-90" value="当前显示列表层级为：&lt;br&gt;先添加图标a，再添加图标b。&lt;br&gt;&lt;br&gt;webgl渲染是画家模式，根据显示列表的顺序进行绘制。&lt;br&gt;因此渲染顺序为：&lt;br&gt;a1-&amp;gt;a2-&amp;gt;a3-&amp;gt;a4-&amp;gt;a5-&amp;gt;a6-&amp;gt;b1-&amp;gt;b2-&amp;gt;b3-&amp;gt;b4-&amp;gt;b5-&amp;gt;b6。&lt;br&gt;因此最终的drawCall为2 * 6 = 12，如果图标合数为n，则drawCall为16n。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="378" y="1600" width="406" height="113" as="geometry" />
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-90" value="当前显示列表层级为：&lt;br&gt;先添加图标a，再添加图标b。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="378" y="1606" width="175" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="-bMjB7RCd2HwmuNxz3vt-92" value="如果单纯通过代码进行显示分层，即将a1和b1放到一个父对象容器中，a2和b2放到一个父对象容器中...&lt;br&gt;会需要写很多上层代码，同时由于对象依赖父对象的布局设置，如果更改了父对象，这些布局就失效了，就会造成位置的所乱。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="16" y="1922" width="690" height="41" as="geometry" />
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-92" value="如果单纯通过代码进行显示分层，即将a1和b1放到一个父对象容器中，a2和b2放到一个父对象容器中...。&lt;br&gt;这样是可以打到所希望的渲染顺序的。&lt;br&gt;会需要写很多上层代码，同时由于对象依赖父对象的布局设置，如果更改了父对象，这些布局就失效了，就会造成位置的所乱。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="16" y="1906" width="690" height="55" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-94" value="希望的渲染顺序是：&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;a1-&amp;gt;b1: 相同纹理可进行合批，drawCall = 1&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;a2-&amp;gt;b2&lt;/span&gt;: 相同纹理可进行合批，drawCall = 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;a3-&amp;gt;b3&lt;/span&gt;: 相同纹理可进行合批，drawCall = 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;a4-&amp;gt;b4&lt;/span&gt;: 相同纹理可进行合批，drawCall = 1&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;a5-&amp;gt;b5&lt;/span&gt;: 不同的程序字，不进行合批，drawCall = 2&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;a6-&amp;gt;b6&lt;/span&gt;: 相同纹理可进行合批，drawCall = 1&lt;br&gt;一次最终的渲染批次为：&lt;br&gt;(a1、b1)-&amp;gt;(a2、b2)-&amp;gt;(a3、b3)-&amp;gt;(a4、b4)-&amp;gt;(a5)-&amp;gt;(b5)-&amp;gt;(a6、b6)&lt;br&gt;最终drawCall = 5 + 2，如果图标个数为n，则drawCall为5 + n" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="16" y="1722" width="360" height="156" as="geometry" />
+          <mxGeometry x="418" y="1735" width="360" height="156" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-95" value="因此想着，在不改变显示列表的结构的前提下，去调节画家绘制指令的顺序，该如何办到？" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="16" y="1975" width="498" height="26" as="geometry" />
@@ -967,6 +967,9 @@
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-99" value="当前渲染a、b两个图标时，遍历显示列表时，最终的arrDrawData内元素顺序如下：&lt;br&gt;a1-&amp;gt;a2-&amp;gt;a3-&amp;gt;a4-&amp;gt;a5-&amp;gt;a6-&amp;gt;b1-&amp;gt;b2-&amp;gt;b3-&amp;gt;b4-&amp;gt;b5-&amp;gt;b6。&lt;br&gt;由于这些对象中相邻对象没有相同纹理，因此不被合并cmd，则最终的arrDrawData内元素顺序如下：&lt;br&gt;cmd(a1)-&amp;gt;cmd(a2)-&amp;gt;cmd(a3)-&amp;gt;cmd(a4)-&amp;gt;cmd(a5)-&amp;gt;cmd(a6)-&amp;gt;cmd(b1)-&amp;gt;cmd(b2)-&amp;gt;cmd(b3)-&amp;gt;cmd(b4)-&amp;gt;cmd(b5)-&amp;gt;cmd(b6)。&lt;br&gt;这就出现了12个cmd，也就对应了12次绘制指令，即12次drawCall" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="16" y="2080" width="679" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-104" value="webgl渲染是画家模式，根据显示列表的顺序进行绘制。&#xa;&#xa;因此当前渲染顺序为：&#xa;a1-&gt;a2-&gt;a3-&gt;a4-&gt;a5-&gt;a6-&gt;b1-&gt;b2-&gt;b3-&gt;b4-&gt;b5-&gt;b6。&#xa;因此最终的drawCall为2 * 6 = 12，如果图标合数为n，则drawCall为16n。" style="text;whiteSpace=wrap;align=left;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="15" y="1734" width="391" height="158" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
