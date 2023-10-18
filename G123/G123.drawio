@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T03:15:09.376Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="LwbbPRanEeZR_lggwVVs" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T03:16:38.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="3TXubaHLmR3gczquAGoL" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -940,6 +940,9 @@
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-88" value="这6个部分的来自不同的纹理，不能进行合批处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="192" y="1052" width="269" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-89" value="a1和b1来自同一纹理。&lt;br&gt;a2和b2来自同一纹理。&lt;br&gt;a3和b3来自同一纹理。&lt;br&gt;a4和b4来自同一纹理。&lt;br&gt;a5和b5是程序字。&lt;br&gt;a6和b6来自同一纹理。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="358" y="1146" width="141" height="98" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
