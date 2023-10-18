@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T06:19:38.863Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="AjusM2iMADimt46siPVj" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T06:22:42.835Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="B2tkfWoa5mkiT2lTpXNA" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -956,11 +956,11 @@
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-95" value="因此想着，在不改变显示列表的结构的前提下，去调节画家绘制指令的顺序，该如何办到？" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="19" y="1921" width="498" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="-bMjB7RCd2HwmuNxz3vt-96" value="提一点，引擎在渲染每一个对象时候，都会将渲染该对象的相关数据转换为一个渲染指令，这里称为cmd，&lt;br&gt;并按照显示列表顺序，依次将对应的cmd添加到一个数组中，这里称这个数组为arrDrawData。&lt;br&gt;当所有显示对象的cmd搜集完后，最终遍历该arrDrawData，提交渲染指令。&lt;br&gt;&lt;br&gt;当前渲染a、b两个图标时，遍历显示列表时，最终的arrDrawData内元素顺序如下：&lt;br&gt;a1-&amp;gt;a2-&amp;gt;a3-&amp;gt;a4-&amp;gt;a5-&amp;gt;a6-&amp;gt;b1-&amp;gt;b2-&amp;gt;b3-&amp;gt;b4-&amp;gt;b5-&amp;gt;b6。即&lt;br&gt;cmd(a1)-&amp;gt;cmd(a2)-&amp;gt;cmd(a3)-&amp;gt;cmd(a4)-&amp;gt;cmd(a5)-&amp;gt;cmd(a6)-&amp;gt;cmd(b1)-&amp;gt;cmd(b2)-&amp;gt;cmd(b3)-&amp;gt;cmd(b4)-&amp;gt;cmd(b5)-&amp;gt;cmd(b6)。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="19" y="1952" width="679" height="113" as="geometry" />
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-96" value="提一点，引擎在渲染每一个对象时候，都会将渲染该对象的相关数据转换为一个渲染指令，这里称为cmd，&lt;br&gt;并按照显示列表顺序，依次将对应的cmd添加到一个数组中，这里称这个数组为arrDrawData。&lt;br&gt;当所有显示对象的cmd搜集完后，最终遍历该arrDrawData，提交渲染指令。&lt;br&gt;&lt;br&gt;当前渲染a、b两个图标时，遍历显示列表时，最终的arrDrawData内元素顺序如下：&lt;br&gt;a1-&amp;gt;a2-&amp;gt;a3-&amp;gt;a4-&amp;gt;a5-&amp;gt;a6-&amp;gt;b1-&amp;gt;b2-&amp;gt;b3-&amp;gt;b4-&amp;gt;b5-&amp;gt;b6。&lt;br&gt;由于这些对象中相邻对象没有相同纹理，因此不被合并cmd，则最终的arrDrawData内元素顺序如下：&lt;br&gt;cmd(a1)-&amp;gt;cmd(a2)-&amp;gt;cmd(a3)-&amp;gt;cmd(a4)-&amp;gt;cmd(a5)-&amp;gt;cmd(a6)-&amp;gt;cmd(b1)-&amp;gt;cmd(b2)-&amp;gt;cmd(b3)-&amp;gt;cmd(b4)-&amp;gt;cmd(b5)-&amp;gt;cmd(b6)。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="19" y="1945" width="679" height="127" as="geometry" />
         </mxCell>
-        <mxCell id="-bMjB7RCd2HwmuNxz3vt-97" value="而希望的是，在不改变显示列表的结构的前提下，在遍历显示列表下，这里再提一次，如果两个相邻cmd的纹理相同，将后面的cmd合并到前一个cmd中，&lt;br&gt;则最终的arrDrawData内元素顺序如下：&lt;br&gt;cmd(a1、b2)-&amp;gt;cmd(a2、b2)-&amp;gt;cmd(a3、b3)-&amp;gt;cmd(a4、b4)-&amp;gt;cmd(a5、b5)-&amp;gt;cmd(a6)-&amp;gt;cmd(b6)。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="19" y="2070" width="830" height="55" as="geometry" />
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-97" value="而希望的是，在不改变显示列表的结构的前提下，在遍历显示列表下，希望具有相同纹理的cmd相邻连续，这样当两个相邻cmd的纹理相同，&lt;br&gt;就可以将后面的cmd合并到前一个cmd中，则最终的arrDrawData内元素顺序如下：&lt;br&gt;cmd(a1、b2)-&amp;gt;cmd(a2、b2)-&amp;gt;cmd(a3、b3)-&amp;gt;cmd(a4、b4)-&amp;gt;cmd(a5、b5)-&amp;gt;cmd(a6)-&amp;gt;cmd(b6)。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="19" y="2087" width="759" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
