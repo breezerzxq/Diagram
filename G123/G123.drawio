@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T03:13:37.136Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="5PhssUpUGuBf79yzNtRU" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T03:14:25.593Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="CEVwM80r4aLkEr0kBQO_" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -857,11 +857,11 @@
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-44" value="一个图标" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-bMjB7RCd2HwmuNxz3vt-45">
           <mxGeometry width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-bMjB7RCd2HwmuNxz3vt-50" value="通常，游戏的活动栏，会有很多图标对象，如下所示，这里已2个图标进行演示" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="17" y="1125" width="222" height="30" as="geometry" />
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-50" value="通常，游戏的活动栏，会有很多图标对象，如下所示，这里用2个图标进行演示" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="17" y="1131" width="428" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-63" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="20" y="1171" width="161" height="227" as="geometry" />
+          <mxGeometry x="19" y="1162" width="161" height="227" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-bMjB7RCd2HwmuNxz3vt-63">
           <mxGeometry width="161" height="227" as="geometry" />
@@ -897,7 +897,7 @@
           <mxGeometry width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-76" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="190" y="1171" width="161" height="227" as="geometry" />
+          <mxGeometry x="189" y="1162" width="161" height="227" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-77" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-bMjB7RCd2HwmuNxz3vt-76">
           <mxGeometry width="161" height="227" as="geometry" />
