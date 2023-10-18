@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T07:59:40.260Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="DbGTZXv_qLzUVNchspGJ" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T08:00:21.675Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Zgby127vUVqWfmKK-VNo" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -718,7 +718,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PQyK4rf6VZuUjDVT4pNJ" name="render logic hierarchy">
-    <mxGraphModel dx="1195" dy="-537" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="-371" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1112,7 +1112,7 @@
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-297" value="&lt;p&gt;cmd1→&lt;/p&gt;&lt;br&gt;&lt;p&gt;cmd2、cmd5→&lt;/p&gt;&lt;br&gt;&lt;p&gt;cmd3→&lt;/p&gt;&lt;br&gt;&lt;p&gt;cmd4、cmd6&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="2331" y="1341.496666666667" width="111" height="219" as="geometry" />
         </mxCell>
-        <mxCell id="-bMjB7RCd2HwmuNxz3vt-415" value="基础逻辑顺序如下：" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="-bMjB7RCd2HwmuNxz3vt-415" value="基础逻辑顺序如下：" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1665" y="1662" width="126" height="26" as="geometry" />
         </mxCell>
       </root>
