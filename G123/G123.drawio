@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T08:16:56.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Nhnplwt7Dtm3igsbH6JB" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T08:17:27.406Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="l86dVi_w4tbac0fyv-bp" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -718,7 +718,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PQyK4rf6VZuUjDVT4pNJ" name="render logic hierarchy">
-    <mxGraphModel dx="1024" dy="-628" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="-411" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1014,19 +1014,19 @@
           <mxGeometry x="844" y="1891" width="648" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-192" value="下面开始模拟在遍历parent整个显示列表，是如何搜集cmd的。下面是一个基本逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1665" y="1191" width="459" height="26" as="geometry" />
+          <mxGeometry x="1665" y="1179" width="459" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-271" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="2017" y="1262" width="186" height="382" as="geometry" />
+          <mxGeometry x="2017" y="1246" width="186" height="382" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-272" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1665" y="1261" width="217" height="380" as="geometry" />
+          <mxGeometry x="1665" y="1245" width="217" height="380" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-bMjB7RCd2HwmuNxz3vt-274" target="-bMjB7RCd2HwmuNxz3vt-277">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-274" value="cmd1" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1725" y="1276" width="110" height="27" as="geometry" />
+          <mxGeometry x="1725" y="1260" width="110" height="27" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-275" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-bMjB7RCd2HwmuNxz3vt-277" target="-bMjB7RCd2HwmuNxz3vt-283">
           <mxGeometry relative="1" as="geometry" />
@@ -1035,13 +1035,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-277" value="cmd2" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1725" y="1351" width="110" height="22" as="geometry" />
+          <mxGeometry x="1725" y="1335" width="110" height="22" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-278" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-bMjB7RCd2HwmuNxz3vt-279" target="-bMjB7RCd2HwmuNxz3vt-282">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-279" value="cmd3" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1725" y="1409" width="110" height="21" as="geometry" />
+          <mxGeometry x="1725" y="1393" width="110" height="21" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-280" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-bMjB7RCd2HwmuNxz3vt-282" target="-bMjB7RCd2HwmuNxz3vt-287">
           <mxGeometry relative="1" as="geometry" />
@@ -1050,15 +1050,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-282" value="cmd4" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1725" y="1472" width="110" height="22" as="geometry" />
+          <mxGeometry x="1725" y="1456" width="110" height="22" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-283" value="hierarchy = 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1913" y="1349" width="88" height="26" as="geometry" />
+          <mxGeometry x="1913" y="1333" width="88" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-284" value="首次遇见hierarchy = 1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="-bMjB7RCd2HwmuNxz3vt-283">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="2163" y="1362.6599999999999" as="sourcePoint" />
-            <mxPoint x="2010" y="1358.2641624365483" as="targetPoint" />
+            <mxPoint x="2163" y="1346.6599999999999" as="sourcePoint" />
+            <mxPoint x="2010" y="1342.2641624365483" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-285" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-bMjB7RCd2HwmuNxz3vt-287" target="-bMjB7RCd2HwmuNxz3vt-290">
@@ -1068,55 +1068,55 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-287" value="cmd5" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1725" y="1530" width="110" height="22" as="geometry" />
+          <mxGeometry x="1725" y="1514" width="110" height="22" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-288" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-bMjB7RCd2HwmuNxz3vt-289" target="-bMjB7RCd2HwmuNxz3vt-294">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-289" value="cmd6" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1725" y="1596" width="110" height="22" as="geometry" />
+          <mxGeometry x="1725" y="1580" width="110" height="22" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-290" value="hierarchy = 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1915" y="1528" width="88" height="26" as="geometry" />
+          <mxGeometry x="1915" y="1512" width="88" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-291" value="再次遇见hierarchy = 1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="-bMjB7RCd2HwmuNxz3vt-290">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="2158" y="1540.6599999999999" as="sourcePoint" />
-            <mxPoint x="2019" y="1540.9182513661199" as="targetPoint" />
+            <mxPoint x="2158" y="1524.6599999999999" as="sourcePoint" />
+            <mxPoint x="2019" y="1524.9182513661199" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-292" value="hierarchy = 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1914" y="1470" width="88" height="26" as="geometry" />
+          <mxGeometry x="1914" y="1454" width="88" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-293" value="首次遇见hierarchy = 2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="-bMjB7RCd2HwmuNxz3vt-292">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="2158" y="1484" as="sourcePoint" />
-            <mxPoint x="2048.9996721311472" y="1490.6599999999999" as="targetPoint" />
+            <mxPoint x="2158" y="1468" as="sourcePoint" />
+            <mxPoint x="2048.9996721311472" y="1474.6599999999999" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-294" value="hierarchy = 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1915" y="1594" width="88" height="26" as="geometry" />
+          <mxGeometry x="1915" y="1578" width="88" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-295" value="再次遇见hierarchy = 2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="-bMjB7RCd2HwmuNxz3vt-294">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="2163" y="1607" as="sourcePoint" />
-            <mxPoint x="2011" y="1603.1685714285713" as="targetPoint" />
+            <mxPoint x="2163" y="1591" as="sourcePoint" />
+            <mxPoint x="2011" y="1587.1685714285713" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-296" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="2218" y="1432.5" width="100" height="41" as="geometry" />
+          <mxGeometry x="2218" y="1416.5" width="100" height="41" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-297" value="&lt;p&gt;cmd1→&lt;/p&gt;&lt;br&gt;&lt;p&gt;cmd2、cmd5→&lt;/p&gt;&lt;br&gt;&lt;p&gt;cmd3→&lt;/p&gt;&lt;br&gt;&lt;p&gt;cmd4、cmd6&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="2331" y="1341.496666666667" width="111" height="219" as="geometry" />
+          <mxGeometry x="2331" y="1325.496666666667" width="111" height="219" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-415" value="基础逻辑顺序如下：" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1665" y="1662" width="126" height="26" as="geometry" />
+          <mxGeometry x="1665" y="1646" width="126" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-416" value="1. cmd1，没有预见hierarchy属性，直接添加到arrDrawData的尾部。 [cmd1];&lt;br&gt;2. cmd2，首次预见hierarchy = 1，&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;2.1 直接添加到arrDrawData的尾部。 [cmd1，cmd2];&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;2.2 记录首次出现hierarchy = 1的cmd的cmdPos(cmd2在arrDrawData的索引值)。m_dictDrawTextureCmdPos[1] = 1;&lt;br&gt;3. cmd3，没有预见hierarchy属性，直接添加到arrDrawData的尾部。 [cmd1，cmd2，cmd3];&lt;br&gt;4. cmd4，首次预见hierarchy = 2，&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;3.1 直接添加到arrDrawData的尾部。 [cmd1，cmd2，cmd3，cmd4];&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;3.2 记录首次出现hierarchy = 2的cmd的cmdPos(cmd4在arrDrawData的索引值)。m_dictDrawTextureCmdPos[2] = 3;&lt;br&gt;5. cmd5，再次预见hierachy = 1，&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;5.1 找到对应cmdPos = 1，将cmd5合并到cmd2中去。[cmd1，cmd(2,5)，cmd3];&lt;br&gt;6. cmd6，再次预见hierachy = 2，&lt;br&gt;&amp;nbsp; &amp;nbsp; 6.1&amp;nbsp;找到对应cmdPos = 3，将cmd6合并到cmd3中去。[cmd1，cmd(2,5)，cmd(3,6)];&lt;br&gt;7. 解释所有arrDrawData的搜集，最终为[cmd1，cmd(2,5)，cmd(3,6)];即三个批次提交渲染指令。" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1665" y="1691" width="646" height="199" as="geometry" />
+          <mxGeometry x="1665" y="1675" width="646" height="199" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-417" value="遇到的问题1：&lt;br&gt;渲染层级依赖第一次出现的层级，就可能出现下面的情况。group1和group2是相同对象的实例。&lt;br&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;group1:&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;img1 : hierarchy = 1 visible = true&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;img2 : visible = false&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;img3 : hierarchy = 2 visible = true&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;则img3是第二个渲染，&lt;/p&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;group2:&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;img1 : hierarchy = 1 visible = true&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;img2 : visible = true&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;img3 : hierarchy = 2 visible = true&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;此时img3就被第二个渲染，从而导致img2在img3后渲染了。&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="2498" y="1191" width="525" height="357" as="geometry" />
