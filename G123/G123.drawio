@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T08:16:07.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="QqeZ6MZUpgMXVaeG_ztU" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T08:16:56.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Nhnplwt7Dtm3igsbH6JB" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1119,7 +1119,7 @@
           <mxGeometry x="1665" y="1691" width="646" height="199" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-417" value="遇到的问题1：&lt;br&gt;渲染层级依赖第一次出现的层级，就可能出现下面的情况。group1和group2是相同对象的实例。&lt;br&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;group1:&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;img1 : hierarchy = 1 visible = true&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;img2 : visible = false&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;img3 : hierarchy = 2 visible = true&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;则img3是第二个渲染，&lt;/p&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;group2:&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;img1 : hierarchy = 1 visible = true&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;img2 : visible = true&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;img3 : hierarchy = 2 visible = true&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;此时img3就被第二个渲染，从而导致img2在img3后渲染了。&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1668" y="1906" width="525" height="357" as="geometry" />
+          <mxGeometry x="2498" y="1191" width="525" height="357" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
