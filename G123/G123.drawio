@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T06:13:39.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="hDvAeaxIKdRmQEIrretY" version="22.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-18T06:13:50.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="5EAmWb1mA7o1dwcLYA05" version="22.0.4" type="github" pages="5">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -960,7 +960,7 @@
           <mxGeometry x="20" y="1944" width="787" height="98" as="geometry" />
         </mxCell>
         <mxCell id="-bMjB7RCd2HwmuNxz3vt-97" value="而希望的是，在不改变显示列表的结构的前提下，去调节画家绘制指令的顺序为：&lt;br&gt;cmd(a1)-&amp;gt;cmd(b2)-&amp;gt;cmd(aa)-&amp;gt;cmd(b2)-&amp;gt;cmd(a3)-&amp;gt;cmd(b3)-&amp;gt;cmd(a4)-&amp;gt;cmd(b4)-&amp;gt;cmd(a5)-&amp;gt;cmd(b5)-&amp;gt;cmd(a6)-&amp;gt;cmd(b6)。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="22" y="2046" width="679" height="41" as="geometry" />
+          <mxGeometry x="21" y="2046" width="679" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
