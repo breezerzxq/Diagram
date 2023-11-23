@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T07:02:36.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="fGaihqwfAN1AfSqhQGQv" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-23T07:02:56.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="JrFOGUJsEx3_W_YCmb_m" version="22.1.3" type="github">
   <diagram name="TypeChat" id="iS5uBv-7ipD3r7iSay-G">
     <mxGraphModel dx="989" dy="523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -39,6 +39,18 @@
         </mxCell>
         <mxCell id="d0lmUghKUhBbq9rOOFnQ-15" value="TS类型声明" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="554" y="87" width="84" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="d0lmUghKUhBbq9rOOFnQ-16" value="" style="shape=cross;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="153" width="19" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="d0lmUghKUhBbq9rOOFnQ-17" value="TS类型声明" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="554" y="147" width="84" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="d0lmUghKUhBbq9rOOFnQ-18" value="" style="shape=cross;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="153" width="19" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="d0lmUghKUhBbq9rOOFnQ-19" value="输出格式" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="694" y="147" width="84" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
