@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T07:25:22.776Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="KFS-C_6CRlqDlzVqpgla" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-23T07:28:21.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3lEakRI_MLB0Y7ZR4lBs" version="22.1.3" type="github">
   <diagram name="TypeChat" id="iS5uBv-7ipD3r7iSay-G">
     <mxGraphModel dx="989" dy="523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="d0lmUghKUhBbq9rOOFnQ-18" value="" style="shape=cross;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="655" y="153" width="19" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="d0lmUghKUhBbq9rOOFnQ-19" value="输出格式" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="d0lmUghKUhBbq9rOOFnQ-19" value="输出格式" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="694" y="147" width="84" height="32" as="geometry" />
         </mxCell>
         <mxCell id="d0lmUghKUhBbq9rOOFnQ-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="d0lmUghKUhBbq9rOOFnQ-3" target="d0lmUghKUhBbq9rOOFnQ-11">
@@ -115,7 +115,7 @@
         <mxCell id="d0lmUghKUhBbq9rOOFnQ-38" value="代表数据的JSON" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontColor=#00FF00;" vertex="1" parent="1">
           <mxGeometry x="222" y="270" width="69" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="d0lmUghKUhBbq9rOOFnQ-39" value="代表函数执行的JSON" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="d0lmUghKUhBbq9rOOFnQ-39" value="代表函数执行的JSON" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="213.5" y="328" width="86" height="32" as="geometry" />
         </mxCell>
         <mxCell id="d0lmUghKUhBbq9rOOFnQ-40" value="输出的JSON" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
@@ -127,10 +127,10 @@
             <mxPoint x="217" y="464" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d0lmUghKUhBbq9rOOFnQ-42" value="可执行的代码" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="d0lmUghKUhBbq9rOOFnQ-42" value="可执行的代码" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="21" y="341" width="78" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="d0lmUghKUhBbq9rOOFnQ-43" value="TypeChat&lt;br&gt;内部转换" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#0000FF;" edge="1" parent="1" source="d0lmUghKUhBbq9rOOFnQ-39" target="d0lmUghKUhBbq9rOOFnQ-42">
+        <mxCell id="d0lmUghKUhBbq9rOOFnQ-43" value="TypeChat&lt;br&gt;内部转换" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d0lmUghKUhBbq9rOOFnQ-39" target="d0lmUghKUhBbq9rOOFnQ-42">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="181" y="458" as="sourcePoint" />
             <mxPoint x="261" y="458" as="targetPoint" />
