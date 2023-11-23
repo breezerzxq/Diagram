@@ -1,32 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T07:03:11.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MhMNb2go-ul3z8TbP3Al" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-23T07:04:30.041Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="4G_TnXSRFNHw9BBVuHxY" version="22.1.3" type="github">
   <diagram name="TypeChat" id="iS5uBv-7ipD3r7iSay-G">
     <mxGraphModel dx="989" dy="523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="d0lmUghKUhBbq9rOOFnQ-21" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="417" y="27" width="377" height="176" as="geometry" />
+        </mxCell>
         <mxCell id="d0lmUghKUhBbq9rOOFnQ-1" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;用户输入&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="42" y="87" width="91" height="28" as="geometry" />
+          <mxGeometry x="42" y="112" width="91" height="28" as="geometry" />
         </mxCell>
         <mxCell id="d0lmUghKUhBbq9rOOFnQ-3" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;JSON translator&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="42" width="110" height="28" as="geometry" />
+          <mxGeometry x="200" y="67" width="110" height="28" as="geometry" />
         </mxCell>
         <mxCell id="d0lmUghKUhBbq9rOOFnQ-4" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;program translator&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="132" width="110" height="28" as="geometry" />
+          <mxGeometry x="200" y="157" width="110" height="28" as="geometry" />
         </mxCell>
         <mxCell id="d0lmUghKUhBbq9rOOFnQ-8" value="提示词" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="d0lmUghKUhBbq9rOOFnQ-1" target="d0lmUghKUhBbq9rOOFnQ-3">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="115" y="31" as="sourcePoint" />
-            <mxPoint x="195" y="31" as="targetPoint" />
+            <mxPoint x="115" y="56" as="sourcePoint" />
+            <mxPoint x="195" y="56" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d0lmUghKUhBbq9rOOFnQ-9" value="提示词" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d0lmUghKUhBbq9rOOFnQ-1" target="d0lmUghKUhBbq9rOOFnQ-4">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="115" y="151" as="sourcePoint" />
-            <mxPoint x="195" y="151" as="targetPoint" />
+            <mxPoint x="115" y="176" as="sourcePoint" />
+            <mxPoint x="195" y="176" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d0lmUghKUhBbq9rOOFnQ-10" value="拼接提示词，提示词由下述部分组成：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="430" y="31" width="243" height="30" as="geometry" />
+          <mxGeometry x="426" y="40" width="243" height="30" as="geometry" />
         </mxCell>
         <mxCell id="d0lmUghKUhBbq9rOOFnQ-11" value="提示词" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="444" y="87" width="60" height="32" as="geometry" />
@@ -51,6 +54,18 @@
         </mxCell>
         <mxCell id="d0lmUghKUhBbq9rOOFnQ-19" value="输出格式" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="694" y="147" width="84" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="d0lmUghKUhBbq9rOOFnQ-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="d0lmUghKUhBbq9rOOFnQ-3" target="d0lmUghKUhBbq9rOOFnQ-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="326" y="125" as="sourcePoint" />
+            <mxPoint x="376" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0lmUghKUhBbq9rOOFnQ-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="d0lmUghKUhBbq9rOOFnQ-4" target="d0lmUghKUhBbq9rOOFnQ-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="91" as="sourcePoint" />
+            <mxPoint x="454" y="113" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
