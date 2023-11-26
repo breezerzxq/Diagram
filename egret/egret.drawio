@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-26T14:36:18.408Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.7.4" etag="WOIHEQenv5P4DrY-MSkE" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-26T14:39:47.533Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="20.7.4" etag="TWKQz3RX_UZLsa8bEI2n" type="github">
   <diagram id="LfKhRsgeO8Lxn1zCREiu" name="第 1 页">
-    <mxGraphModel dx="3081" dy="989" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2962" dy="928" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,10 @@
           <mxGeometry x="44" y="548" width="921.75" height="168" as="geometry" />
         </mxCell>
         <mxCell id="JHHaosXWpRZCY0voXGrj-6" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;关于getWebGLTexture：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;假如当前bitmapData还没有webGLTexture，则会从当前的webglRenderContext创建一个。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;这个时候，如果再想把bitmapData绘制到另一个canvas_1的webglcontext上，测试会不成功，&lt;/div&gt;&lt;div style=&quot;&quot;&gt;以为bitmapData已经有了webGLTexture，是属于canvs_0上的，它是不能被用到canvas_1上的。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="92" y="744" width="528" height="68" as="geometry" />
+          <mxGeometry x="10" y="733" width="528" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="JHHaosXWpRZCY0voXGrj-7" value="WebGLRenderContext，会初始化&lt;span style=&quot;color: rgb(78, 201, 176); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 18px;&quot;&gt;EgretWebGLProgram&lt;/span&gt;并在$drawWebGL，去使用shaderProgram。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="538" y="733" width="607" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
