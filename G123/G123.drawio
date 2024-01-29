@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T09:36:33.989Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="kGuXDkiwXy6Fdu4w8Eps" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-29T09:37:14.360Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Z4wb_iE48Z_5KGw6brLa" version="23.0.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1462,16 +1462,16 @@
           <mxGeometry x="1405" y="641" width="84" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-82" value="抽奖过程表现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1788" y="315" width="90" height="26" as="geometry" />
+          <mxGeometry x="1770" y="315" width="90" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-84" value="打开奖励弹窗界面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1779" y="544" width="114" height="26" as="geometry" />
+          <mxGeometry x="1770" y="544" width="114" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-85" value="抽奖结果表现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1788" y="429" width="90" height="26" as="geometry" />
+          <mxGeometry x="1770" y="429" width="90" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-90" value="结果表现完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1788" y="658" width="90" height="26" as="geometry" />
+          <mxGeometry x="1770" y="658" width="90" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-92" value="界面更新的后处理效果，e.g. progress+1特效，layer更新特效" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1791" y="761" width="344" height="26" as="geometry" />
