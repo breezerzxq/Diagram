@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T08:06:15.015Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="krga8TXEJOX_mX0CiFlg" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-29T08:06:29.164Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="LoGeF0xTeJ4umTVOhrE8" version="23.0.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1176,7 +1176,7 @@
         <mxCell id="SwJjDL_R2g0S1U2FlIdV-11" value="&lt;h1&gt;tryPlayResult():boolean&lt;br&gt;&lt;/h1&gt;&lt;p&gt;define：尝试播发抽奖结果&lt;br&gt;return：是否抽奖结果&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;true：有抽奖结果，即是一个抽奖的协议返回&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;false：没有抽奖结果，即表示是一个界面打开的常规返回&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="151" y="90" width="353" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="SwJjDL_R2g0S1U2FlIdV-12" value="update" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="SwJjDL_R2g0S1U2FlIdV-12" value="update" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="655" y="248.5" width="72" height="21" as="geometry" />
         </mxCell>
         <mxCell id="SwJjDL_R2g0S1U2FlIdV-13" value="&lt;h1&gt;update():void&lt;br&gt;&lt;/h1&gt;&lt;p&gt;define：根据返回的数据，更新界面&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
@@ -1231,7 +1231,7 @@
         <mxCell id="2ZPcolln_bZleLmXZTq9-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="458" y="446" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-16" value="playResult" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2ZPcolln_bZleLmXZTq9-16" value="playResult" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="641" y="435.5" width="86" height="31" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-17" value="return true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
