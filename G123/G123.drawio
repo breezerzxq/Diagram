@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T08:33:55.169Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Ce4orT8SCp2qavIDYkOy" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-29T08:35:24.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="kf_KrsCx0K1iWwY7BD8-" version="23.0.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1140,7 +1140,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8oWh4mzIKAkuPOqGHzDu" name="ui &amp; vfx">
-    <mxGraphModel dx="1434" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2607" dy="1356" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1180,7 +1180,7 @@
           <mxGeometry x="650" y="243" width="72" height="33.5" as="geometry" />
         </mxCell>
         <mxCell id="SwJjDL_R2g0S1U2FlIdV-13" value="&lt;h1&gt;updateView():void&lt;br&gt;&lt;/h1&gt;&lt;p&gt;define：根据返回的数据，更新界面&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="791" y="153" width="205" height="76" as="geometry" />
+          <mxGeometry x="791" y="153" width="232" height="76" as="geometry" />
         </mxCell>
         <mxCell id="SwJjDL_R2g0S1U2FlIdV-14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.006;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="SwJjDL_R2g0S1U2FlIdV-12" target="SwJjDL_R2g0S1U2FlIdV-13" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
