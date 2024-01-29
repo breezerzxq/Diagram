@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T08:55:15.603Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="RPyx0tz8w4TDzp7adD0c" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-29T08:58:42.668Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="S6QRll72yuLq-cpxFne2" version="23.0.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1382,6 +1382,11 @@
         <mxCell id="2ZPcolln_bZleLmXZTq9-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-66" target="2ZPcolln_bZleLmXZTq9-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-66" target="2ZPcolln_bZleLmXZTq9-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1803.434782608696" y="418" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-66" value="playLotteryVfx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1574" y="388" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1411,6 +1416,9 @@
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-76" value="updateView" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1411" y="731" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-82" value="抽奖过程等客户端表现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1764" y="405" width="138" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
