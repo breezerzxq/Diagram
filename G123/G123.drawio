@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T07:47:34.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-qol9zzIYWmBJzyOcpgg" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-29T07:48:08.581Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_A0BSR9-rfUqlTNnzEPT" version="23.0.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1237,6 +1237,9 @@
         <mxCell id="2ZPcolln_bZleLmXZTq9-17" value="return true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="374" y="473" width="73" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-18" target="2ZPcolln_bZleLmXZTq9-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-18" value="play vfx" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="95" y="549" width="120" height="40" as="geometry" />
         </mxCell>
@@ -1303,6 +1306,12 @@
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-35" value="return true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="118.5" y="664" width="73" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-36" target="2ZPcolln_bZleLmXZTq9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-36" value="play complete" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="254" y="549" width="101" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
