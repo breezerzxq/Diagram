@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T08:32:56.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="rbNW4Hee_rC75WhFtGo5" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-29T08:33:55.169Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Ce4orT8SCp2qavIDYkOy" version="23.0.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1188,7 +1188,7 @@
             <mxPoint x="88" y="505" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-2" value="this.m_objData.draw_result" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="2ZPcolln_bZleLmXZTq9-2" value="m_objData.lottery_result" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="202.5" y="325" width="141" height="45" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-3" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="2ZPcolln_bZleLmXZTq9-2" parent="1" target="2ZPcolln_bZleLmXZTq9-7">
@@ -1205,7 +1205,7 @@
         <mxCell id="2ZPcolln_bZleLmXZTq9-7" value="return false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="405" y="334.5" width="78" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-8" value="this.m_objData.skip_anim" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="2ZPcolln_bZleLmXZTq9-8" value="m_objData.skip_anim" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="190" y="431" width="167" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-9" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" source="2ZPcolln_bZleLmXZTq9-8" parent="1" target="2ZPcolln_bZleLmXZTq9-11">
