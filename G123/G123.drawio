@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T06:46:30.552Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="EfdXUU-_juGT5R_GsSa6" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-29T06:47:25.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ON6fNkziItUOWH5dPGP9" version="23.0.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1178,6 +1178,9 @@
         </mxCell>
         <mxCell id="SwJjDL_R2g0S1U2FlIdV-12" value="update" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="518" y="420" width="72" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="SwJjDL_R2g0S1U2FlIdV-13" value="&lt;h1&gt;update():void&lt;br&gt;&lt;/h1&gt;&lt;p&gt;define：根据返回的数据，更新界面&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="406" width="205" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
