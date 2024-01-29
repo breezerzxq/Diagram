@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T07:43:10.266Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2JFAjfvvvQrecmPHqffj" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-29T07:43:32.441Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="CNIEr8r6TUH_A1-EjCbc" version="23.0.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1281,11 +1281,17 @@
         <mxCell id="2ZPcolln_bZleLmXZTq9-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-28" target="2ZPcolln_bZleLmXZTq9-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-28" target="2ZPcolln_bZleLmXZTq9-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-28" value="弹窗奖励逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1445" y="398" width="90" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-30" value="注册弹窗奖励关闭，回调函数&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(220, 220, 170);&quot;&gt;onResultAwardClose&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1600" y="381" width="162" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-32" value="打开弹窗奖励" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="453" width="162" height="23" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
