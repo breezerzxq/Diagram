@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T08:30:44.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="6Gf0LNFoTP7-1zubhaJk" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-29T08:31:30.723Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="E3yxy9WqWoWrVlokeIvv" version="23.0.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1352,8 +1352,14 @@
         <mxCell id="2ZPcolln_bZleLmXZTq9-56" value="setData" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1408" y="47" width="74" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-57" target="2ZPcolln_bZleLmXZTq9-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-57" value="正常打开界面的返回" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1228" y="184.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-59" target="2ZPcolln_bZleLmXZTq9-66">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-59" value="抽奖结果的返回" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1573" y="183" width="120" height="60" as="geometry" />
@@ -1373,20 +1379,38 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-66" target="2ZPcolln_bZleLmXZTq9-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-66" value="playLotteryVfx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1574" y="272" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-67" target="2ZPcolln_bZleLmXZTq9-68">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-67" value="playResult" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1574" y="376" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-68" target="2ZPcolln_bZleLmXZTq9-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-68" value="openResultAwardUI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1574" y="472" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-69" target="2ZPcolln_bZleLmXZTq9-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-69" target="2ZPcolln_bZleLmXZTq9-76">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-69" value="playResultComplete" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1574" y="571" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-70" value="tryPlayCompleteVfx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1574" y="666" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-76" value="update" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1411" y="571" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
