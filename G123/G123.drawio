@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T08:23:51.007Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2HRhT2-kqkvndQholbrX" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-29T08:25:59.462Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="wKi6qpT3azvIdBlLrPwI" version="23.0.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1336,6 +1336,15 @@
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="125" y="343" width="10" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-54" value="&lt;h1&gt;playResult():void&lt;br&gt;&lt;/h1&gt;&lt;p&gt;define：客户端抽奖过程vfx完成，执行结果&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="767" y="320" width="238" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-55" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=-0.013;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.598;exitY=-0.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-16" target="2ZPcolln_bZleLmXZTq9-54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="609" y="408" as="sourcePoint" />
+            <mxPoint x="769" y="408" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
