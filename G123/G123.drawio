@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T08:32:05.561Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="vmYXXt5mk3129Gj1SCQ2" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-29T08:32:22.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="J6GV5Z8_ENRfWTd2T3qa" version="23.0.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1355,13 +1355,13 @@
         <mxCell id="2ZPcolln_bZleLmXZTq9-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-57" target="2ZPcolln_bZleLmXZTq9-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-57" value="正常打开界面的返回" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2ZPcolln_bZleLmXZTq9-57" value="正常打开界面的返回" style="whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
           <mxGeometry x="1228" y="184.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-59" target="2ZPcolln_bZleLmXZTq9-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-59" value="抽奖结果的返回" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2ZPcolln_bZleLmXZTq9-59" value="抽奖结果的返回" style="whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="1573" y="183" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-60" value="抽奖返回" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
