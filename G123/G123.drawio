@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T07:54:19.231Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="aWA1PGLeNRXePrvnL09a" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-29T07:56:33.287Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="vkm6MPNna0RAUZxjcvL0" version="23.0.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1232,7 +1232,7 @@
           <mxGeometry x="340" y="446" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-16" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;playResult&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="443" y="435.5" width="86" height="31" as="geometry" />
+          <mxGeometry x="641" y="435.5" width="86" height="31" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-17" value="return true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="374" y="473" width="73" height="26" as="geometry" />
@@ -1260,8 +1260,8 @@
         <mxCell id="2ZPcolln_bZleLmXZTq9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-22" target="SwJjDL_R2g0S1U2FlIdV-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="641" y="669" />
-              <mxPoint x="641" y="336" />
+              <mxPoint x="605" y="669" />
+              <mxPoint x="605" y="336" />
               <mxPoint x="376" y="336" />
             </Array>
           </mxGeometry>
@@ -1279,7 +1279,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-26" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="621" y="446" width="10" height="80" as="geometry" />
+          <mxGeometry x="764" y="446" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-16" target="2ZPcolln_bZleLmXZTq9-26">
           <mxGeometry relative="1" as="geometry" />
@@ -1291,21 +1291,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-28" value="弹窗奖励逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="675" y="438" width="90" height="26" as="geometry" />
+          <mxGeometry x="804" y="438" width="90" height="26" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-30" target="2ZPcolln_bZleLmXZTq9-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1021" y="451" />
-              <mxPoint x="1021" y="607" />
+              <mxPoint x="1117" y="451" />
+              <mxPoint x="1117" y="607" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-30" value="注册弹窗奖励关闭，回调函数&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(220, 220, 170);&quot;&gt;onResultAwardClose&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="421" width="162" height="60" as="geometry" />
+          <mxGeometry x="937" y="421" width="162" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-32" value="打开弹窗奖励" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="493" width="162" height="23" as="geometry" />
+          <mxGeometry x="937" y="493" width="162" height="23" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-35" value="return true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="118.5" y="664" width="73" height="26" as="geometry" />
