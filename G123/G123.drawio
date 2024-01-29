@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T08:22:40.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="sb51moeh6iqxrI23tcwU" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-29T08:23:40.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="VoWBRGMu925WKXS8HaMt" version="23.0.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1153,7 +1153,7 @@
         <mxCell id="SwJjDL_R2g0S1U2FlIdV-2" value="setData" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="46" y="99" width="74" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="SwJjDL_R2g0S1U2FlIdV-3" value="tryPlayResult" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="SwJjDL_R2g0S1U2FlIdV-3" value="tryPlayResult" style="rhombus;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="11.5" y="243" width="143" height="32" as="geometry" />
         </mxCell>
         <mxCell id="SwJjDL_R2g0S1U2FlIdV-4" value="false" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="SwJjDL_R2g0S1U2FlIdV-3" target="SwJjDL_R2g0S1U2FlIdV-12" edge="1">
@@ -1313,7 +1313,7 @@
         <mxCell id="2ZPcolln_bZleLmXZTq9-36" value="play lottery complete" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="372" y="549" width="135" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-40" value="tryPlayCompleteVfx" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2ZPcolln_bZleLmXZTq9-40" value="tryPlayCompleteVfx" style="whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="449" y="696" width="149" height="25" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-42" value="&lt;h1&gt;tryPlayCompleteVfx():void&lt;br&gt;&lt;/h1&gt;&lt;p&gt;define：奖励结果完成后，播放一次进阶的ani，比如进度+1动效，解锁新的layer动效&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
