@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T08:05:30.595Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ykgvMBpD-0MOsI8-VkFK" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-29T08:06:15.015Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="krga8TXEJOX_mX0CiFlg" version="23.0.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1150,10 +1150,10 @@
         <mxCell id="SwJjDL_R2g0S1U2FlIdV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SwJjDL_R2g0S1U2FlIdV-2" target="SwJjDL_R2g0S1U2FlIdV-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SwJjDL_R2g0S1U2FlIdV-2" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;setData&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="SwJjDL_R2g0S1U2FlIdV-2" value="setData" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="46" y="99" width="74" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="SwJjDL_R2g0S1U2FlIdV-3" value="&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;tryPlayResult&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="SwJjDL_R2g0S1U2FlIdV-3" value="tryPlayResult" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="11.5" y="243" width="143" height="32" as="geometry" />
         </mxCell>
         <mxCell id="SwJjDL_R2g0S1U2FlIdV-4" value="false" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="SwJjDL_R2g0S1U2FlIdV-3" target="SwJjDL_R2g0S1U2FlIdV-12" edge="1">
@@ -1188,7 +1188,7 @@
             <mxPoint x="88" y="505" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-2" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;this.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;m_objData&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;draw_result&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="2ZPcolln_bZleLmXZTq9-2" value="this.m_objData.draw_result" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="202.5" y="325" width="141" height="45" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-3" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="2ZPcolln_bZleLmXZTq9-2" parent="1" target="2ZPcolln_bZleLmXZTq9-7">
@@ -1205,7 +1205,7 @@
         <mxCell id="2ZPcolln_bZleLmXZTq9-7" value="return false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="405" y="334.5" width="78" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-8" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;this.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;m_objData&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;skip_anim&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="2ZPcolln_bZleLmXZTq9-8" value="this.m_objData.skip_anim" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="233" y="431" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-9" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" source="2ZPcolln_bZleLmXZTq9-8" parent="1" target="2ZPcolln_bZleLmXZTq9-11">
@@ -1231,7 +1231,7 @@
         <mxCell id="2ZPcolln_bZleLmXZTq9-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="458" y="446" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-16" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;playResult&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2ZPcolln_bZleLmXZTq9-16" value="playResult" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="641" y="435.5" width="86" height="31" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-17" value="return true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -1251,10 +1251,10 @@
         <mxCell id="2ZPcolln_bZleLmXZTq9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-20" target="2ZPcolln_bZleLmXZTq9-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-20" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;onResultAwardClose&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2ZPcolln_bZleLmXZTq9-20" value="onResultAwardClose" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="695" y="568" width="146" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-21" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;playResultComplete&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2ZPcolln_bZleLmXZTq9-21" value="playResultComplete" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="694" y="623" width="148" height="32" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-22" target="2ZPcolln_bZleLmXZTq9-40">
