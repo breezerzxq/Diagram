@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T08:07:05.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="9-MFoT2pe3DaggUya7Tz" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-29T08:07:20.053Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UbwDJs_8L0iLtgcxhbeQ" version="23.0.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1298,7 +1298,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-30" value="注册弹窗奖励关闭，回调函数&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; color: rgb(220, 220, 170);&quot;&gt;onResultAwardClose&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2ZPcolln_bZleLmXZTq9-30" value="注册弹窗奖励关闭，回调函数onResultAwardClose" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="937" y="421" width="162" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-32" value="打开弹窗奖励" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
