@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T09:38:37.619Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2_BJOl5IoXUEd0dbtYnW" version="23.0.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-01-29T09:43:13.138Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="QEc-rudZFJyxQRpX6mZr" version="23.0.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1400,12 +1400,17 @@
         <mxCell id="2ZPcolln_bZleLmXZTq9-66" value="playLotteryVfx" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1574" y="286" width="120" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-67" target="2ZPcolln_bZleLmXZTq9-68">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="2ZPcolln_bZleLmXZTq9-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-67" target="2ZPcolln_bZleLmXZTq9-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1634" y="463" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1634" y="431" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-88" value="e.g." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2ZPcolln_bZleLmXZTq9-73">
+        <mxCell id="2ZPcolln_bZleLmXZTq9-88" value="e.g. 打开奖励弹窗界面" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2ZPcolln_bZleLmXZTq9-73">
           <mxGeometry x="-0.3881" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="50" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-67" target="2ZPcolln_bZleLmXZTq9-85">
@@ -1413,22 +1418,6 @@
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-67" value="playResult" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1574" y="381" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-68" target="2ZPcolln_bZleLmXZTq9-69">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-89" value="弹窗界面关闭等完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2ZPcolln_bZleLmXZTq9-74">
-          <mxGeometry x="-0.256" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-68" target="2ZPcolln_bZleLmXZTq9-84">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1790.3913043478265" y="493" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-68" value="openResultAwardUI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1574" y="463" width="120" height="32" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-69" target="2ZPcolln_bZleLmXZTq9-70">
           <mxGeometry relative="1" as="geometry" />
@@ -1469,9 +1458,6 @@
         <mxCell id="2ZPcolln_bZleLmXZTq9-82" value="抽奖过程表现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1770" y="290" width="90" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="2ZPcolln_bZleLmXZTq9-84" value="打开奖励弹窗界面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1770" y="466" width="114" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-85" value="抽奖结果表现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1770" y="383" width="90" height="26" as="geometry" />
         </mxCell>
@@ -1480,6 +1466,37 @@
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-92" value="界面更新的后处理效果，e.g. progress+1特效，layer更新特效" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1791" y="654" width="344" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-97" target="2ZPcolln_bZleLmXZTq9-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1822.5" y="511.0034782608695" as="sourcePoint" />
+            <mxPoint x="1634" y="578.96" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1634" y="510.96" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-106" value="弹窗界面关闭等完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2ZPcolln_bZleLmXZTq9-105">
+          <mxGeometry x="-0.0847" y="-1" relative="1" as="geometry">
+            <mxPoint x="22" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-97" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1822.5" y="431" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZPcolln_bZleLmXZTq9-101" target="2ZPcolln_bZleLmXZTq9-102">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2119.8913043478265" y="484" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-101" value="openResultAwardUI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1883.5" y="455" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZPcolln_bZleLmXZTq9-102" value="打开奖励弹窗界面" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2061.5" y="458" width="114" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
