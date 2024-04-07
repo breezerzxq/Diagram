@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-07T08:33:10.157Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="U7U6Cf2qFCYB2Ee9uUWo" version="24.2.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-04-07T08:33:25.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="hiZfVCna31qIA0xzb52M" version="24.2.2" type="github" pages="6">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1140,7 +1140,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8oWh4mzIKAkuPOqGHzDu" name="ui &amp; vfx">
-    <mxGraphModel dx="1195" dy="622" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="514" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1317,7 +1317,7 @@
           <mxGeometry x="449" y="696" width="149" height="25" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-42" value="&lt;h1&gt;tryPlayCompleteVfx():void&lt;br&gt;&lt;/h1&gt;&lt;p&gt;define：奖励结果完成后，播放一次进阶的ani，比如进度+1动效，解锁新的layer动效&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="301" y="743" width="340" height="76" as="geometry" />
+          <mxGeometry x="301" y="743" width="340" height="82" as="geometry" />
         </mxCell>
         <mxCell id="2ZPcolln_bZleLmXZTq9-43" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.584;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="2ZPcolln_bZleLmXZTq9-40" target="2ZPcolln_bZleLmXZTq9-42" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
