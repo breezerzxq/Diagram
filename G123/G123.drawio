@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-23T10:04:46.180Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="NIJxWGNo4CeBLs16zxZ9" version="24.4.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-05-23T10:04:56.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="aGqHM0_bqsKFKjScaxZs" version="24.4.6" type="github" pages="7">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL" />
   <diagram id="MrGO6GVik93nbuzxMxCQ" name="编队">
     <mxGraphModel dx="1195" dy="1464" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
@@ -1161,7 +1161,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="h6loQACq0vyhVuf2kGZK" name="scene">
-    <mxGraphModel dx="1687" dy="878" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
