@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T07:18:09.608Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="A2T8cMsWHl4HfhprVwJa" version="24.4.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-27T07:18:30.521Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="zvedbtFsw_yBWJO6tD_2" version="24.4.8" type="github" pages="3">
   <diagram name="TypeChat" id="iS5uBv-7ipD3r7iSay-G">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -268,7 +268,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bT5_MNSgLAZDPGBbFUII-1" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;知识库&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bT5_MNSgLAZDPGBbFUII-1" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;知识库(数据集)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="133" y="-769" width="91" height="28" as="geometry" />
         </mxCell>
         <mxCell id="bT5_MNSgLAZDPGBbFUII-2" value="向量化" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bT5_MNSgLAZDPGBbFUII-1" target="bT5_MNSgLAZDPGBbFUII-3">
