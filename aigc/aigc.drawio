@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T07:18:30.521Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="zvedbtFsw_yBWJO6tD_2" version="24.4.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-27T07:32:41.220Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="kZABXnizdz9xvU5sCmg8" version="24.4.8" type="github" pages="3">
   <diagram name="TypeChat" id="iS5uBv-7ipD3r7iSay-G">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -264,11 +264,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_KTqOrFQMsUu18izjc8Z" name="LangChain">
-    <mxGraphModel dx="713" dy="1130" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="862" dy="1194" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bT5_MNSgLAZDPGBbFUII-1" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;知识库(数据集)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bT5_MNSgLAZDPGBbFUII-1" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;知识库(数据集)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
           <mxGeometry x="133" y="-769" width="91" height="28" as="geometry" />
         </mxCell>
         <mxCell id="bT5_MNSgLAZDPGBbFUII-2" value="向量化" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bT5_MNSgLAZDPGBbFUII-1" target="bT5_MNSgLAZDPGBbFUII-3">
@@ -277,19 +277,19 @@
             <mxPoint x="289" y="-699" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bT5_MNSgLAZDPGBbFUII-3" value="Top_n&lt;div&gt;文档&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="bT5_MNSgLAZDPGBbFUII-3" value="Top_n&lt;div&gt;文档&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fillColor=#FFCC99;" vertex="1" parent="1">
           <mxGeometry x="304.5" y="-715" width="84" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="bT5_MNSgLAZDPGBbFUII-4" value="prompt" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="bT5_MNSgLAZDPGBbFUII-4" value="prompt" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="465" y="-714" width="84" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="bT5_MNSgLAZDPGBbFUII-5" value="文档 + 输入" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bT5_MNSgLAZDPGBbFUII-3" target="bT5_MNSgLAZDPGBbFUII-4">
+        <mxCell id="bT5_MNSgLAZDPGBbFUII-5" value="文档 + 输入" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#CCE5FF;" edge="1" parent="1" source="bT5_MNSgLAZDPGBbFUII-3" target="bT5_MNSgLAZDPGBbFUII-4">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="234" y="-689" as="sourcePoint" />
             <mxPoint x="315" y="-689" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bT5_MNSgLAZDPGBbFUII-6" value="GPT" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="bT5_MNSgLAZDPGBbFUII-6" value="GPT" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fillColor=#CCE5FF;" vertex="1" parent="1">
           <mxGeometry x="588" y="-714" width="84" height="32" as="geometry" />
         </mxCell>
         <mxCell id="bT5_MNSgLAZDPGBbFUII-7" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bT5_MNSgLAZDPGBbFUII-4" target="bT5_MNSgLAZDPGBbFUII-6">
@@ -298,7 +298,7 @@
             <mxPoint x="635" y="-709" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bT5_MNSgLAZDPGBbFUII-8" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;用户输入&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bT5_MNSgLAZDPGBbFUII-8" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;用户输入&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
           <mxGeometry x="133" y="-656" width="91" height="28" as="geometry" />
         </mxCell>
         <mxCell id="bT5_MNSgLAZDPGBbFUII-9" value="向量化" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bT5_MNSgLAZDPGBbFUII-8" target="bT5_MNSgLAZDPGBbFUII-3">
