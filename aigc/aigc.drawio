@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T07:56:24.561Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="MTej3CsaBPP1-e5N_FpW" version="22.1.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-27T07:16:17.495Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="zwZ5sNFRyLII2iHmmczm" version="24.4.8" type="github" pages="3">
   <diagram name="TypeChat" id="iS5uBv-7ipD3r7iSay-G">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -257,6 +257,14 @@
   </diagram>
   <diagram id="sPyCwAWSbgNEuOPcmoG0" name="temp">
     <mxGraphModel dx="819" dy="426" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_KTqOrFQMsUu18izjc8Z" name="LangChain">
+    <mxGraphModel dx="1034" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
