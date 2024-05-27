@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-27T07:58:47.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="NjOvp5oIE7823NwMIz0U" version="24.4.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-27T07:59:39.916Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="40Dyyz4bAhYDp9DKGCEe" version="24.4.8" type="github" pages="2">
   <diagram name="TypeChat" id="iS5uBv-7ipD3r7iSay-G">
     <mxGraphModel dx="1434" dy="1573" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -252,14 +252,6 @@
         <mxCell id="d0lmUghKUhBbq9rOOFnQ-84" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
           <mxGeometry x="550" y="-625" width="14" height="14" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="sPyCwAWSbgNEuOPcmoG0" name="temp">
-    <mxGraphModel dx="819" dy="426" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
