@@ -1,40 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T07:53:01.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="-AS1KnZbZQ3hvljNHS4d" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T07:53:25.552Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="VpBVkaApDpFJN2gpxb7E" version="24.5.3" type="github">
   <diagram name="第 1 页" id="EIIMtydjI0oj0VH4oGAn">
     <mxGraphModel dx="1434" dy="780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2UdP-SpyfaKAD273BKzM-2" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
-          <mxGeometry x="49" y="36" width="411" height="625" as="geometry" />
+        <mxCell id="2UdP-SpyfaKAD273BKzM-2" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="36" width="411" height="625" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="726" y="36" width="411" height="625" as="geometry" />
+          <mxGeometry x="694" y="36" width="411" height="625" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-4" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;game runtime&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="154" y="57" width="201" height="30" as="geometry" />
+          <mxGeometry x="170" y="57" width="201" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;chrome-extension-gamekits&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="787.25" y="57" width="288.5" height="30" as="geometry" />
+          <mxGeometry x="755.25" y="57" width="288.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-8" target="2UdP-SpyfaKAD273BKzM-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-8" value="指标是否超阈值" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="199.5" y="263" width="110" height="29" as="geometry" />
+          <mxGeometry x="215.5" y="263" width="110" height="29" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-9" target="2UdP-SpyfaKAD273BKzM-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-9" value="开启实时监听" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="199.5" y="122" width="110" height="30" as="geometry" />
+          <mxGeometry x="215.5" y="122" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-12" target="2UdP-SpyfaKAD273BKzM-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-12" value="gameperf set" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="881" y="112" width="110" height="50" as="geometry" />
+          <mxGeometry x="849" y="112" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2UdP-SpyfaKAD273BKzM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-16" target="2UdP-SpyfaKAD273BKzM-9">
+        <mxCell id="2UdP-SpyfaKAD273BKzM-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-16" target="2UdP-SpyfaKAD273BKzM-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-16" value="控制性能监听总开关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -50,10 +50,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-25" value="高频率的汽包提示" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="199.5" y="332" width="110" height="29" as="geometry" />
+          <mxGeometry x="215.5" y="332" width="110" height="29" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-27" value="onEnterFame" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="174.5" y="181" width="160" height="60" as="geometry" />
+          <mxGeometry x="190.5" y="181" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-28" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;注册游戏帧循环回调函数&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="2UdP-SpyfaKAD273BKzM-27">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
@@ -62,7 +62,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-31" value="gameperf analysis" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="881" y="450" width="110" height="50" as="geometry" />
+          <mxGeometry x="849" y="450" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
