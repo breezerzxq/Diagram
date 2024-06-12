@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T07:54:23.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="u0sFTB7PTnsc9EF7qT8R" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T07:55:24.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="SIDmADBM1TAfrU8WKvqb" version="24.5.3" type="github">
   <diagram name="第 1 页" id="EIIMtydjI0oj0VH4oGAn">
     <mxGraphModel dx="1434" dy="780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -66,6 +66,9 @@
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-31" value="gameperf analysis" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="849" y="450" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2UdP-SpyfaKAD273BKzM-35" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;实时预警&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="89" y="95" width="85" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
