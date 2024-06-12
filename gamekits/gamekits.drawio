@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T07:46:54.795Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="qyb-hXF8OD9uoGEfFbdW" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T07:47:43.875Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="X_WsPGlVdBq0gmo0DSi2" version="24.5.3" type="github">
   <diagram name="第 1 页" id="EIIMtydjI0oj0VH4oGAn">
     <mxGraphModel dx="1395" dy="650" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -18,6 +18,11 @@
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-7" target="2UdP-SpyfaKAD273BKzM-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2UdP-SpyfaKAD273BKzM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-7" target="2UdP-SpyfaKAD273BKzM-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="230.9999999999999" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-7" value="onEnterFame" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="194.5" y="201" width="120" height="60" as="geometry" />
@@ -51,6 +56,9 @@
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.991;entryY=0.538;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-12" target="2UdP-SpyfaKAD273BKzM-19">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2UdP-SpyfaKAD273BKzM-23" value="注册游戏帧循环回调函数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="522" y="218" width="150" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
