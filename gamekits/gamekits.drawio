@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T07:46:18.285Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="L5_qgqcYHyFJz88lKtPk" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T07:46:39.272Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Qs-7GXVb_Q9LvEx63qWp" version="24.5.3" type="github">
   <diagram name="第 1 页" id="EIIMtydjI0oj0VH4oGAn">
-    <mxGraphModel dx="1674" dy="780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1395" dy="650" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,6 +42,9 @@
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-16" value="控制性能监听总开关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="522" y="134" width="126" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2UdP-SpyfaKAD273BKzM-19" value="设置指标阈值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="296" width="90" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
