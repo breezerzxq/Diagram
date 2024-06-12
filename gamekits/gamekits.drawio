@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T08:12:24.711Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Ed9jhU3bxN-Smn5zf9sw" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T08:15:29.843Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="rPeBDCiUqdLteHKP4-aY" version="24.5.3" type="github">
   <diagram name="第 1 页" id="EIIMtydjI0oj0VH4oGAn">
-    <mxGraphModel dx="1195" dy="650" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="371" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,31 +151,46 @@
         <mxCell id="2UdP-SpyfaKAD273BKzM-55" value="恢复游戏帧" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="216" y="598" width="110" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="2UdP-SpyfaKAD273BKzM-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-60" target="2UdP-SpyfaKAD273BKzM-62">
+        <mxCell id="2UdP-SpyfaKAD273BKzM-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-60" target="2UdP-SpyfaKAD273BKzM-62">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="682" y="559" />
-              <mxPoint x="682" y="465" />
+              <mxPoint x="682" y="532" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-60" value="当前画面绘制指令timeline数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="495.5" y="545.5" width="179" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="2UdP-SpyfaKAD273BKzM-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-62" target="2UdP-SpyfaKAD273BKzM-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-62" value="数据存储器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="751" y="451" width="66" height="28" as="geometry" />
+          <mxGeometry x="751" y="451" width="18" height="162" as="geometry" />
         </mxCell>
-        <mxCell id="2UdP-SpyfaKAD273BKzM-64" value="数据分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="751" y="490" width="84" height="28" as="geometry" />
+        <mxCell id="2UdP-SpyfaKAD273BKzM-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-64" target="2UdP-SpyfaKAD273BKzM-65">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2UdP-SpyfaKAD273BKzM-65" value="节点消耗排行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="751" y="532" width="117" height="28" as="geometry" />
+        <mxCell id="2UdP-SpyfaKAD273BKzM-64" value="数据分析" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="812" y="451" width="19" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="2UdP-SpyfaKAD273BKzM-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-65" target="2UdP-SpyfaKAD273BKzM-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2UdP-SpyfaKAD273BKzM-65" value="节点消耗排行" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="876" y="451" width="22" height="161" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-64" target="2UdP-SpyfaKAD273BKzM-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2UdP-SpyfaKAD273BKzM-71" value="查看节点位置以及绘制消耗的指令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="751" y="573" width="190.25" height="28" as="geometry" />
+        <mxCell id="2UdP-SpyfaKAD273BKzM-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-71" target="2UdP-SpyfaKAD273BKzM-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2UdP-SpyfaKAD273BKzM-71" value="查看节点位置 &amp;amp; 绘制指令" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="944" y="451" width="22" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="2UdP-SpyfaKAD273BKzM-73" value="界面展示" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1014" y="451" width="22" height="162" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
