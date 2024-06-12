@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T08:11:02.313Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="sZdpbANzwsTRLvF6qLR_" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T08:12:24.711Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Ed9jhU3bxN-Smn5zf9sw" version="24.5.3" type="github">
   <diagram name="第 1 页" id="EIIMtydjI0oj0VH4oGAn">
     <mxGraphModel dx="1195" dy="650" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -162,33 +162,20 @@
         <mxCell id="2UdP-SpyfaKAD273BKzM-60" value="当前画面绘制指令timeline数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="495.5" y="545.5" width="179" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="2UdP-SpyfaKAD273BKzM-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-62" target="2UdP-SpyfaKAD273BKzM-64">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="784" y="488" />
-              <mxPoint x="810" y="488" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-62" value="数据存储器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="751" y="451" width="66" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="2UdP-SpyfaKAD273BKzM-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-64" target="2UdP-SpyfaKAD273BKzM-65">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="810" y="539" />
-              <mxPoint x="860" y="539" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-64" value="数据分析" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="777" y="501" width="66" height="28" as="geometry" />
+          <mxGeometry x="751" y="490" width="84" height="28" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-65" value="节点消耗排行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="821" y="553.5" width="78" height="28" as="geometry" />
+          <mxGeometry x="751" y="532" width="117" height="28" as="geometry" />
         </mxCell>
         <mxCell id="2UdP-SpyfaKAD273BKzM-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2UdP-SpyfaKAD273BKzM-64" target="2UdP-SpyfaKAD273BKzM-64">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2UdP-SpyfaKAD273BKzM-71" value="查看节点位置以及绘制消耗的指令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="751" y="573" width="190.25" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
