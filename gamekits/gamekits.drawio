@@ -234,22 +234,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-36" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="777" y="196" width="315" height="628" as="geometry" />
+          <mxGeometry x="777" y="196" width="365" height="628" as="geometry" />
         </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7oDSL2KH2XeqtFK3ohfZ-36">
-          <mxGeometry width="315" height="587" as="geometry" />
+          <mxGeometry width="365.00000000000006" height="587" as="geometry" />
         </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-22" value="eventmgr.ts&lt;div&gt;负责devtool与外界的通信&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7oDSL2KH2XeqtFK3ohfZ-36">
-          <mxGeometry x="7" y="7" width="205" height="30" as="geometry" />
+          <mxGeometry x="8.111111111111112" y="7" width="237.53968253968256" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-24" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;send2background&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7oDSL2KH2XeqtFK3ohfZ-36">
-          <mxGeometry x="5" y="97" width="306" height="60" as="geometry" />
+          <mxGeometry x="23.89" y="97" width="317.21" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-25" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;chrome&lt;/span&gt;.&lt;span style=&quot;color: #4ec9b0;&quot;&gt;runtime&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;onMessage&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;addListener&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7oDSL2KH2XeqtFK3ohfZ-36">
-          <mxGeometry x="6" y="225" width="305" height="60" as="geometry" />
+          <mxGeometry x="29.13" y="225" width="309.05" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-26" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;chrome&lt;/span&gt;.&lt;span style=&quot;color: #4ec9b0;&quot;&gt;devtools&lt;/span&gt;.&lt;span style=&quot;color: #4ec9b0;&quot;&gt;network&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;onRequestFinished&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7oDSL2KH2XeqtFK3ohfZ-36">
-          <mxGeometry x="7" y="341" width="303" height="60" as="geometry" />
+          <mxGeometry x="18.21" y="500" width="330.89" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7oDSL2KH2XeqtFK3ohfZ-31" target="7oDSL2KH2XeqtFK3ohfZ-21">
           <mxGeometry relative="1" as="geometry" />
