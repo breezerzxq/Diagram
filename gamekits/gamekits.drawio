@@ -196,18 +196,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WlhLq346-vLjD9Iv82zy" name="通信">
-    <mxGraphModel dx="1434" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="878" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-1" value="backgroundscript.js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1623.5" y="47" width="120" height="60" as="geometry" />
+          <mxGeometry x="1321" y="111" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-4" value="contentscript.js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1936" y="137" width="120" height="60" as="geometry" />
+          <mxGeometry x="1744" y="378" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-5" value="injectedscript.js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1311" y="137" width="120" height="60" as="geometry" />
+          <mxGeometry x="1321" y="631" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;devtool&lt;/h1&gt;&lt;p&gt;由manifest.json中的devtools_page字段确定devtools的起始入口，首先由一个devtools.html确定加载的devtools/index.js;&lt;/p&gt;&lt;p&gt;index.js中确定devtool的页面../index.hmtl。&lt;/p&gt;&lt;p&gt;..index.html则就是react开发的插件的页面。&lt;/p&gt;&lt;p&gt;因此devtools/index.js和插件js都是属于devtool环境+&lt;/p&gt;&lt;p&gt;eventmgr.ts&lt;span style=&quot;background-color: initial;&quot;&gt;负责devtool与外界的通信&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="9" y="9" width="1146" height="173" as="geometry" />
