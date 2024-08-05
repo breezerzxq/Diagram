@@ -366,6 +366,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="7oDSL2KH2XeqtFK3ohfZ-81" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7oDSL2KH2XeqtFK3ohfZ-63" target="7oDSL2KH2XeqtFK3ohfZ-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1077" y="1538" as="sourcePoint" />
+            <mxPoint x="1127" y="1488" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1067" y="1350" />
+              <mxPoint x="1021" y="1555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
