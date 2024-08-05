@@ -196,7 +196,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WlhLq346-vLjD9Iv82zy" name="通信">
-    <mxGraphModel dx="2206" dy="1448" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="1176" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -365,9 +365,6 @@
               <mxPoint x="1022" y="1417" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="7oDSL2KH2XeqtFK3ohfZ-80" value="目标页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1921" y="1188" width="392" height="444" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
