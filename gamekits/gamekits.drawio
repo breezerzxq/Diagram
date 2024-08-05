@@ -196,7 +196,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WlhLq346-vLjD9Iv82zy" name="通信">
-    <mxGraphModel dx="989" dy="514" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -210,10 +210,13 @@
           <mxGeometry x="215" y="237" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="335" y="454" width="535" height="302" as="geometry" />
+          <mxGeometry x="58" y="454" width="1058" height="302" as="geometry" />
         </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-8" value="devtool" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="338" y="456" width="60" height="30" as="geometry" />
+          <mxGeometry x="60" y="456" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7oDSL2KH2XeqtFK3ohfZ-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="486" width="112" height="256" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
