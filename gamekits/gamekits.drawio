@@ -203,14 +203,14 @@
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-1" value="backgroundscript.js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="498" y="102" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7oDSL2KH2XeqtFK3ohfZ-3" value="devtool" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="498" y="487" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-4" value="contentscript.js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="237" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-5" value="injectedscript.js" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="215" y="237" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7oDSL2KH2XeqtFK3ohfZ-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="454" width="535" height="302" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
