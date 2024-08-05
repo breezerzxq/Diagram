@@ -196,12 +196,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WlhLq346-vLjD9Iv82zy" name="通信">
-    <mxGraphModel dx="2049" dy="1066" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="622" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="841" y="194" width="315" height="628" as="geometry" />
+        </mxCell>
+        <mxCell id="7oDSL2KH2XeqtFK3ohfZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7oDSL2KH2XeqtFK3ohfZ-17" target="7oDSL2KH2XeqtFK3ohfZ-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="481" y="194" width="315" height="628" as="geometry" />
@@ -238,9 +241,6 @@
         </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-22" value="eventmgr.ts&lt;div&gt;负责devtool与外界的通信&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="847" y="201" width="205" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7oDSL2KH2XeqtFK3ohfZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.484;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7oDSL2KH2XeqtFK3ohfZ-18" target="7oDSL2KH2XeqtFK3ohfZ-21">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7oDSL2KH2XeqtFK3ohfZ-24" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;send2background&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="934" y="291" width="120" height="60" as="geometry" />
