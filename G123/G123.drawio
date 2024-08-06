@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6" pages="8">
   <diagram name="fight" id="PLqmu2ai47BeC7IDLRvL">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1199,6 +1199,14 @@
         <mxCell id="36PcUbYP2QA-i1Hi0141-14" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;概述：&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;SceneManager是切换场景的总管理，它分别持有world和sceneStatusManager。&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;world用于场景地图的切换等，而scenestatusManager是在world切换成功后调用，&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;用于指定进入对应的sceneViewMgr。&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;changeScene就是切换场景的函数，会先去调用sceneProxy:World进行地图的切换，&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;切换成功后doXXXWorld，即调用&lt;span style=&quot;background-color: initial;&quot;&gt;sceneStatusManager进入到该场景对应的状态管理&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1164" y="126" width="613" height="144" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qu05xGD1FCEOmdVLfuDw" name="AIComponent">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
