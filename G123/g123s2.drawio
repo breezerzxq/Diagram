@@ -10,6 +10,9 @@
         <mxCell id="9KCve38od3s6Ke8yRSOH-3" value="1. 调用SceneManager.changeScene方法。立马会更新SceneModel.sceneId。&lt;div&gt;2. 如果sceneId没有改变，会立马执行回调sceneMgr.doMutliPlayerWorld。&lt;/div&gt;&lt;div&gt;3. 无论mapId是否发生变化，均请求对应.map文件，并监听请求回调-&amp;gt;执行&lt;span style=&quot;background-color: initial;&quot;&gt;sceneMgr.doMutliPlayerWorld。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="15" y="71" width="586" height="55" as="geometry" />
         </mxCell>
+        <mxCell id="9KCve38od3s6Ke8yRSOH-4" value="Tips:&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 是会存在sceneId没有改变，即两次调用sceneMgr.changeScene方法，传入的sceneId相同。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="142" width="520" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
