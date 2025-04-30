@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-1" value="&lt;span class=&quot;notion-enable-hover&quot; data-token-index=&quot;0&quot; style=&quot;color:rgba(212, 76, 71, 1);fill:rgba(212, 76, 71, 1);isolation:auto&quot;&gt;C_STOP_AUTO_RUN&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="227" y="403" width="132" height="60" as="geometry" />
+          <mxGeometry x="232" y="531" width="132" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-3" value="S_STOP_MOVE_TO_DEST" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="735" y="403" width="171" height="60" as="geometry" />
@@ -39,7 +39,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-17" value="摇杆中断" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="202" width="160" height="60" as="geometry" />
+          <mxGeometry x="218" y="277" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-18" value="JoystickManager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="8b7YJ0NyoQlzl8s_d_WU-17">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
