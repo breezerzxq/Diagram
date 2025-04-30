@@ -63,6 +63,17 @@
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-25" value="服务器中断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="868" y="256" width="120" height="32" as="geometry" />
         </mxCell>
+        <mxCell id="8b7YJ0NyoQlzl8s_d_WU-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8b7YJ0NyoQlzl8s_d_WU-29" target="8b7YJ0NyoQlzl8s_d_WU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7YJ0NyoQlzl8s_d_WU-31" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8b7YJ0NyoQlzl8s_d_WU-30">
+          <mxGeometry x="-0.3424" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8b7YJ0NyoQlzl8s_d_WU-29" value="CSceneMainRole.stand" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="471" y="277" width="149" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
