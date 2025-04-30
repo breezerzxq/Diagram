@@ -7,10 +7,10 @@
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="8b7YJ0NyoQlzl8s_d_WU-1" target="8b7YJ0NyoQlzl8s_d_WU-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8b7YJ0NyoQlzl8s_d_WU-1" value="&lt;span class=&quot;notion-enable-hover&quot; data-token-index=&quot;0&quot; style=&quot;color:rgba(212, 76, 71, 1);fill:rgba(212, 76, 71, 1);isolation:auto&quot;&gt;C_STOP_AUTO_RUN&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="8b7YJ0NyoQlzl8s_d_WU-1" value="C_STOP_AUTO_RUN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="107" y="289" width="512" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="8b7YJ0NyoQlzl8s_d_WU-3" value="&lt;font style=&quot;color: light-dark(rgb(212, 76, 71), rgb(240, 123, 119));&quot;&gt;S_STOP_MOVE_TO_DEST&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="8b7YJ0NyoQlzl8s_d_WU-3" value="S_STOP_MOVE_TO_DEST" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="767" y="164" width="171" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-4" value="S_STOP_AUTO_RUN_TIPS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -56,7 +56,7 @@
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-25" value="服务器中断" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="894" y="40" width="120" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="8b7YJ0NyoQlzl8s_d_WU-29" value="CSceneMainRole.stand" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="8b7YJ0NyoQlzl8s_d_WU-29" value="CSceneMainRole.stand" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="107" y="364" width="512" height="31" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="8b7YJ0NyoQlzl8s_d_WU-33" target="8b7YJ0NyoQlzl8s_d_WU-1">
