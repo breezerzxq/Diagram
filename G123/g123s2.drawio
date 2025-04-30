@@ -11,10 +11,10 @@
           <mxGeometry x="107" y="289" width="512" height="37" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-3" value="S_STOP_MOVE_TO_DEST" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="767" y="164" width="171" height="60" as="geometry" />
+          <mxGeometry x="705" y="164" width="231" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-4" value="S_STOP_AUTO_RUN_TIPS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="975" y="164" width="171" height="60" as="geometry" />
+          <mxGeometry x="945" y="164" width="219" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-5" value="&lt;div style=&quot;line-height: 19px; color: rgb(204, 204, 204);&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; color=&quot;#3e3e3e&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;GSceneValue.setAutoNavState(bol:boolean, tips: string = &quot;&quot;)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="363" y="452" width="613" height="70" as="geometry" />
@@ -42,7 +42,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-17" value="摇杆中断" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#333333;collapsible=0;rounded=1;arcSize=30;strokeColor=#666666;fillColor=#f5f5f5;swimlaneFillColor=#ffffc0;dropTarget=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="554" y="159" width="160" height="60" as="geometry" />
+          <mxGeometry x="533" y="159" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-18" value="JoystickManager" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#333333;fontSize=18;" vertex="1" parent="8b7YJ0NyoQlzl8s_d_WU-17">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
@@ -63,19 +63,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-33" value="剧情中断" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="369" y="159" width="160" height="60" as="geometry" />
+          <mxGeometry x="357" y="159" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-34" value="PlotEngine" style="text;html=1;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" vertex="1" parent="8b7YJ0NyoQlzl8s_d_WU-33">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-38" value="单击场景地图中断" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="194.5" y="159" width="160" height="60" as="geometry" />
+          <mxGeometry x="182" y="159" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-39" value="onTouchTapMap" style="text;html=1;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" vertex="1" parent="8b7YJ0NyoQlzl8s_d_WU-38">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-42" value="切换场景" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;collapsible=0;rounded=1;arcSize=30;swimlaneFillColor=#ffffc0;dropTarget=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="18" y="159" width="160" height="60" as="geometry" />
+          <mxGeometry x="6" y="159" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-43" value="SceneManager" style="text;html=1;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=18;" vertex="1" parent="8b7YJ0NyoQlzl8s_d_WU-42">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
