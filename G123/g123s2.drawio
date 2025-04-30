@@ -92,7 +92,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-51" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(220, 220, 170), rgb(204, 229, 255));&quot;&gt;S_AUTO_RUN_TIPS&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="645" y="623" width="120" height="60" as="geometry" />
+          <mxGeometry x="645" y="569" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8b7YJ0NyoQlzl8s_d_WU-51" target="8b7YJ0NyoQlzl8s_d_WU-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -106,7 +106,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-56" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: light-dark(rgb(220, 220, 170), rgb(204, 229, 255));&quot;&gt;S_MOVE_TO_DEST&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="807" y="623" width="120" height="60" as="geometry" />
+          <mxGeometry x="807" y="569" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8b7YJ0NyoQlzl8s_d_WU-56" target="8b7YJ0NyoQlzl8s_d_WU-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -126,15 +126,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-59" value="服务器开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="727" y="750" width="120" height="32" as="geometry" />
+          <mxGeometry x="727" y="686" width="120" height="32" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8b7YJ0NyoQlzl8s_d_WU-64" target="8b7YJ0NyoQlzl8s_d_WU-81">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="324.5" y="683" as="targetPoint" />
+            <mxPoint x="324.5" y="629" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-64" value="客户端开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="264.5" y="750" width="120" height="32" as="geometry" />
+          <mxGeometry x="264.5" y="686" width="120" height="32" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8b7YJ0NyoQlzl8s_d_WU-29" target="8b7YJ0NyoQlzl8s_d_WU-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -172,7 +172,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-80" value="客户端单击avatar" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="244.5" y="637" width="160" height="60" as="geometry" />
+          <mxGeometry x="244.5" y="569" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-81" value="ClickedAvatarRunComponent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="8b7YJ0NyoQlzl8s_d_WU-80">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
