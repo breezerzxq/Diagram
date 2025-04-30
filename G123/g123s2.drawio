@@ -57,7 +57,7 @@
           <mxGeometry x="894" y="68" width="120" height="32" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-29" value="CSceneMainRole.stand" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="107" y="364" width="512" height="31" as="geometry" />
+          <mxGeometry x="107" y="357" width="512" height="38" as="geometry" />
         </mxCell>
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;" edge="1" parent="1" source="8b7YJ0NyoQlzl8s_d_WU-33" target="8b7YJ0NyoQlzl8s_d_WU-1">
           <mxGeometry relative="1" as="geometry" />
