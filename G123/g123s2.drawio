@@ -92,6 +92,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="8b7YJ0NyoQlzl8s_d_WU-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8b7YJ0NyoQlzl8s_d_WU-38" target="8b7YJ0NyoQlzl8s_d_WU-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7YJ0NyoQlzl8s_d_WU-38" value="单击场景地图中断" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="46" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7YJ0NyoQlzl8s_d_WU-39" value="onTouchTapMap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="8b7YJ0NyoQlzl8s_d_WU-38">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7YJ0NyoQlzl8s_d_WU-40" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="8b7YJ0NyoQlzl8s_d_WU-38" parent="1" target="8b7YJ0NyoQlzl8s_d_WU-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="166" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="298" y="76" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
