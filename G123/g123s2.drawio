@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.15">
   <diagram name="scene" id="J2ehZ6sOsOv02fXm8Qkl">
-    <mxGraphModel dx="1678" dy="884" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="679" dy="358" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,6 +131,20 @@
         <mxCell id="8b7YJ0NyoQlzl8s_d_WU-44" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.076;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="8b7YJ0NyoQlzl8s_d_WU-42" parent="1" target="8b7YJ0NyoQlzl8s_d_WU-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="297" y="128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8b7YJ0NyoQlzl8s_d_WU-46" value="客户端单击avatar&lt;br&gt;ClickedAvatarRanComponent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="74" y="654" width="189" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b7YJ0NyoQlzl8s_d_WU-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8b7YJ0NyoQlzl8s_d_WU-46" target="8b7YJ0NyoQlzl8s_d_WU-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="831" y="473" as="sourcePoint" />
+            <mxPoint x="652" y="546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8b7YJ0NyoQlzl8s_d_WU-48" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8b7YJ0NyoQlzl8s_d_WU-47">
+          <mxGeometry x="-0.0092" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
