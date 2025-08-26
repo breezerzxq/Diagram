@@ -479,6 +479,18 @@
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-60" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;本地&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="-291" y="567" width="81" height="19" as="geometry" />
         </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-63" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1152" y="138" as="sourcePoint" />
+            <mxPoint x="-27" y="136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-64" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1150" y="697" as="sourcePoint" />
+            <mxPoint x="-25" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
