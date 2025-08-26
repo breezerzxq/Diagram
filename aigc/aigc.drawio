@@ -442,7 +442,7 @@
           <mxGeometry x="-854" y="239" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-45" value="其他问题：&lt;br&gt;打包工具：存在差异化&lt;div&gt;引擎代码：考虑共用&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1146" y="541" width="138" height="55" as="geometry" />
+          <mxGeometry x="-1156" y="615" width="138" height="55" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-47" value="确定cdn&lt;br&gt;跨越问题" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-462" y="181" width="120" height="34" as="geometry" />
