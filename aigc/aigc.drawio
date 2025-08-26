@@ -446,8 +446,8 @@
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-41" value="服务器列表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-854" y="239" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UyUhiSCcwQa1lT2KbW5u-45" value="其他问题：&lt;br&gt;打包工具：存在差异化&lt;div&gt;引擎代码：考虑共用&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1156" y="615" width="138" height="55" as="geometry" />
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-45" value="其他问题：&lt;br&gt;打包工具：存在差异化&lt;div&gt;引擎代码：考虑共用，耦合度排查，比如与具体项目，打包流程无强关联&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1156" y="615" width="402" height="55" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-49" value="&lt;span style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;服务器切换，并不会强制刷新浏览器，那么就存在遗留上版本游戏各种缓存&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-764" y="528" width="542" height="80" as="geometry" />
