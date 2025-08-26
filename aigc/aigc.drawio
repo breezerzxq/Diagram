@@ -338,7 +338,7 @@
           <mxGeometry x="-1155" y="10" width="346" height="113" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-2" value="基于流程梳理，梳理各个流程可能面临的问题：&lt;br&gt;&lt;br&gt;&lt;div&gt;1. 服务器切换，并不会强制刷新浏览器，那么就存在遗留上版本游戏各种缓存&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;内存中缓存：资源、单例&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;本地中缓存：资源&lt;/div&gt;&lt;div&gt;2. 跨域问题&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;cdn地址&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. 前置逻辑抽离&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;登录选服前，只确定最基础内容，服务器列表&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;选服后，再确定cdn地址等信息&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1152" y="506" width="427" height="156" as="geometry" />
+          <mxGeometry x="-1160" y="606" width="427" height="156" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-3" value="基本流程梳理" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1155" y="175" width="90" height="26" as="geometry" />
@@ -347,41 +347,41 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-4" value="打开app&lt;br&gt;确定唯一url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1138" y="254" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1144" y="224" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-5" target="UyUhiSCcwQa1lT2KbW5u-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-5" value="sdk登录" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-938" y="254" width="120" height="60" as="geometry" />
+          <mxGeometry x="-944" y="224" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-7" target="UyUhiSCcwQa1lT2KbW5u-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-7" value="登录界面" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-738" y="254" width="120" height="60" as="geometry" />
+          <mxGeometry x="-744" y="224" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-9" target="UyUhiSCcwQa1lT2KbW5u-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-9" value="选服" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-538" y="254" width="120" height="60" as="geometry" />
+          <mxGeometry x="-544" y="224" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UyUhiSCcwQa1lT2KbW5u-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-11" target="UyUhiSCcwQa1lT2KbW5u-7">
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-11" target="UyUhiSCcwQa1lT2KbW5u-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-278" y="406" />
-              <mxPoint x="-678" y="406" />
+              <mxPoint x="-287" y="393" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UyUhiSCcwQa1lT2KbW5u-17" value="回到登录界面" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UyUhiSCcwQa1lT2KbW5u-15">
-          <mxGeometry x="0.0049" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-11" value="进入游戏" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-338" y="254" width="120" height="60" as="geometry" />
+          <mxGeometry x="-344" y="224" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-18" target="UyUhiSCcwQa1lT2KbW5u-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-18" value="回到登录界面" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-544" y="363" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
