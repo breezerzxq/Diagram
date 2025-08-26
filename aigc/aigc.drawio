@@ -439,11 +439,14 @@
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-41" target="UyUhiSCcwQa1lT2KbW5u-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-693" y="244" />
+              <mxPoint x="-693" y="259" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UyUhiSCcwQa1lT2KbW5u-41" value="服务器列表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-41" target="UyUhiSCcwQa1lT2KbW5u-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-41" value="共用逻辑" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-854" y="239" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-45" value="其他问题：&lt;br&gt;打包工具：存在差异化&lt;div&gt;引擎代码：考虑共用，耦合度排查，比如与具体项目，打包流程无强关联&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -457,6 +460,9 @@
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-53" value="确定cdn&lt;br&gt;跨越问题" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-519" y="135" width="234" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-56" value="服务器列表&lt;div&gt;登录资源&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-911" y="138" width="234" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
