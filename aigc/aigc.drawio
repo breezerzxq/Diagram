@@ -443,7 +443,7 @@
           <mxGeometry x="-1156" y="714" width="402" height="62" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-49" value="&lt;span style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;服务器切换，并不会强制刷新浏览器，那么就存在遗留上版本游戏各种缓存&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-634" y="584" width="542" height="80" as="geometry" />
+          <mxGeometry x="-609" y="580" width="493" height="91" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-51" value="确定唯一url" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1113" y="458" width="120" height="80" as="geometry" />
