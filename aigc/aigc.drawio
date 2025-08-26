@@ -436,8 +436,8 @@
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-41" value="服务器列表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-853" y="232" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UyUhiSCcwQa1lT2KbW5u-45" value="其他问题&lt;br&gt;打包工具，&lt;div&gt;引擎代码&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1152" y="649" width="78" height="55" as="geometry" />
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-45" value="其他问题&lt;br&gt;打包工具&lt;div&gt;引擎代码&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1152" y="649" width="66" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
