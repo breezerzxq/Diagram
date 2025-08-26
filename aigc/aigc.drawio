@@ -428,7 +428,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UyUhiSCcwQa1lT2KbW5u-38" value="确定cdn&lt;br&gt;跨越问题" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-38" target="UyUhiSCcwQa1lT2KbW5u-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-38" value="差异化处理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-462" y="230" width="120" height="34" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-41" target="UyUhiSCcwQa1lT2KbW5u-7">
@@ -443,6 +446,9 @@
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-45" value="其他问题：&lt;br&gt;打包工具：存在差异化&lt;div&gt;引擎代码：考虑共用&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1146" y="601" width="138" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-47" value="确定cdn&lt;br&gt;跨越问题" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-462" y="166" width="120" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
