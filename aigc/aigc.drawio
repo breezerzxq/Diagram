@@ -386,10 +386,8 @@
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-23" target="UyUhiSCcwQa1lT2KbW5u-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UyUhiSCcwQa1lT2KbW5u-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.504;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-23" target="UyUhiSCcwQa1lT2KbW5u-49">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-567" y="459" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-23" target="UyUhiSCcwQa1lT2KbW5u-49">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-23" value="缓存清理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-523" y="444" width="60" height="30" as="geometry" />
@@ -450,7 +448,7 @@
           <mxGeometry x="-462" y="181" width="120" height="34" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-49" value="&lt;span style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;服务器切换，并不会强制刷新浏览器，那么就存在遗留上版本游戏各种缓存&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-766" y="519" width="542" height="80" as="geometry" />
+          <mxGeometry x="-764" y="528" width="542" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
