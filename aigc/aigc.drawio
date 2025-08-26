@@ -330,7 +330,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jEFgqt9UST42Gu_XgzXU" name="融合代码">
-    <mxGraphModel dx="2120" dy="518" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2527" dy="740" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -338,7 +338,10 @@
           <mxGeometry x="-1155" y="10" width="346" height="113" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-2" value="面临的问题：&lt;br&gt;&lt;br&gt;&lt;div&gt;1. 服务器切换，并不会强制刷新浏览器，那么就存在遗留上版本游戏各种缓存&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;内存中缓存：资源、单例&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;本地中缓存：资源&lt;/div&gt;&lt;div&gt;2. 跨域问题&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;cdn地址&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. 前置逻辑抽离&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;登录选服前，只确定最基础内容，服务器列表&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;选服后，再确定cdn地址等信息&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1155" y="135" width="427" height="156" as="geometry" />
+          <mxGeometry x="-489" y="8" width="427" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-3" value="基本流程梳理" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1156" y="240" width="90" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
