@@ -341,7 +341,34 @@
           <mxGeometry x="-1155" y="527" width="427" height="156" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-3" value="基本流程梳理" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1156" y="240" width="90" height="26" as="geometry" />
+          <mxGeometry x="-1155" y="175" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-4" target="UyUhiSCcwQa1lT2KbW5u-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-4" value="打开app，确定url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1138" y="254" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-5" target="UyUhiSCcwQa1lT2KbW5u-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-5" value="sdk登录" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-938" y="254" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-7" target="UyUhiSCcwQa1lT2KbW5u-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-7" value="出现登录界面" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-738" y="254" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-9" target="UyUhiSCcwQa1lT2KbW5u-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-9" value="选服" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-538" y="254" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-11" value="进入游戏" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-338" y="254" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
