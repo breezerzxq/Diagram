@@ -330,7 +330,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jEFgqt9UST42Gu_XgzXU" name="融合代码">
-    <mxGraphModel dx="2357" dy="648" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2847" dy="914" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -343,7 +343,10 @@
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-4" target="UyUhiSCcwQa1lT2KbW5u-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UyUhiSCcwQa1lT2KbW5u-4" value="打开app&lt;br&gt;确定唯一url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-4" target="UyUhiSCcwQa1lT2KbW5u-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-4" value="打开app || 小程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1113" y="302" width="120" height="37" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UyUhiSCcwQa1lT2KbW5u-5" target="UyUhiSCcwQa1lT2KbW5u-41">
@@ -449,6 +452,9 @@
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-49" value="&lt;span style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;服务器切换，并不会强制刷新浏览器，那么就存在遗留上版本游戏各种缓存&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-764" y="528" width="542" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-51" value="确定唯一url" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1113" y="380" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
