@@ -334,7 +334,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UyUhiSCcwQa1lT2KbW5u-1" value="背景：&lt;br&gt;&lt;div&gt;1. 客户端是基于webview的app &amp;amp; 小程序&lt;/div&gt;&lt;div&gt;2. 唯一url地址访问&lt;/div&gt;&lt;div&gt;3. 通过选服界面，选择不同的服务器，加载不同的代码 &amp;amp; 资源&lt;/div&gt;&lt;div&gt;4. 游戏中，可以回到登录界面，重新选服务器&lt;/div&gt;&lt;div&gt;5. 约定，这里所说的切换服，表示在A、B版游戏的切换&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="UyUhiSCcwQa1lT2KbW5u-1" value="背景：&lt;br&gt;&lt;div&gt;1. 客户端是基于webview的app &amp;amp; 小程序&lt;/div&gt;&lt;div&gt;2. 唯一url地址访问&lt;/div&gt;&lt;div&gt;3. 通过选服界面，选择不同的服务器，加载不同的代码 &amp;amp; 资源&lt;/div&gt;&lt;div&gt;4. 游戏中，可以回到登录界面，重新选服务器&lt;/div&gt;&lt;div&gt;5. 这里所说的切换服，表示在A、B版游戏的切换&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1155" y="18" width="346" height="98" as="geometry" />
         </mxCell>
         <mxCell id="UyUhiSCcwQa1lT2KbW5u-3" value="基本流程梳理" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
